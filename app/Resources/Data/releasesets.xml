@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<releasesets>
+	<releaseset>
+		<name>Set 1</name>
+		<popularname>War at Sea Starter Set</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Set 2</name>
+		<popularname>Task Force</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Set 3</name>
+		<popularname>Flank Speed</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Starter 2</name>
+		<popularname>War at Sea Starter (Revised)</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Set 4</name>
+		<popularname>Condition Zebra</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Set 5</name>
+		<popularname>Fleet Command</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Set 6</name>
+		<popularname>Surface Action</popularname>
+	</releaseset>
+	<releaseset>
+		<name>Customs</name>
+		<popularname></popularname>
+	</releaseset>
+</releasesets>

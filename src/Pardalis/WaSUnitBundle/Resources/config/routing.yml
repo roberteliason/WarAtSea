@@ -1,0 +1,23 @@
+pardalis_was_unit_homepage:
+    pattern:  /
+    defaults: { _controller: PardalisWaSUnitBundle:Unit:index }
+
+pardalis_was_unit_import_alliances:
+    pattern:  /importAlliances
+    defaults: { _controller: PardalisWaSUnitBundle:Import:importAlliances }
+
+pardalis_was_unit_import_sets:
+    pattern:  /importSets
+    defaults: { _controller: PardalisWaSUnitBundle:Import:importReleaseSets }
+
+pardalis_was_unit_import_rarities:
+    pattern:  /importRarities
+    defaults: { _controller: PardalisWaSUnitBundle:Import:importRarities }
+
+pardalis_was_unit_import_unittypes:
+    pattern:  /importUnitTypes
+    defaults: { _controller: PardalisWaSUnitBundle:Import:importUnitTypes }
+
+pardalis_was_unit_import_attacktypes:
+    pattern:  /importAttackTypes
+    defaults: { _controller: PardalisWaSUnitBundle:Import:importAttackTypes }

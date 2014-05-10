@@ -1,0 +1,7 @@
+Unit list
+
+<ul id="units">
+    {% for unit in units %}
+	    <li>{{ unit.name }} [{{ unit.cost }}] {{ unit.nation.name }}</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,6 @@
+pardalis_was_unit:
+    resource: "@PardalisWaSUnitBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+

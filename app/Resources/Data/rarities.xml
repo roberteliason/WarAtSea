@@ -1,0 +1,19 @@
+<?xml version='1.0'?> 
+<rarities>
+	<rarity>
+		<name>Common</name>
+		<sortorder>1</sortorder>
+	</rarity>
+	<rarity>
+		<name>Uncommon</name>	
+		<sortorder>2</sortorder>
+	</rarity>
+	<rarity>
+		<name>Rare</name>	
+		<sortorder>3</sortorder>
+	</rarity>
+	<rarity>
+		<name>Custom</name>	
+		<sortorder>4</sortorder>
+	</rarity>
+</rarities>

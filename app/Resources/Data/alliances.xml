@@ -1,0 +1,60 @@
+<?xml version='1.0'?> 
+<alliances> 
+	<alliance>
+		<name>Axis</name>
+		<nations>
+			<nation>
+				<name>Germany</name>
+			</nation>
+			<nation>
+				<name>Italy</name>
+			</nation>
+			<nation>
+				<name>Japan</name>
+			</nation>
+		</nations>
+	</alliance>
+	<alliance>
+		<name>Allies</name>
+		<nations>
+			<nation>
+				<name>Australia</name>
+			</nation>
+			<nation>
+				<name>Canada</name>
+			</nation>
+			<nation>
+				<name>France</name>
+			</nation>
+			<nation>
+				<name>Greece</name>
+			</nation>
+			<nation>
+				<name>New Zeeland</name>
+			</nation>
+			<nation>
+				<name>Poland</name>
+			</nation>
+			<nation>
+				<name>The Netherlands</name>
+			</nation>
+			<nation>
+				<name>United Kingdom</name>
+			</nation>
+			<nation>
+				<name>United States</name>
+			</nation>
+			<nation>
+				<name>USSR</name>
+			</nation>			
+		</nations>
+	</alliance>
+	<alliance>
+		<name>Neutral</name>
+		<nations>
+			<nation>
+				<name>Sweden</name>
+			</nation>	
+		</nations>
+	</alliance>
+</alliances>

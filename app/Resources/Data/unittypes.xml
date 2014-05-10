@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<unittypes>
+	<unittype>
+		<name>Ship</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>			
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>			
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>			
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>			
+		</unittypes>
+	</unittype>
+	<unittype>
+		<name>Submarine</name>
+	</unittype>
+	<unittype>
+		<name>Aircraft</name>
+		<unittypes>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</unittype>
+</unittypes>

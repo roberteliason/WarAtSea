@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<unittypes>
+	<unittype>
+		<name>Ship</name>
+		<attacktypes>
+			<attacktype>
+				<name>Main Guns</name>
+				<sortorder>1</sortorder>
+			</attacktype>	
+			<attacktype>
+				<name>Secondary Guns</name>
+				<sortorder>2</sortorder>
+			</attacktype>		
+			<attacktype>
+				<name>Tertiary Guns</name>
+				<sortorder>3</sortorder>
+			</attacktype>
+			<attacktype>
+				<name>AA Guns</name>
+				<sortorder>4</sortorder>
+			</attacktype>
+			<attacktype>
+				<name>Depth Charges</name>
+				<sortorder>5</sortorder>
+			</attacktype>
+			<attacktype>
+				<name>Torpedos</name>
+				<sortorder>6</sortorder>
+			</attacktype>			
+		</attacktypes>
+	</unittype>
+
+	<unittype>
+		<name>Aircraft</name>
+		<attacktypes>
+			<attacktype>
+				<name>Machine Guns</name>
+				<sortorder>1</sortorder>
+			</attacktype>	
+			<attacktype>
+				<name>AA Guns</name>
+				<sortorder>2</sortorder>
+			</attacktype>		
+			<attacktype>
+				<name>Bombs</name>
+				<sortorder>3</sortorder>
+			</attacktype>
+			<attacktype>
+				<name>Depth Charges</name>
+				<sortorder>4</sortorder>
+			</attacktype>
+			<attacktype>
+				<name>Torpedos</name>
+				<sortorder>5</sortorder>
+			</attacktype>			
+		</attacktypes>
+	</unittype>
+
+	<unittype>
+		<name>Submarine</name>
+		<attacktypes>
+			<attacktype>
+				<name>Torpedos</name>
+				<sortorder>1</sortorder>
+			</attacktype>			
+		</attacktypes>
+	</unittype>
+</unittypes>
