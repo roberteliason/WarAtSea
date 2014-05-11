@@ -451,4 +451,50 @@ class Unit
     {
         return $this->abilities;
     }
+
+    /**
+     * Set flags
+     *
+     * @param integer $flags
+     * @return Unit
+     */
+    public function setFlags($flags)
+    {
+        $this->flags = $flags;
+
+        return $this;
+    }
+
+    /**
+     * Get flags
+     *
+     * @return integer 
+     */
+    public function getFlags()
+    {
+        return $this->flags;
+    }
+
+    /**
+     * Set aircraft
+     *
+     * @param integer $aircraft
+     * @return Unit
+     */
+    public function setAircraft($aircraft)
+    {
+        $this->aircraft = $aircraft;
+
+        return $this;
+    }
+
+    /**
+     * Get aircraft
+     *
+     * @return integer 
+     */
+    public function getAircraft()
+    {
+        return $this->aircraft;
+    }
 }

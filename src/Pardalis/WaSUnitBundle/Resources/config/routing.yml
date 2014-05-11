@@ -21,3 +21,7 @@ pardalis_was_unit_import_unittypes:
 pardalis_was_unit_import_attacktypes:
     pattern:  /importAttackTypes
     defaults: { _controller: PardalisWaSUnitBundle:Import:importAttackTypes }
+
+pardalis_was_unit_import_units:
+    pattern:  /importUnits
+    defaults: { _controller: PardalisWaSUnitBundle:Import:importUnits }

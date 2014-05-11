@@ -41,13 +41,19 @@ class UnitType
     private $parent;
 
     /**
-     * @ORM\OneToMany(targetEntity="AttackType", mappedBy="unittypes")
+     * @ORM\ManyToMany(targetEntity="AttackType", mappedBy="unittypes")
      */
     private $attacktypes;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="Ability", mappedBy="unittypes")
+     */
+    private $abilities;
 
     public function __construct()
     {
         $this->attacktypes = new ArrayCollection();
+        $this->abilities = new ArrayCollection();
         $this->children = new ArrayCollection();
     }
     
@@ -171,5 +177,38 @@ class UnitType
     public function getChildren()
     {
         return $this->children;
+    }
+
+    /**
+     * Add abilities
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Ability $abilities
+     * @return UnitType
+     */
+    public function addAbility(\Pardalis\WaSUnitBundle\Entity\Ability $abilities)
+    {
+        $this->abilities[] = $abilities;
+
+        return $this;
+    }
+
+    /**
+     * Remove abilities
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Ability $abilities
+     */
+    public function removeAbility(\Pardalis\WaSUnitBundle\Entity\Ability $abilities)
+    {
+        $this->abilities->removeElement($abilities);
+    }
+
+    /**
+     * Get abilities
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getAbilities()
+    {
+        return $this->abilities;
     }
 }

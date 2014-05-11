@@ -41,9 +41,16 @@ class Ability
      */
     private $units;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="UnitType", inversedBy="abilities")
+     * @ORM\JoinTable(name="unittype_abilities")
+     */
+    private $unittypes;
+
     public function __construct()
     {
         $this->units = new ArrayCollection();
+        $this->unittypes = new ArrayCollection();
     }
 
     /**
@@ -133,5 +140,38 @@ class Ability
     public function getUnits()
     {
         return $this->units;
+    }
+
+    /**
+     * Add unittypes
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
+     * @return Ability
+     */
+    public function addUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
+    {
+        $this->unittypes[] = $unittypes;
+
+        return $this;
+    }
+
+    /**
+     * Remove unittypes
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
+     */
+    public function removeUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
+    {
+        $this->unittypes->removeElement($unittypes);
+    }
+
+    /**
+     * Get unittypes
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getUnittypes()
+    {
+        return $this->unittypes;
     }
 }

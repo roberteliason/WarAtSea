@@ -1,6 +1,7 @@
 <?php
 
 namespace Pardalis\WaSUnitBundle\Entity;
+use Doctrine\Common\Collections\ArrayCollection;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -12,111 +13,149 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class AttackType
 {
-    /**
-     * @var integer
-     *
-     * @ORM\Column(name="id", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-    private $id;
+	/**
+	 * @var integer
+	 *
+	 * @ORM\Column(name="id", type="integer")
+	 * @ORM\Id
+	 * @ORM\GeneratedValue(strategy="AUTO")
+	 */
+	private $id;
+
+	/**
+	 * @var string
+	 *
+	 * @ORM\Column(name="name", type="string", length=32)
+	 */
+	private $name;
+
+	/**
+	 * @var integer
+	 *
+	 * @ORM\Column(name="sort_order", type="integer")
+	 */
+	private $sortOrder;
+
+	/**
+	 * @ORM\ManyToMany(targetEntity="UnitType", inversedBy="attacktypes")
+	 * @ORM\JoinTable(name="unittype_attacktypes")
+	 */
+	private $unittypes;
+
+	public function __construct()
+	{
+		$this->unittypes = new ArrayCollection();
+	}
+
+	/**
+	 * Get id
+	 *
+	 * @return integer 
+	 */
+	public function getId()
+	{
+		return $this->id;
+	}
+
+	/**
+	 * Set name
+	 *
+	 * @param string $name
+	 * @return AttackType
+	 */
+	public function setName($name)
+	{
+		$this->name = $name;
+
+		return $this;
+	}
+
+	/**
+	 * Get name
+	 *
+	 * @return string 
+	 */
+	public function getName()
+	{
+		return $this->name;
+	}
+
+	/**
+	 * Set sortOrder
+	 *
+	 * @param integer $sortOrder
+	 * @return AttackType
+	 */
+	public function setSortOrder($sortOrder)
+	{
+		$this->sortOrder = $sortOrder;
+
+		return $this;
+	}
+
+	/**
+	 * Get sortOrder
+	 *
+	 * @return integer 
+	 */
+	public function getSortOrder()
+	{
+		return $this->sortOrder;
+	}
+
+	/**
+	 * Set unittype
+	 *
+	 * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittype
+	 * @return AttackType
+	 */
+	public function setUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittype = null)
+	{
+		$this->unittype = $unittype;
+
+		return $this;
+	}
+
+	/**
+	 * Get unittype
+	 *
+	 * @return \Pardalis\WaSUnitBundle\Entity\UnitType 
+	 */
+	public function getUnittype()
+	{
+		return $this->unittype;
+	}
 
     /**
-     * @var string
+     * Add unittypes
      *
-     * @ORM\Column(name="name", type="string", length=32)
-     */
-    private $name;
-
-    /**
-     * @var integer
-     *
-     * @ORM\Column(name="sort_order", type="integer")
-     */
-    private $sortOrder;
-
-    /**
-     * @ORM\ManyToOne(targetEntity="UnitType", inversedBy="attack_types")
-     * @ORM\JoinColumn(name="unittype_id", referencedColumnName="id")
-     */
-    private $unittype;
-
-    /**
-     * Get id
-     *
-     * @return integer 
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * Set name
-     *
-     * @param string $name
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
      * @return AttackType
      */
-    public function setName($name)
+    public function addUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
     {
-        $this->name = $name;
+        $this->unittypes[] = $unittypes;
 
         return $this;
     }
 
     /**
-     * Get name
+     * Remove unittypes
      *
-     * @return string 
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
      */
-    public function getName()
+    public function removeUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
     {
-        return $this->name;
+        $this->unittypes->removeElement($unittypes);
     }
 
     /**
-     * Set sortOrder
+     * Get unittypes
      *
-     * @param integer $sortOrder
-     * @return AttackType
+     * @return \Doctrine\Common\Collections\Collection 
      */
-    public function setSortOrder($sortOrder)
+    public function getUnittypes()
     {
-        $this->sortOrder = $sortOrder;
-
-        return $this;
-    }
-
-    /**
-     * Get sortOrder
-     *
-     * @return integer 
-     */
-    public function getSortOrder()
-    {
-        return $this->sortOrder;
-    }
-
-    /**
-     * Set unittype
-     *
-     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittype
-     * @return AttackType
-     */
-    public function setUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittype = null)
-    {
-        $this->unittype = $unittype;
-
-        return $this;
-    }
-
-    /**
-     * Get unittype
-     *
-     * @return \Pardalis\WaSUnitBundle\Entity\UnitType 
-     */
-    public function getUnittype()
-    {
-        return $this->unittype;
+        return $this->unittypes;
     }
 }

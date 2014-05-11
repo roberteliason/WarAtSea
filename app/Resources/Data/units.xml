@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<nations>
+	<nation>
+		<name>Australia</name>
+		<unittypes>
+			<unittype>
+				<name>Cruiser</name>
+				<units>
+					<unit>
+						<name>Canberra</name>
+						<year>1941</year>
+						<cost>15</cost>
+						<set>Set 1</set>
+						<number>64</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>9</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedos</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+					</unit>
+				</units>
+			</unittype>
+		</unittypes>
+	</nation>
+</nations>

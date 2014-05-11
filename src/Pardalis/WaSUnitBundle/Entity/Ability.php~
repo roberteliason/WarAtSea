@@ -41,9 +41,16 @@ class Ability
      */
     private $units;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="UnitType", inversedBy="abilities")
+     * @ORM\JoinTable(name="unittype_abilities")
+     */
+    private $unittypes;
+
     public function __construct()
     {
         $this->units = new ArrayCollection();
+        $this->unittypes = new ArrayCollection();
     }
 
     /**
