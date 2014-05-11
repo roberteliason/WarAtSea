@@ -46,6 +46,20 @@ class Unit
 	/**
 	 * @var integer
 	 *
+	 * @ORM\Column(name="flags", type="integer")
+	 */
+	private $flags;
+
+	/**
+	 * @var integer
+	 *
+	 * @ORM\Column(name="aircraft", type="integer")
+	 */
+	private $aircraft;
+
+	/**
+	 * @var integer
+	 *
 	 * @ORM\Column(name="armor", type="integer")
 	 */
 	private $armor;

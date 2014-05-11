@@ -139,4 +139,37 @@ class UnitType
     {
         return $this->attacktypes;
     }
+
+    /**
+     * Add children
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $children
+     * @return UnitType
+     */
+    public function addChild(\Pardalis\WaSUnitBundle\Entity\UnitType $children)
+    {
+        $this->children[] = $children;
+
+        return $this;
+    }
+
+    /**
+     * Remove children
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $children
+     */
+    public function removeChild(\Pardalis\WaSUnitBundle\Entity\UnitType $children)
+    {
+        $this->children->removeElement($children);
+    }
+
+    /**
+     * Get children
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getChildren()
+    {
+        return $this->children;
+    }
 }

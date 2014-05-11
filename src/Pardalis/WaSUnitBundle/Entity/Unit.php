@@ -46,6 +46,20 @@ class Unit
 	/**
 	 * @var integer
 	 *
+	 * @ORM\Column(name="flags", type="integer")
+	 */
+	private $flags;
+
+	/**
+	 * @var integer
+	 *
+	 * @ORM\Column(name="aircraft", type="integer")
+	 */
+	private $aircraft;
+
+	/**
+	 * @var integer
+	 *
 	 * @ORM\Column(name="armor", type="integer")
 	 */
 	private $armor;
@@ -436,5 +450,51 @@ class Unit
     public function getAbilities()
     {
         return $this->abilities;
+    }
+
+    /**
+     * Set flags
+     *
+     * @param integer $flags
+     * @return Unit
+     */
+    public function setFlags($flags)
+    {
+        $this->flags = $flags;
+
+        return $this;
+    }
+
+    /**
+     * Get flags
+     *
+     * @return integer 
+     */
+    public function getFlags()
+    {
+        return $this->flags;
+    }
+
+    /**
+     * Set aircraft
+     *
+     * @param integer $aircraft
+     * @return Unit
+     */
+    public function setAircraft($aircraft)
+    {
+        $this->aircraft = $aircraft;
+
+        return $this;
+    }
+
+    /**
+     * Get aircraft
+     *
+     * @return integer 
+     */
+    public function getAircraft()
+    {
+        return $this->aircraft;
     }
 }
