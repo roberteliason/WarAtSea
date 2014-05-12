@@ -2,6 +2,10 @@ pardalis_was_unit_homepage:
     pattern:  /
     defaults: { _controller: PardalisWaSUnitBundle:Unit:index }
 
+pardalis_was_unit_viewunit:
+    pattern:  /unit/{id}
+    defaults: { _controller: PardalisWaSUnitBundle:Unit:unit }
+
 pardalis_was_unit_import_alliances:
     pattern:  /importAlliances
     defaults: { _controller: PardalisWaSUnitBundle:Import:importAlliances }

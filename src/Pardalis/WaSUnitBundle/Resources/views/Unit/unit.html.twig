@@ -1,0 +1,13 @@
+{{ unit.name }} [{{ unit.cost }}] {{ unit.nation.name }}
+
+<ul id="attacks">
+{% for attack in unit.attacks %}
+	<li>{{ attack.attacktype.name }} | {{ attack.range0 }} | {{ attack.range1 }} | {{ attack.range2 }} | {{ attack.range3 }}</li>
+{% endfor %}
+</ul>
+
+<ul id="abilities">
+{% for ability in unit.abilities %}
+    <li><strong>{{ ability.name }}</strong> - {{ ability.description }}</li>
+{% endfor %}
+</ul>

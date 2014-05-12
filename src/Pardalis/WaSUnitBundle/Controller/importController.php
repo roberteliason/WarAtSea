@@ -252,9 +252,7 @@ class ImportController extends Controller
 							$entityManager->flush();
 						}	
 
-						//var_dump($unit->abilities);
 						foreach ($unit->abilities->ability as $ability) {
-							var_dump($ability->name);
 							$abilityDb = $this->getDoctrine()
 								->getRepository('PardalisWaSUnitBundle:Ability')
 								->findOneByName($ability->name);

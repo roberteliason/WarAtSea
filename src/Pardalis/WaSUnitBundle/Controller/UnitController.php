@@ -21,4 +21,12 @@ class UnitController extends Controller
 		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => $units ) );
 	}
 
+	public function unitAction( $id )
+	{
+		$unit = $this->getDoctrine()
+			->getRepository('PardalisWaSUnitBundle:Unit')
+			->findOneById( $id );
+
+		return $this->render('PardalisWaSUnitBundle:Unit:unit.html.twig', array( 'unit' => $unit ) );
+	}
 }
