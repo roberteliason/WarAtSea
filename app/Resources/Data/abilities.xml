@@ -455,7 +455,7 @@
 				<description>Whenever this unit Destroys an Auxiliary, score 2 victory points.</description>
 			</ability>
 			<ability>
-				<name>High Speed Run</name>
+				<name>High-Speed Run</name>
 				<description>Once per game, at the beginning of your Sea Movement step, you can give this unit +1 speed for the turn. You can't claim an objective the turn you use this ability.</description>
 			</ability>
 			<ability>

@@ -32,6 +32,13 @@ class Unit
 	/**
 	 * @var integer
 	 *
+	 * @ORM\Column(name="year", type="integer")
+	 */
+	private $year;
+
+	/**
+	 * @var integer
+	 *
 	 * @ORM\Column(name="cost", type="integer")
 	 */
 	private $cost;
@@ -499,5 +506,28 @@ class Unit
     public function getAircraft()
     {
         return $this->aircraft;
+    }
+
+    /**
+     * Set year
+     *
+     * @param integer $year
+     * @return Unit
+     */
+    public function setYear($year)
+    {
+        $this->year = $year;
+
+        return $this;
+    }
+
+    /**
+     * Get year
+     *
+     * @return integer 
+     */
+    public function getYear()
+    {
+        return $this->year;
     }
 }

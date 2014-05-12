@@ -2,6 +2,6 @@ Unit list
 
 <ul id="units">
     {% for unit in units %}
-	    <li>{{ unit.name }} [{{ unit.cost }}] {{ unit.nation.name }}</li>
+	    <li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> [{{ unit.cost }}] {{ unit.nation.name }}</li>
     {% endfor %}
 </ul>

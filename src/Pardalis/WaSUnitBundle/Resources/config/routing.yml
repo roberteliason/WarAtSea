@@ -1,10 +1,18 @@
-pardalis_was_unit_homepage:
+pardalis_was_nation_alliances:
     pattern:  /
+    defaults: { _controller: PardalisWaSUnitBundle:Nation:index }
+
+pardalis_was_unit_units:
+    pattern:  /units
     defaults: { _controller: PardalisWaSUnitBundle:Unit:index }
 
 pardalis_was_unit_viewunit:
     pattern:  /unit/{id}
     defaults: { _controller: PardalisWaSUnitBundle:Unit:unit }
+
+pardalis_was_unit_bootstrap:
+    pattern:  /bootstrap
+    defaults: { _controller: PardalisWaSUnitBundle:Import:bootstrap }
 
 pardalis_was_unit_import_alliances:
     pattern:  /importAlliances

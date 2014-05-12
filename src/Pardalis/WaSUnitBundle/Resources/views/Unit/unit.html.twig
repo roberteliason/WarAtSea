@@ -1,10 +1,23 @@
-{{ unit.name }} [{{ unit.cost }}] {{ unit.nation.name }}
+<h1>{{ unit.name }}</h1>
+{{ unit.nation.name }} ( {{ unit.cost }} )
+
+{% if unit.unittype.parent.name is defined %} 
+	{{ unit.unittype.parent.name }} - 
+{% endif %}
+{{ unit.unittype.name }} | {{ unit.year }}
+
+Speed - {{ unit.speed }}
+Flagbonus {{ unit.flags }}
+Aircraft Basing {{ unit.aircraft }}
+
 
 <ul id="attacks">
 {% for attack in unit.attacks %}
 	<li>{{ attack.attacktype.name }} | {{ attack.range0 }} | {{ attack.range1 }} | {{ attack.range2 }} | {{ attack.range3 }}</li>
 {% endfor %}
 </ul>
+
+{{ unit.armor }} | {{ unit.vitalarmor }} | {{ unit.hullpoints }}
 
 <ul id="abilities">
 {% for ability in unit.abilities %}

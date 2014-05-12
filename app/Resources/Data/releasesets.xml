@@ -3,33 +3,41 @@
 	<releaseset>
 		<name>Set 1</name>
 		<popularname>War at Sea Starter Set</popularname>
+		<totalunits>64</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Set 2</name>
 		<popularname>Task Force</popularname>
+		<totalunits>60</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Set 3</name>
 		<popularname>Flank Speed</popularname>
+		<totalunits>40</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Starter 2</name>
 		<popularname>War at Sea Starter (Revised)</popularname>
+		<totalunits>8</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Set 4</name>
 		<popularname>Condition Zebra</popularname>
+		<totalunits>40</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Set 5</name>
 		<popularname>Fleet Command</popularname>
+		<totalunits>39</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Set 6</name>
 		<popularname>Surface Action</popularname>
+		<totalunits>40</totalunits>
 	</releaseset>
 	<releaseset>
 		<name>Custom</name>
 		<popularname>Custom units</popularname>
+		<totalunits>0</totalunits>
 	</releaseset>
 </releasesets>

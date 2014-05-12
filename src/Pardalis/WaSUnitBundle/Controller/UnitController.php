@@ -27,6 +27,10 @@ class UnitController extends Controller
 			->getRepository('PardalisWaSUnitBundle:Unit')
 			->findOneById( $id );
 
+		// print( '<pre>' );
+		// var_dump( $unit );
+		// print( '</pre>' );		
+
 		return $this->render('PardalisWaSUnitBundle:Unit:unit.html.twig', array( 'unit' => $unit ) );
 	}
 }

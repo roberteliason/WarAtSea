@@ -24,7 +24,7 @@
 				<sortorder>5</sortorder>
 			</attacktype>
 			<attacktype>
-				<name>Torpedos</name>
+				<name>Torpedoes</name>
 				<sortorder>6</sortorder>
 			</attacktype>			
 		</attacktypes>
@@ -50,7 +50,7 @@
 				<sortorder>4</sortorder>
 			</attacktype>
 			<attacktype>
-				<name>Torpedos</name>
+				<name>Torpedoes</name>
 				<sortorder>5</sortorder>
 			</attacktype>			
 		</attacktypes>
@@ -60,7 +60,7 @@
 		<name>Submarine</name>
 		<attacktypes>
 			<attacktype>
-				<name>Torpedos</name>
+				<name>Torpedoes</name>
 				<sortorder>1</sortorder>
 			</attacktype>			
 		</attacktypes>

@@ -30,7 +30,7 @@ class Nation
 	private $name;
 
 	/**
-	 * @ORM\OneToMany(targetEntity="Unit", mappedBy="nationality")
+	 * @ORM\OneToMany(targetEntity="Unit", mappedBy="nation")
 	 */
 	private $units;
 

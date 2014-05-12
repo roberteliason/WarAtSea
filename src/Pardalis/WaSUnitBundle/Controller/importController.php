@@ -35,6 +35,37 @@ class ImportController extends Controller
 		return $xml_data;
 	}
 
+	/**
+	 * Bootstrap database from XML-files
+	 * Run the import in a pretermined order with the units last
+	 */
+	public function bootstrapAction() {
+
+		/* Sets */
+		$this->importReleaseSetsAction();
+
+		/* Rarities */
+		$this->importRaritiesAction();
+
+		/* Alliances and Nations */
+		$this->importAlliancesAction();
+
+		/* Unit types */
+		$this->importUnitTypesAction();
+
+		/* Attack types */
+		$this->importAttackTypesAction();
+
+		/* Abilities */
+		$this->importAbilitiesAction();
+
+		/* Units */
+		$this->importUnitsAction();
+
+		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+
+	}
+
 	public function importAlliancesAction() {
 		$xml_data = $this->readXmlFile( 'alliances.xml' );
 		$entityManager = $this->getDoctrine()->getManager();
@@ -169,8 +200,6 @@ class ImportController extends Controller
 			$unittypeDb = $this->getDoctrine()
 				->getRepository('PardalisWaSUnitBundle:UnitType')
 				->findOneByName($unittypes->name);
-			var_dump( $unittypes->name );
-			var_dump( $unittypes->abilities );
 
 			foreach ($unittypes->abilities->ability as $ability) {
 
@@ -218,6 +247,7 @@ class ImportController extends Controller
 
 						$unitDb = new Unit();
 						$unitDb->setName( $unit->name );
+						$unitDb->setYear( $unit->year );
 						$unitDb->setCost( $unit->cost );
 						$unitDb->setNumberInSet( $unit->number );
 						$unitDb->setSpeed( $unit->speed );
