@@ -50,11 +50,17 @@ class UnitType
      */
     private $abilities;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Unit", mappedBy="unittype")
+     */
+    private $units;
+
     public function __construct()
     {
         $this->attacktypes = new ArrayCollection();
         $this->abilities = new ArrayCollection();
         $this->children = new ArrayCollection();
+        $this->units = new ArrayCollection();
     }
     
     /**
@@ -210,5 +216,38 @@ class UnitType
     public function getAbilities()
     {
         return $this->abilities;
+    }
+
+    /**
+     * Add units
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Unit $units
+     * @return UnitType
+     */
+    public function addUnit(\Pardalis\WaSUnitBundle\Entity\Unit $units)
+    {
+        $this->units[] = $units;
+
+        return $this;
+    }
+
+    /**
+     * Remove units
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Unit $units
+     */
+    public function removeUnit(\Pardalis\WaSUnitBundle\Entity\Unit $units)
+    {
+        $this->units->removeElement($units);
+    }
+
+    /**
+     * Get units
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getUnits()
+    {
+        return $this->units;
     }
 }

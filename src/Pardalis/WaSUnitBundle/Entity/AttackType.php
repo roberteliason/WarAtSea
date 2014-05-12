@@ -42,9 +42,15 @@ class AttackType
 	 */
 	private $unittypes;
 
+	/**
+	 * @ORM\OneToMany(targetEntity="Attack", mappedBy="attacktype")
+	 */
+	private $attacks;
+
 	public function __construct()
 	{
 		$this->unittypes = new ArrayCollection();
+		$this->attacks = new ArrayCollection();
 	}
 
 	/**
@@ -157,5 +163,38 @@ class AttackType
     public function getUnittypes()
     {
         return $this->unittypes;
+    }
+
+    /**
+     * Add attacks
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Attack $attacks
+     * @return AttackType
+     */
+    public function addAttack(\Pardalis\WaSUnitBundle\Entity\Attack $attacks)
+    {
+        $this->attacks[] = $attacks;
+
+        return $this;
+    }
+
+    /**
+     * Remove attacks
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Attack $attacks
+     */
+    public function removeAttack(\Pardalis\WaSUnitBundle\Entity\Attack $attacks)
+    {
+        $this->attacks->removeElement($attacks);
+    }
+
+    /**
+     * Get attacks
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getAttacks()
+    {
+        return $this->attacks;
     }
 }

@@ -1,509 +1,894 @@
-<?xml version='1.0'?> 
-<unittype>
-	<name>Aircraft</name>
+<?xml version='1.0'?>
+<unittypes>
+	<unittype>
+		<name>Aircraft</name>
 
-	<abilities>
-		<ability>
-			<name>Ace</name>
-			<description>
-				Once per game, this unit may reroll one Antiair attack.
-			</description>
-		</ability>
-		<ability>
-			<name>Advanced Fighter</name>
-			<description>
-				This unit rolls two extra dice when making Antiair attacks against Fighters.
-			</description>
-		</ability>
-		<ability>
-			<name>Advanced Fighter 1</name>
-			<description>
-				This unit rolls one extra die when making Antiair attacks against Fighters.
-			</description>
-		</ability>
-		<ability>
-			<name>Alternate Payload 5</name>
-			<description>
-				Once per game, this unit can make a 5-dice Bomb attack instead of a Torpedo attack during your Air Attack step.
-			</description>
-		</ability>
-		<ability>
-			<name>Alternate Payload 6</name>
-			<description>
-				Once per game, this unit can make a 6-dice Bomb attack instead of a Torpedo attack during your Air Attack step.
-			</description>
-		</ability>
-		<ability>
-			<name>Alternate Payload 7</name>
-			<description>
-				Once per game, this unit can make a 7-dice Bomb attack instead of a Torpedo attack during your Air Attack step.
-			</description>
-		</ability>
-		<ability>
-			<name>Antiship Missile</name>
-			<description>
-				Once per game, this unit can make a range-1 Bomb attack using its range-0 attack value.
-			</description>
-		</ability>
-		<ability>
-			<name>Battleship Killer</name>
-			<description>
-				This unit rolls one extra attack die when making Torpedo attacks against Battleships.
-			</description>
-		</ability>
-		<ability>
-			<name>Carrier Hunter</name>
-			<description>
-				This unit rolls one extra attack die when making Torpedo attacks against Carriers.
-			</description>
-		</ability>
-		<ability>
-			<name>Combat Air Patrol</name>
-			<description>
-				At the end of the Air Mission phase, if this unit is in a sector that contains a friendly Carrier and no enemy Aircraft, you may move this unit to a sector within range 2 that contains an enemy Aircraft.
-			</description>
-		</ability>
-		<ability>
-			<name>Combined Attack</name>
-			<description>
-				While this unit is in the same sector as a friendly Dive Bomber, it rolls one extra attack die when making Torpedo attacks.
-			</description>
-		</ability>
-		<ability>
-			<name>Deceptive Target</name>
-			<description>
-				Enemy Ships get -1 on each attack die when making Antiair attacks against this unit.
-			</description>
-		</ability>
-		<ability>
-			<name>Defend the Flattop</name>
-			<description>
-				While this unit is in the same sector as a friendly Carrier, it rolls one extra attack die when making Antiair attacks.
-			</description>
-		</ability>
-		<ability>
-			<name>Defensive Armament</name>
-			<description>
-				Whenever this unit is attacked by an enemy Fighter in the Air Defense phase, this unit gets +2 armor this turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Determined Attack</name>
-			<description>
-				Whenever this unit is aborted by a Ship's Antiair attack, you may roll a die. On a 1, destroy this unit. On a 4 or higher, this unit can make either a Bomb attack or a Torpedo attack during the Air Attack phase. You get -1 on each attack die for that attack, or roll one less attack die for that Torpedo attack.
-			</description>
-		</ability>
-		<ability>
-			<name>Divide the Defence</name>
-			<description>
-				Once per game you can declare you're using Divide the Defense. If you do, each Ship in this unit's sector gets -1 on each attack die when making Antiair attacks this turn, and this unit gets -1 on each attack die when making Bomb attacks and can't make Torpedo attacks this turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Draw the CAP</name>
-			<description>
-				At the end of the Air Mission phase, if this unit is in the same sector as an enemy Fighter, roll a die. On a 4 or higher, enemy fighters must attack this unit in the Air Defense phase if able.
-			</description>
-		</ability>
-		<ability>
-			<name>Esxape into Darkness</name>
-			<description>
-				Once per game while in darkness, when this unit would be destroyed by an Antiair attack, roll a die. On a 3 or higher, abort this unit instead. 
-			</description>
-		</ability>
-		<ability>
-			<name>Escort</name>
-			<description>
-				If this unit is in the same sector as a friendly Bomber, enemy Fighters get -1 on each attack die when making Antiair attacks against that Bomber.
-			</description>
-		</ability>
-		<ability>
-			<name>Excellent Endurance</name>
-			<description>
-				Once per game, at the beginning of the Air Mission phase, you may remove a Rearming counter from this unit.
-			</description>
-		</ability>
-		<ability>
-			<name>Expert Strafer</name>
-			<description>
-				This unit can make Gunnery attacks without taking penalties to its armor or vital armor.
-			</description>
-		</ability>
-		<ability>
-			<name>Export Version</name>
-			<description>
-				This unit can be based on a U.S. or U.K. Carrier.
-			</description>
-		</ability>
-		<ability>
-			<name>Fighter-Bomber</name>
-			<description>
-				When you place this unit during the Air Mission phase, declare whether this unit's type will be Fighter or Dive Bomber this turn. It can make Bomb attacks only while its a Dive Bomber. While a Dive Bomber, reduce its Armor and Vital Armor each by 1.
-			</description>
-		</ability>
-		<ability>
-			<name>Finish Him Off</name>
-			<description>
-				This unit rolls one extra attack die when attacking damaged Ships.
-			</description>
-		</ability>
-		<ability>
-			<name>Great Agility</name>
-			<description>
-				When an enemy Fighter rolls successes exactly equal to this unit's vital armor and would destroy it, abort this unit instead.
-			</description>
-		</ability>
-		<ability>
-			<name>Harass From a Distance</name>
-			<description>
-				This unit's Torpedo attack has range 1. When this unit makes a range 1 attack, it can't benefit from the Expert Torpedoes ability.
-			</description>
-		</ability>
-		<ability>
-			<name>Heavy Strafer</name>
-			<description>
-				Once per game, this unit can make a range-1 Gunnery attack using its range-0 attack value.
-			</description>
-		</ability>
-		<ability>
-			<name>High Agility</name>
-			<description>
-				Once per game, when an enemy Fighter rolls exactly 8 successes against this unit and would destroy it, abort this unit instead.
-			</description>
-		</ability>
-		<ability>
-			<name>Hi-Level Bomber</name>
-			<description>
-				Whenever this unit makes a Bomb attack, it only scores hits on a 6. This unit can't hit Destroyers or Torpedo Boats with Bomb attacks.
-			</description>
-		</ability>
-		<ability>
-			<name>Interceptor</name>
-			<description>
-				If there are no enemy Fighters in the same sector as this unit, this unit rolls one extra attack die when making Antiair attacks against enemy Bombers.
-			</description>
-		</ability>
-		<ability>
-			<name>Kamikaze Attack</name>
-			<description>
-				This unit can make a 10 dice Bomb attack instead of a Torpedo attack during your Air Attack phase.  Destroy this unit after the attack.
-			</description>
-		</ability>
-		<ability>
-			<name>Land Based</name>
-			<description>
-				This unit can't be based on a Carrier.
-			</description>
-		</ability>
-		<ability>
-			<name>Land Fighter</name>
-			<description>
-				This unit can't be based on a Carrier, and it can't benefit from the Expert Dogfighter bonus.
-			</description>
-		</ability>
-		<ability>
-			<name>Light Defensive Armament</name>
-			<description>
-				Whenever an enemy Fighter attacks this unit during the Air Defense phase, this unit gets +1 armor this turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Loiter</name>
-			<description>
-				Rearming counters aren't placed on this unit during the Air Return step.
-			</description>
-		</ability>
-		<ability>
-			<name>Lucky Hit</name>
-			<description>
-				Whenever this unit hits an enemy Battleship with a Torpedo attack, roll a die. On a 5 or higher, that Battleship can't move next turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Mines</name>
-			<description>
-				Once per game, instead of making an attack in the Air Attack phase, this unit can mine its sector. Place a marker on that sector. Whenever a Ship enters the mined sector, roll a die. On a 1, the Ship takes 1 point of hull damage. On a 2, the Ship takes 2 points of hull damage. Torpedo defense works against this damage.
-			</description>
-		</ability>
-		<ability>
-			<name>Mission Selection</name>
-			<description>
-				This unit counts as either a Dive Bomber or a Torpedo Bomber. (Choose the unit's role when you place it during the Air Mission phase.)
-			</description>
-		</ability>
-		<ability>
-			<name>Mission Selection</name>
-			<description>
-				This unit counts as either a Dive Bomber or a Fighter. (Choose the unit's role when you place it during the Air Mission phase.)
-			</description>
-		</ability>
-		<ability>
-			<name>Night Specialist</name>
-			<description>
-				While in Darkness, this unit gets +1 on each search check and ignores darkness attack penalties.
-			</description>
-		</ability>
-		<ability>
-			<name>Nimble</name>
-			<description>
-				Once per game, when an enemy Fighter rolls successes against this unit exactly equal to its vital armor and would destroy it, abort this unit instead.
-			</description>
-		</ability>
-		<ability>
-			<name>Overstack</name>
-			<description>
-				Your land airbase can base up to 3 additional Kamikazes in addition to 5 Aircraft.
-			</description>
-		</ability>
-		<ability>
-			<name>Pinpointer</name>
-			<description>
-				At the beginning of your Air Attack step, you may choose an enemy Ship within range 2. Submarines roll one extra attack die when making Torpedo attacks against that Ship this turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Press the Attack</name>
-			<description>
-				Whenever this unit is aborted by a Ship's Antiair attack, you may roll a die. On a 1, destroy this unit. On a 4 or higher, this unit makes a Bomb attack during your Air Attack step but gets -1 on each attack die for that attack.
-			</description>
-		</ability>
-		<ability>
-			<name>Rocket Attack</name>
-			<description>
-				Once per game, this unit can make a 5-dice Gunnery attack during the Air Attack phase.
-			</description>
-		</ability>
-		<ability>
-			<name>Rugged</name>
-			<description>
-				When an enemy unit rolls successes against this unit exactly equal to its vital armor and would destroy it, roll a die. On a 4 or higher, abort this unit instead.
-			</description>
-		</ability>
-		<ability>
-			<name>Sea Basing</name>
-			<description>
-				This unit can base only in a coast or an island sector on your side of the map. Don't place a Rearming counter on this unit during your Air Return step.
-			</description>
-		</ability>
-		<ability>
-			<name>Shadowing</name>
-			<description>
-				At the beginning of your Air Attack step, you may choose an enemy Ship within range 2. Your Aircraft roll one extra attack die when attacking that Ship this turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Skilled Search</name>
-			<description>
-				This unit gets +1 on each long-range search check.
-			</description>
-		</ability>
-		<ability>
-			<name>Skip-Bomb</name>
-			<description>
-				Whenever this unit makes a Bomb attack, each 6 counts as 3 successes instead of 2.
-			</description>
-		</ability>
-		<ability>
-			<name>Suicide Attack</name>
-			<description>
-				This unit is destroyed at the end of the Air Attack phase if it isn't at the land airbase.
-			</description>
-		</ability>
-		<ability>
-			<name>Surprise</name>
-			<description>
-				If it's the first turn of the game, this unit rolls one extra attack die when attacking.
-			</description>
-		</ability>
-		<ability>
-			<name>Swarm Tactics</name>
-			<description>
-				If this unit is the only friendly unaborted and undestroyed Aircraft in its sector at the end of the Air Defense phase, this unit can make a second Antiair attack this turn. It can't attack an enemy Aircraft this way that it already attacked this turn.
-			</description>
-		</ability>
-		<ability>
-			<name>Torpedo Swarm</name>
-			<description>
-				Whenever this unit makes a Torpedo attack, it may make an additional 1-die Torpedo attack against all other enemy Ships in the same sector.
-			</description>
-		</ability>
-		<ability>
-			<name>Uncertain Arrival</name>
-			<description>
-				This unit begins the game with a rearming counter. At the start of each Air Return phase, roll a die.  On a roll of 4 or higher, remove the counter.
-			</description>
-		</ability>
-		<ability>
-			<name>Veteran Pilot 1</name>
-			<description>
-				This unit rolls one extra attack die when making Antiair attacks against enemy Fighters that have Antiair values of 6 or less.
-			</description>
-		</ability>
-	</abilities>
-</unittype>
-<unittype>
-	<name>Ship</name>
-	
-	<abilities>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-		<ability>
-			<name></name>
-			<description>
-			</description>
-		</ability>
-	</abilities>
-</unittype>
+		<abilities>
+			<ability>
+				<name>Ace</name>
+				<description>Once per game, this unit may reroll one Antiair attack.</description>
+			</ability>
+			<ability>
+				<name>Advanced Fighter</name>
+				<description>This unit rolls two extra dice when making Antiair attacks against Fighters.</description>
+			</ability>
+			<ability>
+				<name>Advanced Fighter 1</name>
+				<description>This unit rolls one extra die when making Antiair attacks against Fighters.</description>
+			</ability>
+			<ability>
+				<name>Alternate Payload 5</name>
+				<description>Once per game, this unit can make a 5-dice Bomb attack instead of a Torpedo attack during your Air Attack step.</description>
+			</ability>
+			<ability>
+				<name>Alternate Payload 6</name>
+				<description>Once per game, this unit can make a 6-dice Bomb attack instead of a Torpedo attack during your Air Attack step.</description>
+			</ability>
+			<ability>
+				<name>Alternate Payload 7</name>
+				<description>Once per game, this unit can make a 7-dice Bomb attack instead of a Torpedo attack during your Air Attack step.</description>
+			</ability>
+			<ability>
+				<name>Antiship Missile</name>
+				<description>Once per game, this unit can make a range-1 Bomb attack using its range-0 attack value.</description>
+			</ability>
+			<ability>
+				<name>Battleship Killer</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against Battleships.</description>
+			</ability>
+			<ability>
+				<name>Carrier Hunter</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against Carriers.</description>
+			</ability>
+			<ability>
+				<name>Combat Air Patrol</name>
+				<description>At the end of the Air Mission phase, if this unit is in a sector that contains a friendly Carrier and no enemy Aircraft, you may move this unit to a sector within range 2 that contains an enemy Aircraft.</description>
+			</ability>
+			<ability>
+				<name>Combined Attack</name>
+				<description>While this unit is in the same sector as a friendly Dive Bomber, it rolls one extra attack die when making Torpedo attacks.</description>
+			</ability>
+			<ability>
+				<name>Deceptive Target</name>
+				<description>Enemy Ships get -1 on each attack die when making Antiair attacks against this unit.</description>
+			</ability>
+			<ability>
+				<name>Defend the Flattop</name>
+				<description>While this unit is in the same sector as a friendly Carrier, it rolls one extra attack die when making Antiair attacks.</description>
+			</ability>
+			<ability>
+				<name>Defensive Armament</name>
+				<description>Whenever this unit is attacked by an enemy Fighter in the Air Defense phase, this unit gets +2 armor this turn.</description>
+			</ability>
+			<ability>
+				<name>Determined Attack</name>
+				<description>Whenever this unit is aborted by a Ship's Antiair attack, you may roll a die. On a 1, destroy this unit. On a 4 or higher, this unit can make either a Bomb attack or a Torpedo attack during the Air Attack phase. You get -1 on each attack die for that attack, or roll one less attack die for that Torpedo attack.</description>
+			</ability>
+			<ability>
+				<name>Divide the Defence</name>
+				<description>Once per game you can declare you're using Divide the Defense. If you do, each Ship in this unit's sector gets -1 on each attack die when making Antiair attacks this turn, and this unit gets -1 on each attack die when making Bomb attacks and can't make Torpedo attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Draw the CAP</name>
+				<description>At the end of the Air Mission phase, if this unit is in the same sector as an enemy Fighter, roll a die. On a 4 or higher, enemy fighters must attack this unit in the Air Defense phase if able.</description>
+			</ability>
+			<ability>
+				<name>Esxape into Darkness</name>
+				<description>Once per game while in darkness, when this unit would be destroyed by an Antiair attack, roll a die. On a 3 or higher, abort this unit instead. </description>
+			</ability>
+			<ability>
+				<name>Escort</name>
+				<description>If this unit is in the same sector as a friendly Bomber, enemy Fighters get -1 on each attack die when making Antiair attacks against that Bomber.</description>
+			</ability>
+			<ability>
+				<name>Excellent Endurance</name>
+				<description>Once per game, at the beginning of the Air Mission phase, you may remove a Rearming counter from this unit.</description>
+			</ability>
+			<ability>
+				<name>Expert Strafer</name>
+				<description>This unit can make Gunnery attacks without taking penalties to its armor or vital armor.</description>
+			</ability>
+			<ability>
+				<name>Export Version</name>
+				<description>This unit can be based on a U.S. or U.K. Carrier.</description>
+			</ability>
+			<ability>
+				<name>Fighter-Bomber</name>
+				<description>When you place this unit during the Air Mission phase, declare whether this unit's type will be Fighter or Dive Bomber this turn. It can make Bomb attacks only while its a Dive Bomber. While a Dive Bomber, reduce its Armor and Vital Armor each by 1.</description>
+			</ability>
+			<ability>
+				<name>Finish Him Off</name>
+				<description>This unit rolls one extra attack die when attacking damaged Ships.</description>
+			</ability>
+			<ability>
+				<name>Great Agility</name>
+				<description>When an enemy Fighter rolls successes exactly equal to this unit's vital armor and would destroy it, abort this unit instead.</description>
+			</ability>
+			<ability>
+				<name>Harass From a Distance</name>
+				<description>This unit's Torpedo attack has range 1. When this unit makes a range 1 attack, it can't benefit from the Expert Torpedoes ability.</description>
+			</ability>
+			<ability>
+				<name>Heavy Strafer</name>
+				<description>Once per game, this unit can make a range-1 Gunnery attack using its range-0 attack value.</description>
+			</ability>
+			<ability>
+				<name>High Agility</name>
+				<description>Once per game, when an enemy Fighter rolls exactly 8 successes against this unit and would destroy it, abort this unit instead.</description>
+			</ability>
+			<ability>
+				<name>Hi-Level Bomber</name>
+				<description>Whenever this unit makes a Bomb attack, it only scores hits on a 6. This unit can't hit Destroyers or Torpedo Boats with Bomb attacks.</description>
+			</ability>
+			<ability>
+				<name>Interceptor</name>
+				<description>If there are no enemy Fighters in the same sector as this unit, this unit rolls one extra attack die when making Antiair attacks against enemy Bombers.</description>
+			</ability>
+			<ability>
+				<name>Kamikaze Attack</name>
+				<description>This unit can make a 10 dice Bomb attack instead of a Torpedo attack during your Air Attack phase.  Destroy this unit after the attack.</description>
+			</ability>
+			<ability>
+				<name>Land Based</name>
+				<description>This unit can't be based on a Carrier.</description>
+			</ability>
+			<ability>
+				<name>Land Fighter</name>
+				<description>This unit can't be based on a Carrier, and it can't benefit from the Expert Dogfighter bonus.</description>
+			</ability>
+			<ability>
+				<name>Light Defensive Armament</name>
+				<description>Whenever an enemy Fighter attacks this unit during the Air Defense phase, this unit gets +1 armor this turn.</description>
+			</ability>
+			<ability>
+				<name>Loiter</name>
+				<description>Rearming counters aren't placed on this unit during the Air Return step.</description>
+			</ability>
+			<ability>
+				<name>Lucky Hit</name>
+				<description>Whenever this unit hits an enemy Battleship with a Torpedo attack, roll a die. On a 5 or higher, that Battleship can't move next turn.</description>
+			</ability>
+			<ability>
+				<name>Mines</name>
+				<description>Once per game, instead of making an attack in the Air Attack phase, this unit can mine its sector. Place a marker on that sector. Whenever a Ship enters the mined sector, roll a die. On a 1, the Ship takes 1 point of hull damage. On a 2, the Ship takes 2 points of hull damage. Torpedo defense works against this damage.</description>
+			</ability>
+			<ability>
+				<name>Mission Selection</name>
+				<description>This unit counts as either a Dive Bomber or a Torpedo Bomber. (Choose the unit's role when you place it during the Air Mission phase.)</description>
+			</ability>
+			<ability>
+				<name>Mission Selection</name>
+				<description>This unit counts as either a Dive Bomber or a Fighter. (Choose the unit's role when you place it during the Air Mission phase.)</description>
+			</ability>
+			<ability>
+				<name>Night Specialist</name>
+				<description>While in Darkness, this unit gets +1 on each search check and ignores darkness attack penalties.</description>
+			</ability>
+			<ability>
+				<name>Nimble</name>
+				<description>Once per game, when an enemy Fighter rolls successes against this unit exactly equal to its vital armor and would destroy it, abort this unit instead.</description>
+			</ability>
+			<ability>
+				<name>Overstack</name>
+				<description>Your land airbase can base up to 3 additional Kamikazes in addition to 5 Aircraft.</description>
+			</ability>
+			<ability>
+				<name>Pinpointer</name>
+				<description>At the beginning of your Air Attack step, you may choose an enemy Ship within range 2. Submarines roll one extra attack die when making Torpedo attacks against that Ship this turn.</description>
+			</ability>
+			<ability>
+				<name>Press the Attack</name>
+				<description>Whenever this unit is aborted by a Ship's Antiair attack, you may roll a die. On a 1, destroy this unit. On a 4 or higher, this unit makes a Bomb attack during your Air Attack step but gets -1 on each attack die for that attack.</description>
+			</ability>
+			<ability>
+				<name>Rocket Attack</name>
+				<description>Once per game, this unit can make a 5-dice Gunnery attack during the Air Attack phase.</description>
+			</ability>
+			<ability>
+				<name>Rugged</name>
+				<description>When an enemy unit rolls successes against this unit exactly equal to its vital armor and would destroy it, roll a die. On a 4 or higher, abort this unit instead.</description>
+			</ability>
+			<ability>
+				<name>Sea Basing</name>
+				<description>This unit can base only in a coast or an island sector on your side of the map. Don't place a Rearming counter on this unit during your Air Return step.</description>
+			</ability>
+			<ability>
+				<name>Shadowing</name>
+				<description>At the beginning of your Air Attack step, you may choose an enemy Ship within range 2. Your Aircraft roll one extra attack die when attacking that Ship this turn.</description>
+			</ability>
+			<ability>
+				<name>Skilled Search</name>
+				<description>This unit gets +1 on each long-range search check.</description>
+			</ability>
+			<ability>
+				<name>Skip-Bomb</name>
+				<description>Whenever this unit makes a Bomb attack, each 6 counts as 3 successes instead of 2.</description>
+			</ability>
+			<ability>
+				<name>Suicide Attack</name>
+				<description>This unit is destroyed at the end of the Air Attack phase if it isn't at the land airbase.</description>
+			</ability>
+			<ability>
+				<name>Surprise</name>
+				<description>If it's the first turn of the game, this unit rolls one extra attack die when attacking.</description>
+			</ability>
+			<ability>
+				<name>Swarm Tactics</name>
+				<description>If this unit is the only friendly unaborted and undestroyed Aircraft in its sector at the end of the Air Defense phase, this unit can make a second Antiair attack this turn. It can't attack an enemy Aircraft this way that it already attacked this turn.</description>
+			</ability>
+			<ability>
+				<name>Torpedo Swarm</name>
+				<description>Whenever this unit makes a Torpedo attack, it may make an additional 1-die Torpedo attack against all other enemy Ships in the same sector.</description>
+			</ability>
+			<ability>
+				<name>Uncertain Arrival</name>
+				<description>This unit begins the game with a rearming counter. At the start of each Air Return phase, roll a die.  On a roll of 4 or higher, remove the counter.</description>
+			</ability>
+			<ability>
+				<name>Veteran Pilot 1</name>
+				<description>This unit rolls one extra attack die when making Antiair attacks against enemy Fighters that have Antiair values of 6 or less.</description>
+			</ability>
+		</abilities>
+	</unittype>
+	<unittype>
+		<name>Ship</name>
+
+		<abilities>
+			<ability>
+				<name>AA Veteran</name>
+				<description>Once per game, this unit may reroll one Antiair attack.</description>
+			</ability>
+			<ability>
+				<name>Aggressive Tactics</name>
+				<description>Friendly Cruisers and Destroyers adjacent to this Ship roll one extra attack die when making Gunnery and Torpedo attacks if no other friendly Ships are in their sectors.</description>
+			</ability>
+			<ability>
+				<name>Antiair Barrage</name>
+				<description>This unit can make two Antiair attacks against separate targets during your Air Defense phase. This unit has a 5-dice Antiair attack against the second target. </description>
+			</ability>
+			<ability>
+				<name>Antiair Specialist</name>
+				<description>This unit can make two Antiair attacks against separate targets during your Air Defense step.</description>
+			</ability>
+			<ability>
+				<name>ASW Pinpointer</name>
+				<description>Ships roll one extra attack die when making ASW attacks against any Submarine this unit attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Avoid mines</name>
+				<description>This unit ignores mines.</description>
+			</ability>
+			<ability>
+				<name>Bad Luck</name>
+				<description>Whenever this unit rolls four or more 1's on a Gunnery attack, or two or more 1's on a Torpedo attack, this unit and a friendly Ship in the same sector each take 1 point of hull damage and can't move next turn. If no friendly Ships are in this unit's sector, instead this unit can't move or attack for the next two turns.</description>
+			</ability>
+			<ability>
+				<name>Bad Weather Fighter</name>
+				<description>Whenever you make a concealment roll for this unit, add +1 to the roll.</description>
+			</ability>
+			<ability>
+				<name>Battery Silencer</name>
+				<description>This unit rolls one extra attack die when making Gunnery attacks against Shore Batteries and Installations.</description>
+			</ability>
+			<ability>
+				<name>Battleship Killer</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against Battleships.</description>
+			</ability>
+			<ability>
+				<name>Beach Landing 3</name>
+				<description>Once per game, at the end of a turn, if this unit is in or adjacent to a coast or island sector on your opponent's side of the map, score 3 victory points. You can only score victory points from a Beach Landing ability once per turn.</description>
+			</ability>
+			<ability>
+				<name>Bombard</name>
+				<description>Once per game, instead of making a Main Gunnery attack, this unit can bombard your opponent's land airbase if this unit is in your opponent's ship deployment area. At the end of that turn, place 2 additional rearming counters next to each aircraft at the airbase.</description>
+			</ability>
+			<ability>
+				<name>Bristling With Guns</name>
+				<description>This unit can make two Secondary Gunnery attacks against separate targets during your Surface Attack step.</description>
+			</ability>
+			<ability>
+				<name>Carrier Leader</name>
+				<description>You get +1 initiative for each Carrier you control up to a maximum of +3.</description>
+			</ability>
+			<ability>
+				<name>Chase</name>
+				<description>At the end of the Sea Movement phase, if there are no enemy Ships within range 3 of this unit, you may move this unit one sector toward the nearest enemy Ship.</description>
+			</ability>
+			<ability>
+				<name>Chase the Salvoes</name>
+				<description>Whenever an enemy Battleship makes a Main Gunnery attack against this unit, roll a die. On a 5 or higher, this unit takes no damage from that attack.</description>
+			</ability>
+			<ability>
+				<name>Close Escort</name>
+				<description>The sector this unit is in can contain three friendly Ships instead of two.</description>
+			</ability>
+			<ability>
+				<name>Coastal Deployment</name>
+				<description>This unit may deploy adjacent to an island sector on your side of the map. If you do, this unit can't claim an objective on turn 1 or 2.</description>
+			</ability>
+			<ability>
+				<name>Coastal Tactics</name>
+				<description>This unit has concealment against attacks at range-1 or greater if it is adjacent to a coast or island sector </description>
+			</ability>
+			<ability>
+				<name>Commerce Raider</name>
+				<description>This unit rolls one extra attack die when making Gunnery attacks against Auxiliary units.</description>
+			</ability>
+			<ability>
+				<name>Covering Fire</name>
+				<description>Whenever this unit attacks a Ship during the Surface Attack phase, during its next turn, that Ship gets -1 on each attack die when making Gunnery attack rolls against units other than this unit.</description>
+			</ability>
+			<ability>
+				<name>Crippling Salvo</name>
+				<description>Whenever this unit damages a Cruiser or a Battleship with its main gunnery attack, roll a die. On a 5 or higher, the target suffers the effects of Crippled until the end of the next turn (the target isn't automatically reduced to 1 hull point).</description>
+			</ability>
+			<ability>
+				<name>Cruiser Hunter</name>
+				<description>This unit rolls one extra attack die when making Main Gunnery attacks against Cruisers.</description>
+			</ability>
+			<ability>
+				<name>Cruiser Killer</name>
+				<description>This unit rolls one extra attack die when making Gunnery attacks against enemy Cruisers. </description>
+			</ability>
+			<ability>
+				<name>Cruiser Leader</name>
+				<description>While you control another Cruiser, you get +1 initiative. </description>
+			</ability>
+			<ability>
+				<name>Damage Control</name>
+				<description>At the end of each turn, you may roll a die. On a 5 or higher, remove 1 point of hull damage from this unit. You may remove only 1 point of hull damage per game with this ability.</description>
+			</ability>
+			<ability>
+				<name>Defective Torpedoes</name>
+				<description>Whenever this unit would make a Torpedo attack, roll a die. On a 2 or less, the attack automatically misses instead.</description>
+			</ability>
+			<ability>
+				<name>Desperate AA</name>
+				<description>Once per game, before you roll this unit's Antiair attack against an enemy Aircraft, you may declare that you're using Desperate AA. If you do, roll two extra attack dice against that Aircraft.</description>
+			</ability>
+			<ability>
+				<name>Destroyer Hunter</name>
+				<description>This unit rolls one extra attack die when making Gunnery attacks against Destroyers.</description>
+			</ability>
+			<ability>
+				<name>Destroyer Leader</name>
+				<description>While you control another Destroyer, you get +1 initiative.</description>
+			</ability>
+			<ability>
+				<name>Determination</name>
+				<description>Whenever this unit would be destroyed, roll a die. On a 5 or higher, the destruction is prevented and this unit remains in the game with 1 hull point.</description>
+			</ability>
+			<ability>
+				<name>Disguise</name>
+				<description>Until this unit attacks or ends a Sea Movement phase in the same sector as another Ship, this unit can't be attacked.</description>
+			</ability>
+			<ability>
+				<name>Drive Off</name>
+				<description>Once per game, at the end of the Surface Attack phase, choose one Destroyer or Torpedo Boat this unit attacked this turn. The target must immediately move one sector away from this unit. If that movement isn't possible, you can't use this ability.</description>
+			</ability>
+			<ability>
+				<name>Early Deployment</name>
+				<description>This unit may deploy in any sector on your side of the map. You may deploy one cruiser or destroyer in this unit's sector. Each unit deployed this way can't claim an objective on turn 1 or 2.</description>
+			</ability>
+			<ability>
+				<name>Escort Killer</name>
+				<description>This unit can make two Gunnery attacks against separate targets during your Surface Attack phase if at least one of the targets is a Destroyer.</description>
+			</ability>
+			<ability>
+				<name>Establish Screen</name>
+				<description>Choose one local or adjacent Cruiser or Destroyer. After both fleets are deployed, this unit and the chosen unit can move one sector.</description>
+			</ability>
+			<ability>
+				<name>Evacuate</name>
+				<description>At the end of a turn, if this unit is adjacent to a coast or island on your opponent's side of the map, score 1 victory point. After scoring this victory point, if this unit is in your ship deployment area at the end of a turn, score an additional 3 victory points. You can score each award only once per game.</description>
+			</ability>
+			<ability>
+				<name>Evade Bombs</name>
+				<description>Once per game, when this unit is the target of a Bomb attack, you may roll a die. On a 4 or higher, the Bomb attack misses.</description>
+			</ability>
+			<ability>
+				<name>Evade Torpedoes</name>
+				<description>Once per game, when an enemy unit would make a Torpedo attack against this unit, you may roll a die. On a 3 or higher, the Torpedo attack automatically misses instead. This unit can't move during the Sea Movement phase the turn after it uses this ability.</description>
+			</ability>
+			<ability>
+				<name>Excellent Spotting</name>
+				<description>During your Surface Attack step, if another friendly Ship makes a Gunnery attack against an enemy Ship, this unit rolls one extra attack die when making Gunnery attacks against that enemy Ship this turn.</description>
+			</ability>
+			<ability>
+				<name>Extended Range 4</name>
+				<description>While undamaged, this unit can make range-4 Main Gunnery attacks using its range-3 attack value.</description>
+			</ability>
+			<ability>
+				<name>Extended Range 5</name>
+				<description>While undamaged, this unit can make range-4 or range-5 Main Gunnery attacks using its range-3 attack value.</description>
+			</ability>
+			<ability>
+				<name>Fast 5</name>
+				<description>At the beginning of your Sea Movement step, roll a die. On a 5 or higher, this unit gets +1 speed this turn.</description>
+			</ability>
+			<ability>
+				<name>Fatal Flaw</name>
+				<description>If an enemy Battleship rolls four 6's against this unit, put a face-down destroyed counter on it.</description>
+			</ability>
+			<ability>
+				<name>Fighter Director</name>
+				<description>Once per turn, you may choose a friendly Fighter within range 3 that aborted or destroyed an enemy Aircraft this turn. That Fighter may move to a sector it's adjacent to that contains an enemy Aircraft and make an Antiair attack with a -1 on each attack die against that Aircraft.</description>
+			</ability>
+			<ability>
+				<name>Flank Speed</name>
+				<description>At the beginning of your Sea Movement step, if this unit is within range 3 of an enemy Ship, this unit gets +1 speed this turn.</description>
+			</ability>
+			<ability>
+				<name>Flotilla Leader</name>
+				<description>You get +1 initiative for each Destroyer you control up to a maximum of +3.</description>
+			</ability>
+			<ability>
+				<name>Flyoff Strike</name>
+				<description>Once per game during the Air Mission phase, you may place a marker on the map that functions as an Aircraft squadron. Remove it from play when it's aborted, destroyed, or at the beginning of the Air Return phase, whichever happens first. Fly-off squadron; Armor 4, Vital Armor 7, Bomb 7.</description>
+			</ability>
+			<ability>
+				<name>General Pursuit</name>
+				<description>Once per game, at the end of your Sea Movement step, you can move up to three of your Ships each one sector toward the enemy Ship nearest to it. You can't claim an objective the turn you use this ability. You lose initiative next turn.</description>
+			</ability>
+			<ability>
+				<name>Guard Ship</name>
+				<description>This unit may deploy in any sector adjacent to a coast or island on your side of the map. If deployed this way, this unit can't move until it has been attacked.</description>
+			</ability>
+			<ability>
+				<name>Guard the Convoy</name>
+				<description>While this unit is in the same sector as a friendly Auxiliary unit, enemy units can't attack that Auxiliary unit until this unit has been attacked at least once in the same phase.</description>
+			</ability>
+			<ability>
+				<name>Harassing Fire 5</name>
+				<description>While undamaged, this unit can make range-5 Main Gunnery attacks using its range-3 attack value. It only scores hits on a 6 when using this ability.</description>
+			</ability>
+			<ability>
+				<name>Heavy Antiair</name>
+				<description>This unit's Antiair attack has range 1.</description>
+			</ability>
+			<ability>
+				<name>Heavy Antiair 2</name>
+				<description>This unit's Antiair attack has range 2.</description>
+			</ability>
+			<ability>
+				<name>Heavy Raider</name>
+				<description>Whenever this unit Destroys an Auxiliary, score 2 victory points.</description>
+			</ability>
+			<ability>
+				<name>High Speed Run</name>
+				<description>Once per game, at the beginning of your Sea Movement step, you can give this unit +1 speed for the turn. You can't claim an objective the turn you use this ability.</description>
+			</ability>
+			<ability>
+				<name>Improved Radar</name>
+				<description>This unit can attack enemy units that have concealment without a penalty. Fog, smoke screens, and squalls don't block this unit's ability to trace line of sight to an enemy unit.</description>
+			</ability>
+			<ability>
+				<name>Inactivity</name>
+				<description>This unit gets -1 on each attack die when making its first Main Gunnery attack of the game.</description>
+			</ability>
+			<ability>
+				<name>Incomplete</name>
+				<description>This unit can't move during the first turn of the game.</description>
+			</ability>
+			<ability>
+				<name>Inspire to Victory</name>
+				<description>Once per game, if this unit damages or destroys an enemy Battleship, you can declare you're using Inspire to Victory. If you do, each of your Ships rolls one extra attack die when making Gunnery attacks during your next turn.</description>
+			</ability>
+			<ability>
+				<name>Inspiring Example</name>
+				<description>Once per game, if this unit damages or destroys an enemy Ship, you can declare you're using Inspiring Example. If you do, each of your Greek Ships (other than this one) rolls one extra attack die when making attacks during your next turn.</description>
+			</ability>
+			<ability>
+				<name>Jammed Mount</name>
+				<description>Before this unit makes a Main Gunnery attack, roll a die. On a 1, this unit rolls three fewer attack dice when making Main Gunnery attacks until the end of your next turn.</description>
+			</ability>
+			<ability>
+				<name>Killer Instinct</name>
+				<description>When this unit damages or destroys an enemy Submarine with its ASW attack for the first time, it rolls one extra attack die when making ASW attacks for the rest of the game.</description>
+			</ability>
+			<ability>
+				<name>Landing 3</name>
+				<description>Once per game, at the end of a turn, if this unit is adjacent to a coast or island on your opponent's side of the map, score 3 victory points. You can only score victory points from a Landing ability once per turn.</description>
+			</ability>
+			<ability>
+				<name>Landing 5</name>
+				<description>Once per game, at the end of a turn, if this unit is adjacent to a coast or island on your opponent's side of the map, score 5 victory points. You can only score victory points from a Landing ability once per turn.</description>
+			</ability>
+			<ability>
+				<name>Landing 10</name>
+				<description>Once per game, at the end of a turn, if this unit is adjacent to a coast or island on your opponent's side of the map, score 10 victory points. You can only score victory points from a Landing ability once per turn.</description>
+			</ability>
+			<ability>
+				<name>Lay Smoke Screen</name>
+				<description>Instead of attacking during your Surface Attack phase, this unit can make a local smoke screen.  A sector containing a smoke screen blocks line of sight. A unit in a smoke screen has concealment. Remove the smoke screen at the end of the next turn.</description>
+			</ability>
+			<ability>
+				<name>Lead the Attack 2</name>
+				<description>After both fleets are deployed, this unit can make a speed-2 move before the first turn begins.</description>
+			</ability>
+			<ability>
+				<name>Limited ASW Threat</name>
+				<description>This unit doesn't penalize Torpedo attacks of enemy Submarines in adjacent sectors.</description>
+			</ability>
+			<ability>
+				<name>Long Cruise</name>
+				<description>This unit may deploy in any sea sector on the map.</description>
+			</ability>
+			<ability>
+				<name>Long Lance Torpedoes</name>
+				<description>Each torpedo hit rolled by this unit deals 1 extra point of hull damage.</description>
+			</ability>
+			<ability>
+				<name>Long Shot 6</name>
+				<description>Once per game, this unit can make a range-6 Main Gunnery attack against an enemy Battleship using its range-3 attack value.</description>
+			</ability>
+			<ability>
+				<name>Lucky Escape</name>
+				<description>When this unit would be hit by a Torpedo attack from an enemy destroyer or Torpedo Boat, roll a die. On a 4 or higher, the attack misses instead.</description>
+			</ability>
+			<ability>
+				<name>Masked Guns</name>
+				<description>If you win initiative, this unit rolls two extra attack dice when making Main Gunnery attacks within range 2 this turn.</description>
+			</ability>
+			<ability>
+				<name>Mines</name>
+				<description>Once per game, instead of making an attack in the Surface Attack phase, this unit can mine its sector. Place a marker on that sector. Whenever a Ship enters the mined sector, roll a die. On a 1, the Ship takes 1 point of hull damage. On a 2, the Ship takes 2 points of hull damage. Torpedo defense works against this damage.</description>
+			</ability>
+			<ability>
+				<name>MTB Killer</name>
+				<description>This unit can make two Gunnery attacks against separate targets during your Surface Attack step if at least one of the targets is a Torpedo Boat. </description>
+			</ability>
+			<ability>
+				<name>Near Miss</name>
+				<description>The first time an attack would damage or destroy this unit, roll a die. On a 4 or higher that attack has no effect instead.</description>
+			</ability>
+			<ability>
+				<name>Night Fighter</name>
+				<description>Once per game, if it's turn 4 or later, this unit may reroll one Gunnery attack.</description>
+			</ability>
+			<ability>
+				<name>No Sea Control</name>
+				<description>This unit can't claim objectives.</description>
+			</ability>
+			<ability>
+				<name>Opening Salvo 1</name>
+				<description>This unit rolls one extra attack die when making either a Gunnery or a Torpedo attack for the first time each game.</description>
+			</ability>
+			<ability>
+				<name>Protect Cripple</name>
+				<description>This unit gets +1 on each attack die when making Gunnery, Antiair, or ASW attacks while in the same sector as a friendly Ship that is crippled.</description>
+			</ability>
+			<ability>
+				<name>Pursuit Ship</name>
+				<description>Instead of moving this unit during your Sea Movement step, if you are the first player for this turn, you may choose a local enemy Ship. If that ship is within range 2 at the end of your opponent's Sea Movement step, put this unit in that unit's sector.</description>
+			</ability>
+			<ability>
+				<name>Radar Fire Control</name>
+				<description> While undamaged, this unit rolls one extra attack die when making Main Gunnery attacks.</description>
+			</ability>
+			<ability>
+				<name>Radar Picket</name>
+				<description>Once per game, at the end of the Air Mission phase, you can move one friendly Fighter that is in a sector that doesn't contain enemy Aircraft to any sector that contains an enemy Aircraft.</description>
+			</ability>
+			<ability>
+				<name>Radar Solution</name>
+				<description>The first time you make a Main Gunnery attack during the game, the attacking unit rolls one extra die. If this unit is undamaged, the attacking unit can make the Main Gunnery attack against an enemy unit in darkness within range 4 without a penalty.</description>
+			</ability>
+			<ability>
+				<name>Raider</name>
+				<description>This unit rolls one extra attack die when making Gunnery attacks against Destroyers and Auxiliary units.</description>
+			</ability>
+			<ability>
+				<name>Raider Hunter</name>
+				<description>This unit rolls one extra attack die when making Gunnery attacks against Cruisers and Auxiliary units. </description>
+			</ability>
+			<ability>
+				<name>Ram</name>
+				<description>Once per game, during the Sea Movement phase, this unit can make an immediate ASW attack when it enters a sector that contains an enemy Submarine.</description>
+			</ability>
+			<ability>
+				<name>Rapid Fire</name>
+				<description>Once per game, before you roll this unit's Main Gunnery attack against an enemy ship, you can declare you are using Rapid Fire. If you do, roll two extra attack dice against that ship. </description>
+			</ability>
+			<ability>
+				<name>Repair</name>
+				<description>Once per game, at the beginning of your Sea Movement step, you can attempt to repair a local friendly Ship. If you do, neither this unit nor the damaged Ship can move or use Gunnery attacks that turn. At the end of the turn, roll a die. On a 2 or higher, remove 1 point of hull damage from the damaged Ship.</description>
+			</ability>
+			<ability>
+				<name>Rescue Operation</name>
+				<description>Once per game, instead of attacking during your Surface Attack step, this unit can perform a rescue mission if it's in a sector where a friendly Ship was destroyed. Score 3 victory points at the end of the turn.</description>
+			</ability>
+			<ability>
+				<name>Scout Cruiser</name>
+				<description>At the beginning of your Air Attack step, you may choose an enemy Ship. Your units roll one extra attack die when making Bomb or Gunnery attacks against that Ship this turn. </description>
+			</ability>
+			<ability>
+				<name>Scout Plane Attack</name>
+				<description>During the first turn of the game, you may declare you're using Scoutplane Attack. If you do, assign the scoutplane attack during the Air Mission phase. The scoutplane can be attacked during the Air Defense phase. It has; Armor 3, Vital Armor 5, a Bomb attack of 2, and it can be aborted or destroyed normally.</description>
+			</ability>
+			<ability>
+				<name>Scoutplanes</name>
+				<description>At the beginning of your Air Attack phase, you may choose an enemy Ship. Roll one extra attack die when making Torpedo attacks against that Ship this turn.</description>
+			</ability>
+			<ability>
+				<name>Seaplane Detatchments</name>
+				<description>This unit comes with two seaplane detachments that function as Aircraft squadrons. Represent them using markers. When one is destroyed, remove its marker from play. When this unit is destroyed, remove both markers from play. The detachments can be based only on this ship.
+					Seaplane squadrons: Armor 3, Vital Armor 6, Gunnery 1, Antiair 4, ASW 2, Bomb 4. </description>
+			</ability>
+			<ability>
+				<name>Secret Breakout</name>
+				<description>This unit may begin the game undeployed, along with up to one of your Cruisers. Set the undeployed Ships aside. They are out of play. Deploy them together on turn 2 or turn 3 at the end of the Air Return phase in any sector on your side of the map.</description>
+			</ability>
+			<ability>
+				<name>Shadow Battleship</name>
+				<description>Once per game, at the beginning of the Surface Attack phase, choose an enemy Battleship at range 3 or greater. That Battleship can't attack this unit during this phase.</description>
+			</ability>
+			<ability>
+				<name>Sharpshooter</name>
+				<description>Whenever this unit attacks a unit that has concealment, your opponent must roll a 6 on his or her concealment roll to negate this unit's attack.</description>
+			</ability>
+			<ability>
+				<name>Shore Support</name>
+				<description>Once per game, instead of making a Main Gunnery attack, this unit can perform shore bombardment if this unit is in you opponent's ship deployment area. At the end of that turn, score 4 victory points. </description>
+			</ability>
+			<ability>
+				<name>Slow 1</name>
+				<description>At the beginning of your Sea Movement phase, roll a die. On a 1, this unit gets -1 speed this turn.</description>
+			</ability>
+			<ability>
+				<name>Slow 2</name>
+				<description>At the beginning of your Sea Movement phase, roll a die. On a 2 or less, this unit gets -1 speed this turn.</description>
+			</ability>
+			<ability>
+				<name>Slow 3</name>
+				<description>At the beginning of your Sea Movement phase, roll a die. On a 3 or less, this unit gets -1 speed this turn. </description>
+			</ability>
+			<ability>
+				<name>Split Fire</name>
+				<description>This unit can make two Main Gunnery attacks against separate targets in different sectors. This unit rolls four less attack dice for each attack. You can't make any other Gunnery attacks during the turn you use this ability. </description>
+			</ability>
+			<ability>
+				<name>Sprint</name>
+				<description>Once per game, at the beginning of your Sea Movement step, you can declare you're using Sprint. If you do, roll a die. On a 4 or higher, this unit gets +1 speed this turn. </description>
+			</ability>
+			<ability>
+				<name>Stalwart</name>
+				<description>This unit can make Gunnery attacks with no penalties while crippled.</description>
+			</ability>
+			<ability>
+				<name>Stealthy</name>
+				<description>While in an island sector or in darkness, this unit has concealment. This unit gets +1 on each concealment roll.</description>
+			</ability>
+			<ability>
+				<name>Straddle</name>
+				<description>Whenever this unit makes a Main Gunnery attack against an enemy Ship and that Ship takes no damage from the attack, this unit rolls one extra attack die when making its next Main Gunnery attack against that target.</description>
+			</ability>
+			<ability>
+				<name>Sub Hunter</name>
+				<description>At the end of the second player's Sea Movement step, you may place this unit in an adjacent sector that contains an enemy Submarine.</description>
+			</ability>
+			<ability>
+				<name>Survivor</name>
+				<description>If this unit receives hits equal to or greater than its vital armor, roll a die. On a 5 or higher, this unit takes 1 point of hull damage instead of being destroyed.</description>
+			</ability>
+			<ability>
+				<name>Sweep Mines</name>
+				<description>Instead of attacking during your Surface Attack step, this unit can attempt to sweep mines in its sector. If it does, roll a die. On a 3 or higher, remove a mine counter from the sector. </description>
+			</ability>
+			<ability>
+				<name>Tokyo Express</name>
+				<description>At the end of a turn, if this unit is adjacent to a coast or island on your opponent's side of the map, score 2 victory points. After scoring those victory points, if this unit is in your Ship deployment area at the end of a turn, score an additional 2 victory points. You can score each award only once per game.</description>
+			</ability>
+			<ability>
+				<name>Torpedo Defence 1</name>
+				<description>Each torpedo hit rolled against this unit deals 1 less point of hull damage.</description>
+			</ability>
+			<ability>
+				<name>Torpedo Protection</name>
+				<description>Whenever a torpedo hit is rolled against this unit, roll a die. On a 4 or higher, that hit deals 1 less point of hull damage.</description>
+			</ability>
+			<ability>
+				<name>Torpedo Run</name>
+				<description>Once per game, at the end of the Sea Movement phase, you may move this unit and a friendly Destroyer in its sector one sector. A unit moving this way can only move to a sector from which it will be able to make a Torpedo attack during the Surface Attack phase.</description>
+			</ability>
+			<ability>
+				<name>Torpedo Salvo</name>
+				<description>This unit gets +1 on each attack die when making Torpedo attacks while in the same sector as a friendly Destroyer.</description>
+			</ability>
+			<ability>
+				<name>Tough Cruiser 1</name>
+				<description> Whenever an enemy Destroyer or Fighter makes a Gunnery attack against this unit, this unit gets +1 armor against that attack.</description>
+			</ability>
+			<ability>
+				<name>Uniquely Tough</name>
+				<description>Bomb attacks can't destroy this unit. This unit can't lose its last hull point to a Bomb attack, and Bomb attacks that equal or exceed this unit's vital armor cripple it instead.</description>
+			</ability>
+			<ability>
+				<name>Unmask Guns</name>
+				<description>If you win initiative, this unit rolls two extra attack dice when making Gunnery attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Valiant Stand</name>
+				<description>If you win initiative, this unit rolls two extra attack dice when making Gunnery attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Very Slow</name>
+				<description>This unit can't move during the first turn of the game.</description>
+			</ability>
+			<ability>
+				<name>Vital Cargo 6</name>
+				<description>At the end of a turn, if this unit is adjacent to an island on your opponent's side of the map, you may remove it from the game and score 6 victory points. You can only remove one unit with Vital Cargo from the game per turn. </description>
+			</ability>
+			<ability>
+				<name>Vital Cargo 8</name>
+				<description>At the end of a turn, if this unit is adjacent to an island on your opponent's side of the map, you may remove it from the game and score 8 victory points. You can only remove one unit with Vital Cargo from the game per turn.</description>
+			</ability>
+			<ability>
+				<name>Airfield Strike</name>
+				<description>Once per game, you can deploy a Fighter to your opponent's land airbase during the Air Mission phase. That fighter can make an Antiair attack against one enemy Aircraft deployed at the airbase or rearming this turn. </description>
+			</ability>
+			<ability>
+				<name>Air Raid 4</name>
+				<description>Once per game, during the Air Mission phase, you can deploy a Bomber based on this unit to your opponent's land airbase. At the end of that turn's Air Defense phase, if the Bomber wasn't aborted or destroyed, score 4 victory points.</description>
+			</ability>
+			<ability>
+				<name>Armored Deck 1</name>
+				<description>Whenever an enemy unit makes a Bomb attack against this unit, this unit gets +1 armor and +1 vital armor against that attack.</description>
+			</ability>
+			<ability>
+				<name>Damage Control</name>
+				<description>At the end of each turn, you may roll a die. On a 5 or higher, remove 1 point of hull damage from this unit. You may remove only 1 point of hull damage per game with this ability.</description>
+			</ability>
+			<ability>
+				<name>Determination</name>
+				<description>Whenever this unit would be destroyed, roll a die. On a 5 or higher, the destruction is prevented and this unit remains in the game with 1 hull point. </description>
+			</ability>
+			<ability>
+				<name>Embark B-25</name>
+				<description>You can base one B-25 on this unit. If you do, other Aircraft based on this unit can't perform missions until the B-25 is destroyed or removed from play. At the beginning of the Air Return phase after the B-25 performs a mission, if it wasn't destroyed, remove it from play and score 12 victory points. You can score victory points from an Embark B-25 ability only once per game.</description>
+			</ability>
+			<ability>
+				<name>Expert ASW</name>
+				<description>Once per turn, you may choose a friendly Torpedo Bomber. That Torpedo Bomber rolls one extra attack die when making ASW attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Expert Bomber</name>
+				<description>Once per turn, you may choose a friendly Dive Bomber. That Dive Bomber rolls one extra attack die when making Bomb attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Expert Bomber 2</name>
+				<description>Once per turn, you may choose a friendly Dive Bomber. That Dive Bomber rolls two extra attack dice when making Bomb attacks this turn. </description>
+			</ability>
+			<ability>
+				<name>Expert Dogfighter</name>
+				<description>Once per turn, you may choose a friendly Fighter. That Fighter rolls one extra attack die when making Antiair attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Expert Dogfighter 2</name>
+				<description>Once per turn, you may choose a friendly Fighter. That Fighter rolls two extra attack dice when making Antiair attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Expert Torpedoes</name>
+				<description>Once per turn, you may choose a friendly Torpedo Bomber. That Torpedo Bomber rolls one extra attack die when making Torpedo attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Fighter Cover 5</name>
+				<description>Once per turn during the Antiair phase, you may make a 5-dice Antiair attack against enemy aircraft within range 3. This attack is in addition to your normal Antiair attack. The Escort ability works against this attack.</description>
+			</ability>
+			<ability>
+				<name>Fighter Umbrella</name>
+				<description>Once per turn, you may choose a friendly Fighter that aborted or destroyed an enemy Aircraft this turn. That Fighter may move to a sector it's adjacent to that contains an enemy Aircraft and make an Antiair attack with a -1 on each attack die against that Aircraft.</description>
+			</ability>
+			<ability>
+				<name>Hunter Killer Group</name>
+				<description>Friendly Destroyers roll one extra attack die when making ASW attacks against enemy Submarines that were attacked this turn by Aircraft based on this unit.</description>
+			</ability>
+			<ability>
+				<name>Poor Facilities</name>
+				<description>Whenever you return two aircraft to this unit during the Air Return phase, you must place a Rearming counter on one of those aircraft.</description>
+			</ability>
+			<ability>
+				<name>Replenish Aircraft</name>
+				<description>Once per game, at the beginning of the Air Return phase, choose a friendly Fighter, Dive Bomber, or Torpedo Bomber that has been destroyed and roll a die. On a 4 or higher, return the chosen Aircraft to play, based on this unit. (Your opponent doesn't lose the victory points.)</description>
+			</ability>
+			<ability>
+				<name>Sneak Attack</name>
+				<description>If you roll 10 or higher on your initiative roll, your Torpedo Bombers roll one extra attack die when making Torpedo attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Stuka Operations</name>
+				<description>The Ju 87B Stuka can base on this unit.</description>
+			</ability>
+			<ability>
+				<name>Stuka Operations</name>
+				<description>The Ju 87B Stuka and Ju 87 R2 Picchiatelli can base on this unit.</description>
+			</ability>
+			<ability>
+				<name>Surprise Raid</name>
+				<description>If you roll 10 or higher on your initiative roll, choose two enemy Ships. Those Ships roll one less attack die when making Antiair attacks this turn.</description>
+			</ability>
+			<ability>
+				<name>Wildcat Operations</name>
+				<description>The F4F Wildcat and the Martlet can base on this unit.</description>
+			</ability>
+		</abilities>
+	</unittype>
+	<unittype>
+		<name>Submarine</name>
+		
+		<abilities>
+			<ability>
+				<name>Audacious Attack</name>
+				<description>Once per game, this unit can make two Torpedo attacks during your Torpedo Attack step. The targets must be in different sectors. </description>
+			</ability>
+			<ability>
+				<name>Auxilliary Hunter</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against Auxiliaries.</description>
+			</ability>
+			<ability>
+				<name>Battleship Killer</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against Battleships.</description>
+			</ability>
+			<ability>
+				<name>Carrier Hunter</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against Carriers.</description>
+			</ability>
+			<ability>
+				<name>Dangerous Quarry</name>
+				<description>At the end of the Surface Attack phase, if an enemy Ship made an ASW attack this turn against this unit and missed, you may move this unit into an adjacent sector.</description>
+			</ability>
+			<ability>
+				<name>Destroyer Killer</name>
+				<description>This unit rolls one extra attack die when making Torpedo attacks against local enemy Destroyers.</description>
+			</ability>
+			<ability>
+				<name>Elusive Quarry</name>
+				<description>Ships with Sub Hunter can't use that ability against this unit.</description>
+			</ability>
+			<ability>
+				<name>Fighting Instinct</name>
+				<description> When this unit damages or destroys an enemy Ship with its Torpedo attack for the first time, it rolls one extra attack die when making Torpedo attacks for the rest of the game.</description>
+			</ability>
+			<ability>
+				<name>Finish Him Off</name>
+				<description>This unit rolls one extra attack die when attacking damaged Ships.</description>
+			</ability>
+			<ability>
+				<name>Ignore Escorts</name>
+				<description>This unit's Torpedo attacks ignore ASW threat.</description>
+			</ability>
+			<ability>
+				<name>Infiltrator</name>
+				<description>This unit may deploy anywhere on the map. If this unit deploys on the opponent's side of the map, it can't attack on turn 1.</description>
+			</ability>
+			<ability>
+				<name>Risky Attack</name>
+				<description>Once per game, you can declare you're using Risky Attack during the Submarine Attack phase. If you do, this unit rolls one extra attack die when making Torpedo attacks this turn, and until the end of the next turn, this unit gets -1 armor.</description>
+			</ability>
+			<ability>
+				<name>Run Silent</name>
+				<description>If this unit doesn't move during your Sea Movement step, ASW attacks against it get -1 on each attack die this turn.</description>
+			</ability>
+			<ability>
+				<name>Secret Cargo 4</name>
+				<description>At the end of a turn, if this unit is adjacent to an island or coast on your opponent's side of the map and no enemy Ships are local or adjacent, you score 4 victory points. You can only use Secret Cargo once per game.</description>
+			</ability>
+			<ability>
+				<name>Slip Away</name>
+				<description>Once per game, when an enemy ASW attack scores exactly 3 successes against this unit, you may roll a die. On a 4 or higher, the attack has no effect.</description>
+			</ability>
+			<ability>
+				<name>Submerged Shot</name>
+				<description>This unit can make Torpedo attacks against local enemy Submarines.</description>
+			</ability>
+			<ability>
+				<name>Wolfpack</name>
+				<description>If you control any other Submarines with Wolfpack, this unit rolls one extra attack die when making Torpedo attacks. </description>
+			</ability>
+			<ability>
+				<name>Worn-Out Boat</name>
+				<description>Whenever the presence of ASW Ships and Aircraft interferes with this unit's ability to attack, this unit can't attack.</description>
+			</ability>
+		</abilities>
+	</unittype>
+</unittypes>

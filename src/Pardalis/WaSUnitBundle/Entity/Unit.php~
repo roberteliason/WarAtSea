@@ -97,17 +97,20 @@ class Unit
 	private $attacks;
 
 	/**
-	 * @ORM\OneToOne(targetEntity="ReleaseSet")
+	 * @ORM\ManyToOne(targetEntity="ReleaseSet", inversedBy="units")
+	 * @ORM\JoinColumn(name="releaseset_id", referencedColumnName="id")
 	 */
 	private $releaseset;
 
 	/**
-	 * @ORM\OneToOne(targetEntity="Rarity")
+	 * @ORM\ManyToOne(targetEntity="Rarity", inversedBy="units")
+	 * @ORM\JoinColumn(name="rarity_id", referencedColumnName="id")
 	 */
 	private $rarity;
 
 	/**
-	 * @ORM\OneToOne(targetEntity="UnitType")
+	 * @ORM\ManyToOne(targetEntity="UnitType", inversedBy="units")
+	 * @ORM\JoinColumn(name="unittype_id", referencedColumnName="id")
 	 */
 	private $unittype;
 

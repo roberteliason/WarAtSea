@@ -141,4 +141,37 @@ class Ability
     {
         return $this->units;
     }
+
+    /**
+     * Add unittypes
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
+     * @return Ability
+     */
+    public function addUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
+    {
+        $this->unittypes[] = $unittypes;
+
+        return $this;
+    }
+
+    /**
+     * Remove unittypes
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
+     */
+    public function removeUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
+    {
+        $this->unittypes->removeElement($unittypes);
+    }
+
+    /**
+     * Get unittypes
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getUnittypes()
+    {
+        return $this->unittypes;
+    }
 }

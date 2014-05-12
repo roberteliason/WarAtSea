@@ -3,6 +3,7 @@
 namespace Pardalis\WaSUnitBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * ReleaseSet
@@ -35,6 +36,15 @@ class ReleaseSet
      */
     private $popularName;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Unit", mappedBy="unittype")
+     */
+    private $units;
+
+    public function __construct()
+    {
+        $this->units = new ArrayCollection();
+    }
 
     /**
      * Get id
@@ -113,5 +123,28 @@ class ReleaseSet
     public function getPopularName()
     {
         return $this->popularName;
+    }
+
+    /**
+     * Add units
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Unit $units
+     * @return ReleaseSet
+     */
+    public function addUnit(\Pardalis\WaSUnitBundle\Entity\Unit $units)
+    {
+        $this->units[] = $units;
+
+        return $this;
+    }
+
+    /**
+     * Remove units
+     *
+     * @param \Pardalis\WaSUnitBundle\Entity\Unit $units
+     */
+    public function removeUnit(\Pardalis\WaSUnitBundle\Entity\Unit $units)
+    {
+        $this->units->removeElement($units);
     }
 }

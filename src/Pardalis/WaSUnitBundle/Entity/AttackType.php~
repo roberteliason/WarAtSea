@@ -42,9 +42,15 @@ class AttackType
 	 */
 	private $unittypes;
 
+	/**
+	 * @ORM\OneToMany(targetEntity="Attack", mappedBy="attacktype")
+	 */
+	private $attacks;
+
 	public function __construct()
 	{
 		$this->unittypes = new ArrayCollection();
+		$this->attacks = new ArrayCollection();
 	}
 
 	/**

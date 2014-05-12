@@ -7,7 +7,7 @@
 				<name>Cruiser</name>
 				<units>
 					<unit>
-						<name>Canberra</name>
+						<name>HMAS Canberra</name>
 						<year>1941</year>
 						<cost>15</cost>
 						<set>Set 1</set>
@@ -48,6 +48,52 @@
 								</attacktype>
 							</attack>
 						</attacks>
+						<abilities>
+							<ability></ability>
+						</abilities>
+					</unit>
+
+					<unit>
+						<name>HMAS Australia</name>
+						<year>1939</year>
+						<cost>12</cost>
+						<set>Set 5</set>
+						<number>1</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>9</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>AA Veteran</name>
+							</ability>
+							<ability>
+								<name>Uniquely Tough</name>
+							</ability>
+						</abilities>
 					</unit>
 				</units>
 			</unittype>

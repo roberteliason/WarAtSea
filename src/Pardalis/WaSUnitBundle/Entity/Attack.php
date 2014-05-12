@@ -51,14 +51,17 @@ class Attack
 
     /**
      * @ORM\ManyToOne(targetEntity="Unit", inversedBy="attacks")
-     * @ORM\JoinColumn(name="unit_id", referencedColumnName="id")
      */
     private $unit;
 
     /**
-     * @ORM\OneToOne(targetEntity="AttackType")
+     * @ORM\ManyToOne(targetEntity="AttackType", inversedBy="attacks")
      */
     private $attacktype;
+
+    public function __construct()
+    {
+    }
 
     /**
      * Get id
@@ -160,29 +163,6 @@ class Attack
     public function getRange3()
     {
         return $this->range3;
-    }
-
-    /**
-     * Set range4
-     *
-     * @param integer $range4
-     * @return Attack
-     */
-    public function setRange4($range4)
-    {
-        $this->range4 = $range4;
-
-        return $this;
-    }
-
-    /**
-     * Get range4
-     *
-     * @return integer 
-     */
-    public function getRange4()
-    {
-        return $this->range4;
     }
 
     /**

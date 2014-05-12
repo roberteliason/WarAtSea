@@ -160,20 +160,46 @@ class ImportController extends Controller
 		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
 	}
 
+	public function importAbilitiesAction() {
+		$xml_data = $this->readXmlFile( 'abilities.xml' );
+		$entityManager = $this->getDoctrine()->getManager();
+
+		echo( '<pre>' );
+		foreach ($xml_data as $unittypes) {
+			$unittypeDb = $this->getDoctrine()
+				->getRepository('PardalisWaSUnitBundle:UnitType')
+				->findOneByName($unittypes->name);
+			var_dump( $unittypes->name );
+			var_dump( $unittypes->abilities );
+
+			foreach ($unittypes->abilities->ability as $ability) {
+
+				$abilityDb = new Ability();
+				$abilityDb->setName( $ability->name );
+				$abilityDb->setDescription( $ability->description );
+				$abilityDb->addUnittype( $unittypeDb );
+
+				$entityManager->persist( $abilityDb );
+				$entityManager->flush();
+			}			
+		}
+		echo( '</pre>' );
+
+		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+	}
+
 	public function importUnitsAction() {
 		$xml_data = $this->readXmlFile( 'units.xml' );
 		$entityManager = $this->getDoctrine()->getManager();
 
 		print( '<pre>' );
 		foreach ($xml_data as $nation) {
-			var_dump($nation->name);
 
 			$nationDb = $this->getDoctrine()
 				->getRepository('PardalisWaSUnitBundle:Nation')
 				->findOneByName($nation->name);
 
 			foreach ($nation->unittypes->unittype as $unittype) {
-				var_dump($unittype->name);
 
 				$unittypeDb = $this->getDoctrine()
 					->getRepository('PardalisWaSUnitBundle:UnitType')
@@ -181,7 +207,6 @@ class ImportController extends Controller
 
 				if (isset($unittype->units->unit)) {
 					foreach ($unittype->units->unit as $unit) {
-						var_dump($unit);
 
 						$setDb = $this->getDoctrine()
 							->getRepository('PardalisWaSUnitBundle:ReleaseSet')
@@ -211,7 +236,6 @@ class ImportController extends Controller
 						$entityManager->flush();
 
 						foreach ($unit->attacks->attack as $attack) {
-							var_dump($attack->attacktype->name);
 							$attacktypeDb = $this->getDoctrine()
 								->getRepository('PardalisWaSUnitBundle:AttackType')
 								->findOneByName($attack->attacktype->name);
@@ -227,6 +251,19 @@ class ImportController extends Controller
 							$entityManager->persist( $attackDb );
 							$entityManager->flush();
 						}	
+
+						//var_dump($unit->abilities);
+						foreach ($unit->abilities->ability as $ability) {
+							var_dump($ability->name);
+							$abilityDb = $this->getDoctrine()
+								->getRepository('PardalisWaSUnitBundle:Ability')
+								->findOneByName($ability->name);
+
+							if ( $abilityDb ) {
+								$unitDb->addAbility( $abilityDb );
+								$entityManager->flush();
+							}
+						}
 					}
 				}		
 			}
