@@ -32,5 +32,16 @@ monolog:
 assetic:
     use_controller: true
 
+    filters:
+        less:
+            node: /usr/local/bin/node
+            node_paths: [/usr/local/lib/node_modules]
+            apply_to: "\.less$"
+        cssrewrite: ~
 #swiftmailer:
 #    delivery_address: me@example.com
+
+braincrafted_bootstrap:
+    less_filter: less
+    customize: 
+        variables_file: %kernel.root_dir%/Resources/less/variables.less

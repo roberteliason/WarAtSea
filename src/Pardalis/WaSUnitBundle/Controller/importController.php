@@ -102,6 +102,7 @@ class ImportController extends Controller
 			$setDb = new ReleaseSet();
 			$setDb->setName( $set->name );
 			$setDb->setPopularName( $set->popularname );
+			$setDb->setTotalUnits( $set->totalunits );
 			
 			$entityManager->persist( $setDb );
 			$entityManager->flush();

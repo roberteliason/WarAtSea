@@ -1,13 +1,23 @@
+{# app/Resources/views/base.html.twig #}
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{% block title %}Test Application{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('bundles/pardalis/fonts/stylesheet.css') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <div id="sidebar">
+            {% block sidebar %}
+                <ul>
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/blog">Blog</a></li>
+                </ul>
+            {% endblock %}
+        </div>
+
+        <div id="content">
+            {% block body %}{% endblock %}
+        </div>
     </body>
 </html>

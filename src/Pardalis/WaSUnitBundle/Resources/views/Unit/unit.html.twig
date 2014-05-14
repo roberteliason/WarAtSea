@@ -1,3 +1,6 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+
+{% block body %}
 <h1>{{ unit.name }}</h1>
 {{ unit.nation.name }} ( {{ unit.cost }} )
 
@@ -24,3 +27,6 @@ Aircraft Basing {{ unit.aircraft }}
     <li><strong>{{ ability.name }}</strong> - {{ ability.description }}</li>
 {% endfor %}
 </ul>
+
+{{ unit.releaseset.name }} {{ unit.numberInSet }}/{{ unit.releaseset.totalunits }}
+{% endblock %}

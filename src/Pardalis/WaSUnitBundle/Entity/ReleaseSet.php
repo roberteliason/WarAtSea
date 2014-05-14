@@ -37,6 +37,13 @@ class ReleaseSet
     private $popularName;
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="totalunits", type="integer")
+     */
+    private $totalUnits;
+
+    /**
      * @ORM\OneToMany(targetEntity="Unit", mappedBy="unittype")
      */
     private $units;
@@ -146,5 +153,28 @@ class ReleaseSet
     public function removeUnit(\Pardalis\WaSUnitBundle\Entity\Unit $units)
     {
         $this->units->removeElement($units);
+    }
+
+    /**
+     * Set totalUnits
+     *
+     * @param integer $totalUnits
+     * @return ReleaseSet
+     */
+    public function setTotalUnits($totalUnits)
+    {
+        $this->totalUnits = $totalUnits;
+
+        return $this;
+    }
+
+    /**
+     * Get totalUnits
+     *
+     * @return integer 
+     */
+    public function getTotalUnits()
+    {
+        return $this->totalUnits;
     }
 }

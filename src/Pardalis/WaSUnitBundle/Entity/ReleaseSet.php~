@@ -37,6 +37,13 @@ class ReleaseSet
     private $popularName;
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="totalunits", type="integer")
+     */
+    private $totalUnits;
+
+    /**
      * @ORM\OneToMany(targetEntity="Unit", mappedBy="unittype")
      */
     private $units;

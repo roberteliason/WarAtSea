@@ -1,36 +1,39 @@
-Alliance list
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
 
-<ul id="alliances">
-    {% for alliance in alliances %}
-	    <li><h1>{{ alliance.name }}</h1>
-	    {% if alliance.nations is defined %}
-		<ul>
-			{% for nation in alliance.nations %}
-				<li><h2>{{ nation.name }}</h2>
-				{% if nation.units|length > 0 %}
+{% block body %}
+<h1>Alliance list</h1>
+<div class="row"id="alliances">
+	    {% for alliance in alliances %}
+		    <div class="col-lg-4 col-md-6"><h2>{{ alliance.name }}</h2>
+		    {% if alliance.nations is defined %}
+			<ul>
+				{% for nation in alliance.nations %}
+					<li><h3>{{ nation.name }}</h3>
+					{% if nation.units|length > 0 %}
 
-				{% set prev_unittype = '' %}
+					{% set prev_unittype = '' %}
 
-				{% for unit in nation.units %}
-					{% if unit.unittype.name != prev_unittype %}
-						{% if prev_unittype != '' %}
+					{% for unit in nation.units %}
+						{% if unit.unittype.name != prev_unittype %}
+							{% if prev_unittype != '' %}
+							</ul>
+							{% endif %}
+						<h4>{{ unit.unittype.name }}</h4>
+						<ul>
+						{% set prev_unittype = unit.unittype.name %}
+						{% endif %}
+							<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> | {{ unit.cost }} | {{ unit.releaseset.name }} | {{ unit.rarity.name }} </li>
+						{% if unit.unittype.name != prev_unittype %}
 						</ul>
 						{% endif %}
-					<h3>{{ unit.unittype.name }}</h3>
-					<ul>
-					{% set prev_unittype = unit.unittype.name %}
+					{% endfor %}
+						</ul><!-- end unittypes -->
 					{% endif %}
-						<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> | {{ unit.cost }} | {{ unit.releaseset.name }} | {{ unit.rarity.name }} </li>
-					{% if unit.unittype.name != prev_unittype %}
-					</ul>
-					{% endif %}
+					</li>
 				{% endfor %}
-					</ul><!-- end unittypes -->
-				{% endif %}
-				</li>
-			{% endfor %}
-		</ul>
-	    {% endif %}
-	    </li>
-    {% endfor %}
-</ul>
+			</ul>
+		    {% endif %}
+		    </div>
+	    {% endfor %}
+</div>
+{% endblock %}
