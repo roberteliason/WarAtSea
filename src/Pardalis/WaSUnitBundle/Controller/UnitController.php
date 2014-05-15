@@ -33,4 +33,13 @@ class UnitController extends Controller
 
 		return $this->render('PardalisWaSUnitBundle:Unit:unit.html.twig', array( 'unit' => $unit ) );
 	}
+
+	public function abilitiesAction()
+	{
+		$abilities = $this->getDoctrine()
+			->getRepository('PardalisWaSUnitBundle:Ability')
+			->findAll();		
+
+		return $this->render('PardalisWaSUnitBundle:Ability:index.html.twig', array( 'abilities' => $abilities ) );
+	}
 }

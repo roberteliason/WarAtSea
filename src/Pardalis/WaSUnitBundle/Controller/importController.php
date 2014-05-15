@@ -42,7 +42,7 @@ class ImportController extends Controller
 	public function bootstrapAction() {
 
 		/* Sets */
-		$this->importReleaseSetsAction();
+		// $this->importReleaseSetsAction();
 
 		/* Rarities */
 		$this->importRaritiesAction();
