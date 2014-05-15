@@ -44,7 +44,7 @@ class ReleaseSet
     private $totalUnits;
 
     /**
-     * @ORM\OneToMany(targetEntity="Unit", mappedBy="unittype")
+     * @ORM\OneToMany(targetEntity="Unit", mappedBy="releaseset")
      */
     private $units;
 

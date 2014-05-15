@@ -1,0 +1,20 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+
+{% block body %}
+<h1>Sets</h1>
+<ul id="sets">
+{% for releaseset in releasesets %}
+    <li><strong>{{ releaseset.name }}</strong> - {{ releaseset.totalunits }}
+	{% if releaseset.units %}
+		<ul>
+			{% for unit in releaseset.units %}
+			<li>{{ unit.name }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+    </li>
+
+{% endfor %}
+</ul>
+
+{% endblock %}
