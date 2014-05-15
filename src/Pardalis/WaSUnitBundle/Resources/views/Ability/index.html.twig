@@ -1,0 +1,11 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+
+{% block body %}
+<h1>Abilities</h1>
+<ul id="abilities">
+{% for ability in abilities %}
+    <li><strong>{{ ability.name }}</strong> - {{ ability.description }}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

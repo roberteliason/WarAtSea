@@ -10,6 +10,14 @@ pardalis_was_unit_viewunit:
     pattern:  /unit/{id}
     defaults: { _controller: PardalisWaSUnitBundle:Unit:unit }
 
+pardalis_was_ability_abilities:
+    pattern:  /abilities
+    defaults: { _controller: PardalisWaSUnitBundle:Ability:index }
+
+pardalis_was_set_sets:
+    pattern:  /sets
+    defaults: { _controller: PardalisWaSUnitBundle:Set:index }
+
 pardalis_was_unit_bootstrap:
     pattern:  /bootstrap
     defaults: { _controller: PardalisWaSUnitBundle:Import:bootstrap }
