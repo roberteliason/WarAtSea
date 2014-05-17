@@ -507,4 +507,27 @@ class Unit
     {
         return $this->year;
     }
+
+    /**
+     * Set number_in_set
+     *
+     * @param integer $numberInSet
+     * @return Unit
+     */
+    public function setNumberInSet($numberInSet)
+    {
+        $this->number_in_set = $numberInSet;
+
+        return $this;
+    }
+
+    /**
+     * Get number_in_set
+     *
+     * @return integer 
+     */
+    public function getNumberInSet()
+    {
+        return $this->number_in_set;
+    }
 }

@@ -4,6 +4,12 @@
 		<name>Australia</name>
 		<unittypes>
 			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
 				<name>Cruiser</name>
 				<units>
 					<unit>
@@ -146,8 +152,72 @@
 					</unit>
 				</units>
 			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>			
 		</unittypes>
 	</nation>
+
+	<nation>
+		<name>Canada</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
 	<nation>
 		<name>France</name>
 		<unittypes>
@@ -345,6 +415,1046 @@
 			</unittype>
 		</unittypes>
 	</nation>
+
+	<nation>
+		<name>Finland</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>Germany</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+				<units>
+					<unit>
+						<name>Bismarck</name>
+						<year>1940</year>
+						<cost>53</cost>
+						<set>Set 1</set>
+						<number>35</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>15</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>15</range_0>
+									<range_1>15</range_1>
+									<range_2>14</range_2>
+									<range_3>12</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>7</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Tertiary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 5</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defence 1</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Scharnhorst</name>
+						<year>1940</year>
+						<cost>38</cost>
+						<set>Set 1</set>
+						<number>40</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>7</armor>
+						<vitalarmor>13</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>13</range_0>
+									<range_1>13</range_1>
+									<range_2>12</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>7</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Tertiary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+				<units>
+					<unit>
+						<name>Admiral Graf Spee</name>
+						<year>1939</year>
+						<cost>21</cost>
+						<set>Set 1</set>
+						<number>34</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>12</range_0>
+									<range_1>12</range_1>
+									<range_2>11</range_2>
+									<range_3>10</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>6</range_1>
+									<range_2>5</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Köln</name>
+						<year>1939</year>
+						<cost>11</cost>
+						<set>Set 1</set>
+						<number>38</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>8</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+				<units>
+					<unit>
+						<name>Z 20 Karl Galster</name>
+						<year>1939</year>
+						<cost>8</cost>
+						<set>Set 1</set>
+						<number>42</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>4</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Chase the Salvoes</name>
+							</ability>
+							<ability>
+								<name>Close Escort</name>
+							</ability>
+						</abilities>						
+					</unit>						
+				</units>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+				<units>
+					<unit>
+						<name>Nordmark</name>
+						<year>1939</year>
+						<cost>5</cost>
+						<set>Set 1</set>
+						<number>39</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>1</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>3</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Repair</name>
+							</ability>
+							<ability>
+								<name>Slow 2</name>
+							</ability>
+						</abilities>						
+					</unit>							
+				</units>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+				<units>
+					<unit>
+						<name>U510</name>
+						<year>1942</year>
+						<cost>11</cost>
+						<set>Set 1</set>
+						<number>41</number>
+						<rarity>Common</rarity>
+						<speed>1</speed>
+						<armor>3</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>3</range_1>
+									<range_2>2</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Submerged Shot</name>
+							</ability>
+							<ability>
+								<name>Wolfpack</name>
+							</ability>
+						</abilities>						
+					</unit>						
+				</units>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+				<units>
+					<unit>
+						<name>Ju 87B Stuka</name>
+						<year>1939</year>
+						<cost>5</cost>
+						<set>Set 1</set>
+						<number>37</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>4</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Bombs</name>
+									<range_0>9</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Land Based</name>
+							</ability>
+						</abilities>						
+					</unit>						
+				</units>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+				<units>
+					<unit>
+						<name>FW 200 KONDOR</name>
+						<year>1942</year>
+						<cost>6</cost>
+						<set>Set 1</set>
+						<number>36</number>
+						<rarity>Uncommon</rarity>
+						<speed>A</speed>
+						<armor>3</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Bombs</name>
+									<range_0>9</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Antiship Missile</name>
+							</ability>
+							<ability>
+								<name>Pinpointer</name>
+							</ability>
+						</abilities>						
+					</unit>						
+				</units>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>Greece</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>Italy</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+				<units>
+					<unit>
+						<name>Vittorio Veneto</name>
+						<year>1940</year>
+						<cost>49</cost>
+						<set>Set 1</set>
+						<number>48</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>15</range_0>
+									<range_1>15</range_1>
+									<range_2>13</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>7</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>4</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defence 1</name>
+							</ability>
+						</abilities>						
+					</unit>					
+				</units>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+				<units>
+					<unit>
+						<name>Bolzano</name>
+						<year>1940</year>
+						<cost>18</cost>
+						<set>Set 1</set>
+						<number>44</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>9</range_1>
+									<range_2>8</range_2>
+									<range_3>6</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Flank Speed</name>
+							</ability>
+						</abilities>						
+					</unit>					
+					<unit>
+						<name>Duca d'Aosta</name>
+						<year>1940</year>
+						<cost>12</cost>
+						<set>Set 1</set>
+						<number>45</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>7</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>4</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+						</abilities>						
+					</unit>		
+				</units>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+				<units>
+					<unit>
+						<name>Luca Tarigo</name>
+						<year>1940</year>
+						<cost>8</cost>
+						<set>Set 1</set>
+						<number>46</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Lay Smoke Screen</name>
+							</ability>
+							<ability>
+								<name>Sub Hunter</name>
+							</ability>
+						</abilities>						
+					</unit>							
+				</units>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+				<units>
+					<unit>
+						<name>Motor Torpedo Boat</name>
+						<year>1940</year>
+						<cost>7</cost>
+						<set>Set 1</set>
+						<number>47</number>
+						<rarity>Common</rarity>
+						<speed>3</speed>
+						<armor>1</armor>
+						<vitalarmor>2</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>1</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>2</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>High-speed Evasion</name>
+							</ability>
+							<ability>
+								<name>No Se-Control</name>
+							</ability>
+							<ability>
+								<name>Shallow Draft</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>Japan</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>Poland</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>Sweden</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>The Netherlands</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
 	<nation>
 		<name>United Kingdom</name>
 		<unittypes>
@@ -477,7 +1587,6 @@
 							</ability>
 						</abilities>						
 					</unit>
-					
 				</units>
 			</unittype>
 			<unittype>
@@ -694,6 +1803,12 @@
 				</units>
 			</unittype>
 			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
 				<name>Submarine</name>
 				<units>
 					<unit>
@@ -776,6 +1891,9 @@
 				</units>
 			</unittype>
 			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
 				<name>Fighter</name>
 				<units>
 					<unit>
@@ -821,6 +1939,87 @@
 						</abilities>						
 					</unit>					
 				</units>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>United States</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
+			</unittype>
+		</unittypes>
+	</nation>
+
+	<nation>
+		<name>USSR</name>
+		<unittypes>
+			<unittype>
+				<name>Battleship</name>
+			</unittype>
+			<unittype>
+				<name>Carrier</name>
+			</unittype>
+			<unittype>
+				<name>Cruiser</name>
+			</unittype>
+			<unittype>
+				<name>Destroyer</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Boat</name>
+			</unittype>
+			<unittype>
+				<name>Auxilliary</name>
+			</unittype>
+			<unittype>
+				<name>Submarine</name>
+			</unittype>
+			<unittype>
+				<name>Torpedo Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Dive Bomber</name>
+			</unittype>
+			<unittype>
+				<name>Fighter</name>
+			</unittype>
+			<unittype>
+				<name>Patrol Bomber</name>
 			</unittype>
 		</unittypes>
 	</nation>

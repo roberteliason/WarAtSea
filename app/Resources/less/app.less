@@ -86,6 +86,9 @@ i[nation="Japan"] {
 i[nation="New Zeeland"] {
 	background: url('img/nation/NewZeeland.gif') no-repeat center center;
 }
+i[nation="Poland"] {
+	background: url('img/nation/Poland.gif') no-repeat center center;
+}
 i[nation="Sweden"] {
 	background: url('img/nation/Sweden.gif') no-repeat center center;
 }
@@ -137,6 +140,8 @@ i[attack="Depth Charges"] {
 
 i[set] {
 	display: inline-block;
+	position: relative;
+	top: 3px;
 	width: 18px;
 	height: 18px;
 }
@@ -169,6 +174,8 @@ i[set="Custom"] {
 
 i[rarity] {
 	display: inline-block;
+	position: relative;
+	top: 1px;
 	width: 12px;
 	height: 12px;
 }
@@ -211,14 +218,104 @@ i[stat="Aircraft"] {
 	background: url('img/backgrounds/Axis_card.jpg') no-repeat top left;
 }
 
-.list[alliance="Allies"] {
-	background: url('img/backgrounds/Allies_list.jpg') no-repeat top left;
+.list[alliance="Allies"] .nation {
+	header {
+		background: url('img/headers/nation_head_allies.jpg') no-repeat top left;		
+	}
+	.listbody {
+		background-color: #2e322e;
+		background-image: url('img/backgrounds/Allies_list.jpg');
+		background-repeat: no-repeat;		
+	}
+	footer {
+		background: url('img/footers/list_footer_allies.jpg') no-repeat top left;		
+	}
 }
 
-.list[alliance="Axis"] {
-	background: url('img/backgrounds/Axis_list.jpg') no-repeat top left;
+.list[alliance="Axis"] .nation {
+	header {
+		background: url('img/headers/nation_head_axis.jpg') no-repeat top left;		
+	}
+	.listbody {
+		background-color: #32312e;
+		background-image: url('img/backgrounds/Axis_list.jpg');
+		background-repeat: no-repeat;		
+	}
+	footer {
+		background: url('img/footers/list_footer_axis.jpg') no-repeat top left;		
+	}
 }
 
+/**
+ * The lists
+ */
+.listheader {
+	text-align: center;
+	img {
+		max-width: 100%;
+	}
+}
+
+.list {
+	max-width: 360px;
+	.nation {
+		margin-bottom: 20px;
+
+		header {
+			height: 55px;
+			overflow: hidden;
+
+			.nationname {
+				display: inline-block;
+				position: relative;
+				left: 10px;
+				top: -10px;
+				margin: 0;
+				font-size: 35px;
+				text-shadow: 2px 2px 3px black;
+			}
+			i[nation] {
+				display: inline-block;
+				position: relative;
+				left: 6px;
+				top: 2px;
+			}
+		}
+		.unittype {
+			.unittypename {
+				border-bottom: 1px solid grey;
+				padding: 5px 20px;
+				margin: 0;
+			}
+
+			.unit {
+				.unitname {
+					display: inline-block;
+					width: 270px;
+					padding: 0 20px;
+
+					a {
+						color: white;
+					}
+				}
+				.unitcost {
+					display: inline-block;
+					width: 30px;
+					text-align: center;
+				}
+				.unitset {
+					display: inline-block;
+				}
+				.unitrarity {
+					display: inline-block;
+				}
+			}
+		}
+		footer {
+			height: 20px;
+		}
+	}
+}
 
 /**
  * The card
