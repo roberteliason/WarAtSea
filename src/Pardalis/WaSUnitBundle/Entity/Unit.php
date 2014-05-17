@@ -90,7 +90,7 @@ class Unit
 	 *
 	 * @ORM\Column(name="number_in_set", type="integer")
 	 */
-	private $numberInSet;
+	private $number_in_set;
 
 	/**
 	 * @ORM\ManyToOne(targetEntity="Nation", inversedBy="units")
@@ -188,30 +188,7 @@ class Unit
 	{
 		return $this->cost;
 	}
-
-	/**
-	 * Set numberInSet
-	 *
-	 * @param integer $numberInSet
-	 * @return Unit
-	 */
-	public function setNumberInSet($numberInSet)
-	{
-		$this->numberInSet = $numberInSet;
-
-		return $this;
-	}
-
-	/**
-	 * Get numberInSet
-	 *
-	 * @return integer 
-	 */
-	public function getNumberInSet()
-	{
-		return $this->numberInSet;
-	}
-
+	
 	/**
 	 * Set nation
 	 *
@@ -529,5 +506,28 @@ class Unit
     public function getYear()
     {
         return $this->year;
+    }
+
+    /**
+     * Set number_in_set
+     *
+     * @param integer $numberInSet
+     * @return Unit
+     */
+    public function setNumberInSet($numberInSet)
+    {
+        $this->number_in_set = $numberInSet;
+
+        return $this;
+    }
+
+    /**
+     * Get number_in_set
+     *
+     * @return integer 
+     */
+    public function getNumberInSet()
+    {
+        return $this->number_in_set;
     }
 }

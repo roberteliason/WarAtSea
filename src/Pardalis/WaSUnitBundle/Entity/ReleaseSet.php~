@@ -45,6 +45,7 @@ class ReleaseSet
 
     /**
      * @ORM\OneToMany(targetEntity="Unit", mappedBy="releaseset")
+     * @ORM\OrderBy({"number_in_set" = "ASC"})
      */
     private $units;
 
