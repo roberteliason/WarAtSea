@@ -4,11 +4,11 @@
 <h1>Sets</h1>
 <ul id="sets">
 {% for releaseset in releasesets %}
-    <li><strong>{{ releaseset.name }}</strong> - {{ releaseset.totalunits }}
+    <li><h2>{{ releaseset.name }}</h2> - {{ releaseset.totalunits }}
 	{% if releaseset.units %}
 		<ul>
 			{% for unit in releaseset.units %}
-			<li>{{ unit.name }}</li>
+			<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> {{ unit.rarity.name }}</li>
 			{% endfor %}
 		</ul>
 	{% endif %}

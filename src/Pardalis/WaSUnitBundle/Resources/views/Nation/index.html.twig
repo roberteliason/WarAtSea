@@ -22,7 +22,7 @@
 						<ul>
 						{% set prev_unittype = unit.unittype.name %}
 						{% endif %}
-							<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> | {{ unit.cost }} | {{ unit.releaseset.name }} | {{ unit.rarity.name }} </li>
+							<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> | {{ unit.cost }} | <i set="{{ unit.releaseset.name }}"></i> | <i rarity="{{ unit.rarity.name }}"></i> </li>
 						{% if unit.unittype.name != prev_unittype %}
 						</ul>
 						{% endif %}
