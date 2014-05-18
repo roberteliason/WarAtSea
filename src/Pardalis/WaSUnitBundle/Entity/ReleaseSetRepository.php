@@ -13,8 +13,8 @@ use Doctrine\ORM\EntityRepository;
 class ReleaseSetRepository extends EntityRepository
 {
 	public function getSetsWithSortedUnits() {
-        return $this->getEntityManager()
-            ->createQuery('SELECT s, u FROM PardalisWaSUnitBundle:ReleaseSet s JOIN s.units AS u ORDER BY s.id, u.number_in_set')
-            ->getResult();
+		return $this->getEntityManager()
+			->createQuery('SELECT s, u FROM PardalisWaSUnitBundle:ReleaseSet s LEFT JOIN s.units AS u ORDER BY s.id, u.number_in_set')
+			->getResult();
 	}
 }
