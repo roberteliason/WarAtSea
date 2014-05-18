@@ -1,0 +1,21 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+{% block body %}
+
+	<h1>Unit types</h1>
+
+	<ul class="unittypes">
+	{% for unittype in unittypes %}
+		{% if unittype.parent.name is not defined %}
+			{% if unittype.children is defined %}
+
+			<li><h2>{{ unittype.name }}<h3></li>
+				<ul class="unitsubtypes">
+				{% for child in unittype.children %}
+					<li>• {{ child.name }}</li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	</ul>
+{% endblock %}

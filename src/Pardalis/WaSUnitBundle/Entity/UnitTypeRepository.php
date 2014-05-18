@@ -12,4 +12,9 @@ use Doctrine\ORM\EntityRepository;
  */
 class UnitTypeRepository extends EntityRepository
 {
+	public function getTopLevelUnittypes() {
+        return $this->getEntityManager()
+            ->createQuery('SELECT t FROM PardalisWaSUnitBundle:UnitType t WHERE parent IS NULL')
+            ->getResult();		
+	}
 }

@@ -41,25 +41,29 @@
 	</div>
 
 	<div class="cardbody">
-		<table class="attacks">
+		<table class="attacks" unittype="{% if unit.unittype.parent.name is defined %}{{ unit.unittype.parent.name }}{% endif %}">
 			<thead>
 				<tr>
 					<th class="attackheader">Attacks</th>
 					<th class="rangeheader">0</th>
+					{% if ( unit.unittype.parent.name is not defined ) or ( unit.unittype.parent.name != 'Aircraft' ) %}
 					<th class="rangeheader">1</th>
 					<th class="rangeheader">2</th>
 					<th class="rangeheader">3</th>
+					{% endif %}
 				</tr>
 			</thead>
 			<tbody>
 			{% for attack in unit.attacks %}
-			<tr>
-				<td class="attack"><i attack="{{ attack.attacktype.name }}"></i></td>
-				<td class="range">{{ attack.range0 }}</td>
-				<td class="range">{{ attack.range1 }}</td>
-				<td class="range">{{ attack.range2 }}</td>
-				<td class="range">{{ attack.range3 }}</td>
-			</tr>
+				<tr>
+					<td class="attack"><i attack="{{ attack.attacktype.name }}"></i></td>
+					<td class="range">{% if attack.range0 > 0 %}{{ attack.range0 }}{% else %}-{% endif %}</td>
+					{% if ( unit.unittype.parent.name is not defined ) or ( unit.unittype.parent.name != 'Aircraft' ) %}
+					<td class="range">{% if attack.range1 > 0 %}{{ attack.range1 }}{% else %}-{% endif %}</td>
+					<td class="range">{% if attack.range2 > 0 %}{{ attack.range2 }}{% else %}-{% endif %}</td>
+					<td class="range">{% if attack.range3 > 0 %}{{ attack.range3 }}{% else %}-{% endif %}</td>
+					{% endif %}
+				</tr>
 			{% endfor %}
 			</tbody>
 		</table>
