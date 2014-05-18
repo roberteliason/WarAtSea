@@ -305,13 +305,22 @@ i[stat="Aircraft"] {
 }
 .card .typeandyear {
   position: relative;
-  width: 300px;
+  width: 310px;
   height: 20px;
   left: 80px;
   top: -74px;
   overflow: hidden;
   font-family: "amarillousafregular", Helvetica, Arial, sans-serif;
   font-size: 20px;
+}
+.card .typeandyear .unittype {
+  display: inline-block;
+  width: 250px;
+}
+.card .typeandyear .year {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
 }
 .card .stats {
   position: relative;
@@ -407,6 +416,9 @@ i[stat="Aircraft"] {
   border-width: 1px;
   border-color: #273521;
 }
+.card .cardbody .attacks[unittype="Aircraft"] {
+  width: 145px;
+}
 .card .cardbody .vitals {
   width: 450px;
   height: 40px;
@@ -448,6 +460,14 @@ i[stat="Aircraft"] {
 .card .cardbody .vitals .valuegroup .value {
   display: table-cell;
   background-color: white;
+  background: #a5a5a5;
+  background: -moz-linear-gradient(left, #a5a5a5 0%, #ffffff 25%, #ffffff 75%, #a5a5a5 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #a5a5a5), color-stop(25%, #ffffff), color-stop(75%, #ffffff), color-stop(100%, #a5a5a5));
+  background: -webkit-linear-gradient(left, #a5a5a5 0%, #ffffff 25%, #ffffff 75%, #a5a5a5 100%);
+  background: -o-linear-gradient(left, #a5a5a5 0%, #ffffff 25%, #ffffff 75%, #a5a5a5 100%);
+  background: -ms-linear-gradient(left, #a5a5a5 0%, #ffffff 25%, #ffffff 75%, #a5a5a5 100%);
+  background: linear-gradient(to right, #a5a5a5 0%, #ffffff 25%, #ffffff 75%, #a5a5a5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5a5a5', endColorstr='#a5a5a5', GradientType=1);
   color: black;
   width: 40px;
   height: 40px;
@@ -488,4 +508,24 @@ i[stat="Aircraft"] {
 }
 .card .collectiondata .rarity {
   display: inline-block;
+}
+/**
+ * Ability list
+ */
+.page.abilities .abilities li {
+  margin-bottom: 10px;
+}
+.page.setlist .numberinset {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+.page.setlist .unitname {
+  display: inline-block;
+  width: 200px;
+}
+.page.setlist .rarity {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
 }

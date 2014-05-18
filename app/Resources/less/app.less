@@ -360,13 +360,23 @@ i[stat="Aircraft"] {
 
 	.typeandyear {
 		position: relative;
-		width: 300px;
+		width: 310px;
 		height: 20px;
 		left: 80px;
 		top: -74px;
 		overflow: hidden;
 		font-family: @headings-font-family;
 		font-size: 20px;
+
+		.unittype {
+			display: inline-block;
+			width: 250px;
+		}
+		.year {
+			display: inline-block;
+			width: 50px;
+			text-align: right;
+		}
 	}
 
 	.stats {
@@ -472,6 +482,10 @@ i[stat="Aircraft"] {
 			}
 		}
 
+		.attacks[unittype="Aircraft"] {
+			width: 145px;
+		}
+
 		.vitals {
 			width: 450px;
 			height: 40px;
@@ -507,6 +521,14 @@ i[stat="Aircraft"] {
 				.value {
 					display: table-cell;
 					background-color: white;
+					background: rgb(165,165,165);
+					background: -moz-linear-gradient(left, rgba(165,165,165,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(165,165,165,1) 100%);
+					background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(165,165,165,1)), color-stop(25%,rgba(255,255,255,1)), color-stop(75%,rgba(255,255,255,1)), color-stop(100%,rgba(165,165,165,1)));
+					background: -webkit-linear-gradient(left, rgba(165,165,165,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(165,165,165,1) 100%);
+					background: -o-linear-gradient(left, rgba(165,165,165,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(165,165,165,1) 100%);
+					background: -ms-linear-gradient(left, rgba(165,165,165,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(165,165,165,1) 100%);
+					background: linear-gradient(to right, rgba(165,165,165,1) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(165,165,165,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5a5a5', endColorstr='#a5a5a5',GradientType=1 );
 					color: black;
 					width: 40px;
 					height: 40px;
@@ -556,5 +578,33 @@ i[stat="Aircraft"] {
 		.rarity {
 			display: inline-block;
 		}
+	}
+}
+
+/**
+ * Ability list
+ */
+.page.abilities {
+	.abilities {
+		li {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.page.setlist {
+	.numberinset {
+		display: inline-block;
+		width: 30px;
+		text-align: center;
+	}
+	.unitname {
+		display: inline-block;
+		width: 200px;
+	}
+	.rarity {
+		display: inline-block;
+		width: 20px;
+		text-align: center;
 	}
 }
