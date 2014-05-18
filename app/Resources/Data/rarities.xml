@@ -16,4 +16,8 @@
 		<name>Custom</name>	
 		<sortorder>4</sortorder>
 	</rarity>
+	<rarity>
+		<name>None</name>	
+		<sortorder>5</sortorder>
+	</rarity>
 </rarities>
