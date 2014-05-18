@@ -1,0 +1,11 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+
+{% block body %}
+<h1>Rarities</h1>
+<ul class="rarities">
+{% for rarity in rarities %}
+    <li><i rarity="{{ rarity.name }}"></i>&nbsp;<strong>{{ rarity.name }}</strong></li>
+{% endfor %}
+</ul>
+
+{% endblock %}
