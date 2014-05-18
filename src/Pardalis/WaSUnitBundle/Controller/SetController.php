@@ -12,9 +12,8 @@ class SetController extends Controller
 	public function indexAction() {
 		$em = $this->getDoctrine()->getManager();
 		$releasesets = $em->getRepository('PardalisWaSUnitBundle:ReleaseSet')
-            ->getSetsWithSortedUnits();
+			->getSetsWithSortedUnits();
 
 		return $this->render('PardalisWaSUnitBundle:Set:index.html.twig', array( 'releasesets' => $releasesets ) );
-
 	}
 }

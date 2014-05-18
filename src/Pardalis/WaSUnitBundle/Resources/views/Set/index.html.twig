@@ -1,20 +1,24 @@
 {% extends 'PardalisWaSUnitBundle::base.html.twig' %}
 
 {% block body %}
-<h1>Sets</h1>
-<ul id="sets">
-{% for releaseset in releasesets %}
-    <li><h2>{{ releaseset.name }}</h2> - {{ releaseset.totalunits }}
-	{% if releaseset.units %}
-		<ul>
-			{% for unit in releaseset.units %}
-			<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> {{ unit.rarity.name }}</li>
-			{% endfor %}
-		</ul>
-	{% endif %}
-    </li>
+<div class="page setlist">
+	<h1>Sets</h1>
+	<div class="row">
+	{% for releaseset in releasesets %}
+		<div class="col-lg-4 col-md-4">
+		<h2>{{ releaseset.name }}</h2>
+		<i set="{{ releaseset.name }}"></i> {{ releaseset.totalunits }} units total
+		{% if releaseset.units %}
+			<ul>
+				{% for unit in releaseset.units %}
+				<li><span class="numberinset">{{ unit.numberinset }}</span><span class="unitname"><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a></span><span class="rarity"><i rarity="{{ unit.rarity.name }}"></i></span></li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+		</div>
 
-{% endfor %}
-</ul>
-
+	{% endfor %}
+	</ul>
+	</div>
+</div>
 {% endblock %}

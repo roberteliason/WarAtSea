@@ -62,8 +62,7 @@ class ImportController extends Controller
 		/* Units */
 		$this->importUnitsAction();
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
-
+		return $this->redirect($this->generateUrl('pardalis_was_nation_alliances'));
 	}
 
 	public function importAlliancesAction() {
@@ -90,7 +89,7 @@ class ImportController extends Controller
 			}			
 		}
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_nation_alliances'));
 	}
 
 	public function importReleaseSetsAction() {
@@ -109,7 +108,7 @@ class ImportController extends Controller
 			
 		}
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_set_sets'));
 	}
 
 	public function importRaritiesAction() {
@@ -126,7 +125,7 @@ class ImportController extends Controller
 			
 		}
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_rarity_rarities'));
 	}
 
 	public function importUnitTypesAction() {
@@ -155,7 +154,7 @@ class ImportController extends Controller
 			}		
 		}
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_unit_unittypes'));
 	}
 
 	public function importAttackTypesAction() {
@@ -189,7 +188,7 @@ class ImportController extends Controller
 			}			
 		}
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_attack_attacktypes'));
 	}
 
 	public function importAbilitiesAction() {
@@ -215,7 +214,8 @@ class ImportController extends Controller
 		}
 		echo( '</pre>' );
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_ability_abilities'));
+		//return $this->render('PardalisWaSUnitBundle:Ability:index.html.twig');
 	}
 
 	public function importUnitsAction() {
@@ -299,6 +299,6 @@ class ImportController extends Controller
 		}
 		print( '</pre>' );
 
-		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => array() ) );
+		return $this->redirect($this->generateUrl('pardalis_was_nation_alliances'));
 	}
 }
