@@ -31,6 +31,12 @@ ul {
 ul ul {
   margin-bottom: 20px !important;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-variant: small-caps;
+}
 /**
  * Icons
  */
@@ -38,80 +44,87 @@ i[nation] {
   display: inline-block;
   width: 46px;
   height: 46px;
+  background-size: 46px 46px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 i[nation="Australia"] {
-  background: url('../../img/nation/Australia.gif') no-repeat center center;
+  background-image: url('../../img/nation/Australia.svg');
 }
 i[nation="Canada"] {
-  background: url('../../img/nation/Canada.gif') no-repeat center center;
+  background-image: url('../../img/nation/Canada.svg');
 }
 i[nation="Finland"] {
-  background: url('../../img/nation/Finland.gif') no-repeat center center;
+  background-image: url('../../img/nation/Finland.svg');
 }
 i[nation="France"] {
-  background: url('../../img/nation/France.gif') no-repeat center center;
+  background-image: url('../../img/nation/France.svg');
 }
 i[nation="Germany"] {
-  background: url('../../img/nation/Germany.gif') no-repeat center center;
+  background-image: url('../../img/nation/Germany.svg');
 }
 i[nation="Greece"] {
-  background: url('../../img/nation/Greece.gif') no-repeat center center;
+  background-image: url('../../img/nation/Greece.svg');
 }
 i[nation="Italy"] {
-  background: url('../../img/nation/Italy.gif') no-repeat center center;
+  background-image: url('../../img/nation/Italy.svg');
 }
 i[nation="Japan"] {
-  background: url('../../img/nation/Japan.gif') no-repeat center center;
+  background-image: url('../../img/nation/Japan.svg');
 }
 i[nation="New Zeeland"] {
-  background: url('../../img/nation/NewZeeland.gif') no-repeat center center;
+  background-image: url('../../img/nation/NewZeeland.svg');
 }
 i[nation="Poland"] {
-  background: url('../../img/nation/Poland.gif') no-repeat center center;
+  background-image: url('../../img/nation/Poland.svg');
 }
 i[nation="Sweden"] {
-  background: url('../../img/nation/Sweden.gif') no-repeat center center;
+  background-image: url('../../img/nation/Sweden.svg');
 }
 i[nation="The Netherlands"] {
-  background: url('../../img/nation/TheNetherlands.gif') no-repeat center center;
+  background-image: url('../../img/nation/Netherlands.svg');
 }
 i[nation="United Kingdom"] {
-  background: url('../../img/nation/UnitedKingdom.gif') no-repeat center center;
+  background-image: url('../../img/nation/UnitedKingdom.svg');
 }
 i[nation="United States"] {
-  background: url('../../img/nation/UnitedStates.gif') no-repeat center center;
+  background-image: url('../../img/nation/UnitedStates.svg');
 }
 i[nation="USSR"] {
-  background: url('../../img/nation/USSR.gif') no-repeat center center;
+  background-image: url('../../img/nation/USSR.svg');
 }
 i[attack] {
   display: inline-block;
   width: 52px;
   height: 34px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 i[attack="Main Guns"] {
-  background: url('../../img/attack/MainGuns.gif') no-repeat center center;
+  background-image: url('../../img/attack/MainGuns.svg');
 }
 i[attack="Secondary Guns"] {
-  background: url('../../img/attack/SecondaryGuns.gif') no-repeat center center;
+  background-image: url('../../img/attack/SecondaryGuns.svg');
+  background-size: 30px 20px;
 }
 i[attack="Tertiary Guns"] {
-  background: url('../../img/attack/TertiaryGuns.gif') no-repeat center center;
+  background-image: url('../../img/attack/TertiaryGuns.svg');
+  background-size: 25px 20px;
 }
 i[attack="AA Guns"] {
-  background: url('../../img/attack/AAGuns.gif') no-repeat center center;
+  background-image: url('../../img/attack/AAGuns.svg');
 }
 i[attack="Machine Guns"] {
-  background: url('../../img/attack/MachineGuns.gif') no-repeat center center;
+  background-image: url('../../img/attack/MachineGuns.svg');
 }
 i[attack="Torpedoes"] {
-  background: url('../../img/attack/Torpedoes.gif') no-repeat center center;
+  background-image: url('../../img/attack/Torpedoes.svg');
 }
 i[attack="Bombs"] {
-  background: url('../../img/attack/Bombs.gif') no-repeat center center;
+  background-image: url('../../img/attack/Bombs.svg');
 }
 i[attack="Depth Charges"] {
-  background: url('../../img/attack/DepthCharges.gif') no-repeat center center;
+  background-image: url('../../img/attack/DepthCharges.svg');
 }
 i[set] {
   display: inline-block;
@@ -119,12 +132,16 @@ i[set] {
   top: 3px;
   width: 18px;
   height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 i[set="Set 1"] {
-  background: url('../../img/set/Set1.gif') no-repeat center center;
+  background-image: url('../../img/set/Set1.svg');
 }
 i[set="Set 2"] {
-  background: url('../../img/set/Set2.gif') no-repeat center center;
+  background-image: url('../../img/set/Set2.svg');
+  background-size: 16px 16px;
 }
 i[set="Set 3"] {
   background: url('../../img/set/Set3.gif') no-repeat center center;
@@ -142,37 +159,46 @@ i[set="Starter 2"] {
   background: url('../../img/set/Starter2.gif') no-repeat center center;
 }
 i[set="Custom"] {
-  background: url('../../img/set/Custom.gif') no-repeat center center;
+  background-image: url('../../img/set/Custom.svg');
 }
 i[rarity] {
   display: inline-block;
   position: relative;
   top: 1px;
-  width: 12px;
+  width: 15px;
   height: 12px;
+  background-size: 15px 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 i[rarity="Rare"] {
-  background: url('../../img/rarity/Rare.gif') no-repeat center center;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image: url('../../img/rarity/Rare.svg');
 }
 i[rarity="Uncommon"] {
-  background: url('../../img/rarity/Uncommon.gif') no-repeat center center;
+  background-image: url('../../img/rarity/Uncommon.svg');
 }
 i[rarity="Common"] {
-  background: url('../../img/rarity/Common.gif') no-repeat center center;
+  background-image: url('../../img/rarity/Common.svg');
 }
 i[rarity="Custom"] {
-  background: url('../../img/rarity/Custom.gif') no-repeat center center;
+  background-image: url('../../img/rarity/Custom.svg');
 }
 i[stat] {
   display: inline-block;
   width: 18px;
   height: 15px;
+  background-size: 18px 15px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 i[stat="Flag"] {
-  background: url('../../img/stats/Flag.gif') no-repeat center center;
+  background-image: url('../../img/stats/Flag.svg');
 }
 i[stat="Aircraft"] {
-  background: url('../../img/stats/Aircraft.gif') no-repeat center center;
+  background-image: url('../../img/stats/Aircraft.svg');
 }
 /**
  * Backgrounds
