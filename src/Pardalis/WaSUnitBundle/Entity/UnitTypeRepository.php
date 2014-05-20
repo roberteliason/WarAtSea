@@ -17,4 +17,10 @@ class UnitTypeRepository extends EntityRepository
             ->createQuery('SELECT t FROM PardalisWaSUnitBundle:UnitType t WHERE parent IS NULL')
             ->getResult();		
 	}
+
+	public function getTopLevelUnittypesWithAbilitiesAndUnits() {
+        return $this->getEntityManager()
+            ->createQuery('SELECT t, a, u FROM PardalisWaSUnitBundle:UnitType t LEFT JOIN t.abilities AS a LEFT JOIN a.units AS u WHERE t.parent IS NULL')
+            ->getResult();		
+	}
 }
