@@ -510,6 +510,7 @@ i[stat="Aircraft"] {
 }
 .card .cardbody .abilities li {
   padding: 0 10px 10px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .card .collectiondata {
   position: relative;
@@ -540,6 +541,16 @@ i[stat="Aircraft"] {
  */
 .page.abilities .abilities li {
   margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+.page.abilities .abilities .name {
+  color: white;
+}
+.page.abilities .abilities .units {
+  font-size: 0.8em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
 }
 .page.setlist .numberinset {
   display: inline-block;
