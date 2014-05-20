@@ -12,4 +12,23 @@ use Doctrine\ORM\EntityRepository;
  */
 class AbilityRepository extends EntityRepository
 {
+	public function getAbilitiesWithSortedUnits() {
+		return $this->getEntityManager()
+			->createQuery('SELECT a, u FROM PardalisWaSUnitBundle:Ability a LEFT JOIN a.units AS u ORDER BY a.name, u.name')
+			->getResult();
+	}
+
+	public function getAbilityByNameAndUnitParentType( $ability_name, $unittype_parent ) {
+		$result = $this->getEntityManager()
+			->createQuery('SELECT a FROM PardalisWaSUnitBundle:Ability a JOIN a.unittypes AS u WHERE a.name = :ability_name AND u.id = :unittype_parent')
+			->setParameter('ability_name', $ability_name)
+			->setParameter('unittype_parent', $unittype_parent->getID())
+			->setMaxResults(1)
+			->getResult();
+
+		if ( count( $result ) ) {
+			return $result[0];
+		}
+		return false;
+	}
 }

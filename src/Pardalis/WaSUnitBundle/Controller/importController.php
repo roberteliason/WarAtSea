@@ -283,10 +283,18 @@ class ImportController extends Controller
 							$entityManager->flush();
 						}	
 
+						// In order to link to the correct ability for the units 
+						// unittype, we need it's parent unit type
+						// Some abilities have the same name, but belong to different unit types
+						$parentUnitType = $unittypeDb->getParent();
+						if ( ! is_object( $parentUnitType ) ) {
+							$parentUnitType = $unittypeDb;
+						}
+
 						foreach ($unit->abilities->ability as $ability) {
 							$abilityDb = $this->getDoctrine()
 								->getRepository('PardalisWaSUnitBundle:Ability')
-								->findOneByName($ability->name);
+								->getAbilityByNameAndUnitParentType( $ability->name, $parentUnitType );
 
 							if ( $abilityDb ) {
 								$unitDb->addAbility( $abilityDb );
