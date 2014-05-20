@@ -16,7 +16,7 @@ pardalis_was_unit_unittypes:
 
 pardalis_was_ability_abilities:
     pattern:  /abilities
-    defaults: { _controller: PardalisWaSUnitBundle:Ability:index }
+    defaults: { _controller: PardalisWaSUnitBundle:Ability:byUnitType }
 
 pardalis_was_attack_attacktypes:
     pattern:  /attacktypes
