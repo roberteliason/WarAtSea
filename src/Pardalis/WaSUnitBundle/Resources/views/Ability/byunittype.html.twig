@@ -1,0 +1,27 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+
+{% block body %}
+<div class="page abilities">
+	<h1>Abilities</h1>
+	<div class="row">
+		{% for unittype in unittypes %}
+		{% if unittype.parent.name is not defined %}
+		<div class="col-lg-4 col-md-4">
+			<h2>{{ unittype.name }}</h2>
+			<ul class="abilities">
+			{% for ability in unittype.abilities %}
+				<li>
+					<strong class="name">{{ ability.name }}</strong> - {{ ability.description }}
+					<div class="units">
+					{% set first_unit = true %}{% for unit in ability.units %}{% if first_unit == false %}, {% endif %}{{ unit.name }}{% set first_unit = false %}{% endfor %}
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+
+</div>
+{% endblock %}
