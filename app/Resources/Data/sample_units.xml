@@ -275,7 +275,69 @@ Auxiliary
 						</abilities>						
 					</unit>
 Torpedo Boat
-
+					<unit>
+						<name>PT Boat</name>
+						<year>1943</year>
+						<cost>6</cost>
+						<set>Set 1</set>
+						<number>17</number>
+						<rarity>Common</rarity>
+						<speed>3</speed>
+						<armor>1</armor>
+						<vitalarmor>2</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>2</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Shallow Draft</name>
+							</ability>
+							<ability>
+								<name>High-Speed Evasion</name>
+							</ability>
+							<ability>
+								<name>No Sea Control</name>
+							</ability>
+						</abilities>						
+					</unit>
 Submarine
 					<unit>
 						<name>HMS Truculent</name>

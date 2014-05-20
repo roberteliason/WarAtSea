@@ -5132,24 +5132,2190 @@
 		<unittypes>
 			<unittype>
 				<name>Battleship</name>
+				<units>
+					<unit>
+						<name>USS Montana (BB 67)</name>
+						<year>1945</year>
+						<cost>80</cost>
+						<set>Set 6</set>
+						<number>17</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>10</armor>
+						<vitalarmor>16</vitalarmor>
+						<hullpoints>6</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>19</range_0>
+									<range_1>19</range_1>
+									<range_2>18</range_2>
+									<range_3>16</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>9</range_0>
+									<range_1>7</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bristling with Guns</name>
+							</ability>
+							<ability>
+								<name>Extended Range 5</name>
+							</ability>
+							<ability>
+								<name>Heavy Antiair 2</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Missouri (BB 63)</name>
+						<year>1944</year>
+						<cost>73</cost>
+						<set>Set 2</set>
+						<number>28</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>9</armor>
+						<vitalarmor>15</vitalarmor>
+						<hullpoints>6</hullpoints>
+						<flags>2</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>18</range_0>
+									<range_1>18</range_1>
+									<range_2>17</range_2>
+									<range_3>15</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>9</range_0>
+									<range_1>7</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bristling with Guns</name>
+							</ability>
+							<ability>
+								<name>Heavy Antiair</name>
+							</ability>
+							<ability>
+								<name>Extended Range 5</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>					
+					<unit>
+						<name>USS Iowa (BB 61)</name>
+						<year>1943</year>
+						<cost>68</cost>
+						<set>Set 1</set>
+						<number>27</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>9</armor>
+						<vitalarmor>15</vitalarmor>
+						<hullpoints>6</hullpoints>
+						<flags>2</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>18</range_0>
+									<range_1>18</range_1>
+									<range_2>17</range_2>
+									<range_3>15</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>9</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bristling with Guns</name>
+							</ability>
+							<ability>
+								<name>Extended Range 5</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS North Carolina (BB 55)</name>
+						<year>1942</year>
+						<cost>58</cost>
+						<set>Set 3</set>
+						<number>16</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>2</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>17</range_0>
+									<range_1>17</range_1>
+									<range_2>16</range_2>
+									<range_3>14</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bristling with Guns</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+							<ability>
+								<name>Antiair Barrage</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS Massachusetts (BB 59)</name>
+						<year>1942</year>
+						<cost>56</cost>
+						<set>Set 2</set>
+						<number>27</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>9</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>17</range_0>
+									<range_1>17</range_1>
+									<range_2>16</range_2>
+									<range_3>14</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bristling with Guns</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS Washington (BB 56)</name>
+						<year>1941</year>
+						<cost>56</cost>
+						<set>Set 1</set>
+						<number>33</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>17</range_0>
+									<range_1>17</range_1>
+									<range_2>16</range_2>
+									<range_3>14</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bristling with Guns</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>						
+					<unit>
+						<name>USS West Virginia (BB 48)</name>
+						<year>1941</year>
+						<cost>47</cost>
+						<set>Set 4</set>
+						<number>16</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>16</range_0>
+									<range_1>16</range_1>
+									<range_2>15</range_2>
+									<range_3>12</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>3</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Tertiary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Radar Soliution</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS California (BB 44)</name>
+						<year>1941</year>
+						<cost>45</cost>
+						<set>Set 2</set>
+						<number>22</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>15</range_0>
+									<range_1>15</range_1>
+									<range_2>14</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Slow 2</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS Arizona (BB 39)</name>
+						<year>1941</year>
+						<cost>44</cost>
+						<set>Set 2</set>
+						<number>12</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>14</range_0>
+									<range_1>14</range_1>
+									<range_2>13</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>3</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Tertiary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Inspire to Victory</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+							<ability>
+								<name>Slow 2</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS Tennessee (BB 43)</name>
+						<year>1941</year>
+						<cost>43</cost>
+						<set>Set 1</set>
+						<number>32</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>15</range_0>
+									<range_1>15</range_1>
+									<range_2>14</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Slow 2</name>
+							</ability>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS Nevada (BB 36)</name>
+						<year>1941</year>
+						<cost>42</cost>
+						<set>Set 5</set>
+						<number>13</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>8</armor>
+						<vitalarmor>14</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>14</range_0>
+									<range_1>14</range_1>
+									<range_2>12</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>3</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Tertiary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defense 1</name>
+							</ability>
+							<ability>
+								<name>Slow 2</name>
+							</ability>
+							<ability>
+								<name>Shore Support</name>
+							</ability>
+						</abilities>						
+					</unit>	
+				</units>
 			</unittype>
 			<unittype>
 				<name>Carrier</name>
 			</unittype>
 			<unittype>
 				<name>Cruiser</name>
+				<units>
+					<unit>
+						<name>USS Alaska (CB1)</name>
+						<year>1944</year>
+						<cost>28</cost>
+						<set>Set 3</set>
+						<number>11</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>7</armor>
+						<vitalarmor>12</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>13</range_0>
+									<range_1>13</range_1>
+									<range_2>12</range_2>
+									<range_3>11</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Fighter Director</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Baltimore (CA 68)</name>
+						<year>1943</year>
+						<cost>18</cost>
+						<set>Set 1</set>
+						<number>22</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>10</range_0>
+									<range_1>10</range_1>
+									<range_2>9</range_2>
+									<range_3>8</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Defence 1</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Montpelier (CA 57)</name>
+						<year>1943</year>
+						<cost>17</cost>
+						<set>Starter 2</set>
+						<number>4</number>
+						<rarity>None</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>8</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>5</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Radar Fire Control</name>
+							</ability>
+							<ability>
+								<name>Heavy Antiair</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Cleveland (CA 55)</name>
+						<year>1942</year>
+						<cost>16</cost>
+						<set>Set 2</set>
+						<number>23</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>8</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Radar Fire Control</name>
+							</ability>
+							<ability>
+								<name>Improved Radar</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Quincy (CA 71)</name>
+						<year>1944</year>
+						<cost>16</cost>
+						<set>Set 5</set>
+						<number>23</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>10</range_0>
+									<range_1>10</range_1>
+									<range_2>9</range_2>
+									<range_3>8</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Extended Range 4</name>
+							</ability>
+							<ability>
+								<name>Torpedo Protection</name>
+							</ability>
+							<ability>
+								<name>Battery Silencer</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS San Fransisco (CA 38)</name>
+						<year>1941</year>
+						<cost>16</cost>
+						<set>Set 2</set>
+						<number>29</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>6</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>4</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Survivor</name>
+							</ability>
+							<ability>
+								<name>Flotilla Leader</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Huston (CA 30)</name>
+						<year>1941</year>
+						<cost>14</cost>
+						<set>Set 4</set>
+						<number>18</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>2</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>6</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>5</range_0>
+									<range_1>4</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Desparate AA</name>
+							</ability>
+							<ability>
+								<name>Tough Cruiser 1</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Salt Lake City (CA 25)</name>
+						<year>1941</year>
+						<cost>14</cost>
+						<set>Set 1</set>
+						<number>29</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Damage Control</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Boise (CA 47)</name>
+						<year>1941</year>
+						<cost>13</cost>
+						<set>Set 1</set>
+						<number>24</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Rapid Fire</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Phoenix (CA 46)</name>
+						<year>1941</year>
+						<cost>12</cost>
+						<set>Set 6</set>
+						<number>19</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>9</range_0>
+									<range_1>8</range_1>
+									<range_2>8</range_2>
+									<range_3>7</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Shore Support</name>
+							</ability>
+							<ability>
+								<name>Tough Cruiser 1</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Atlanta (CA 51)</name>
+						<year>1942</year>
+						<cost>12</cost>
+						<set>Set 1</set>
+						<number>21</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>6</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Antiair Specialist</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS San Diego (CA 53)</name>
+						<year>1942</year>
+						<cost>11</cost>
+						<set>Set 3</set>
+						<number>19</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>6</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>8</range_0>
+									<range_1>6</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Near Miss</name>
+							</ability>
+							<ability>
+								<name>Heavy Antiair</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Richmond (CA 9)</name>
+						<year>1941</year>
+						<cost>9</cost>
+						<set>Set 3</set>
+						<number>18</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>1</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>5</range_0>
+									<range_1>4</range_1>
+									<range_2>4</range_2>
+									<range_3>3</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Bad Weather Fighter</name>
+							</ability>
+							<ability>
+								<name>Unmask Guns</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
 			</unittype>
 			<unittype>
 				<name>Destroyer</name>
+				<units>
+					<unit>
+						<name>USS Phelps (DD 360)</name>
+						<year>1941</year>
+						<cost>10</cost>
+						<set>Set 3</set>
+						<number>17</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>4</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Destroyer Leader</name>
+							</ability>
+							<ability>
+								<name>Establish Screen</name>
+							</ability>
+							<ability>
+								<name>Bad Weather Fighter</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Hoel (DD 533)</name>
+						<year>1943</year>
+						<cost>9</cost>
+						<set>Set 2</set>
+						<number>24</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Chase the Salvoes</name>
+							</ability>
+							<ability>
+								<name>Lay Smoke Screen</name>
+							</ability>
+							<ability>
+								<name>Rapid Fire</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Laffey (DD 724)</name>
+						<year>1944</year>
+						<cost>9</cost>
+						<set>Set 2</set>
+						<number>26</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Heavy Antiair</name>
+							</ability>
+							<ability>
+								<name>Radar Picket</name>
+							</ability>
+							<ability>
+								<name>Uniquely Tough</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Taylor (DD 468)</name>
+						<year>1942</year>
+						<cost>9</cost>
+						<set>Starter 2</set>
+						<number>2</number>
+						<rarity>None</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Sub Hunter</name>
+							</ability>
+							<ability>
+								<name>Radar Fire Control</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Allen M. Sumner (DD 692)</name>
+						<year>1944</year>
+						<cost>8</cost>
+						<set>Set 4</set>
+						<number>17</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>5</range_0>
+									<range_1>5</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Raider</name>
+							</ability>
+							<ability>
+								<name>Lay Smoke Screen</name>
+							</ability>
+							<ability>
+								<name>Sub Hunter</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Kidd (DD 661)</name>
+						<year>1943</year>
+						<cost>8</cost>
+						<set>Set 3</set>
+						<number>15</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Desparate AA</name>
+							</ability>
+							<ability>
+								<name>Radar Fire Control</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Bagley (DD 386)</name>
+						<year>1941</year>
+						<cost>7</cost>
+						<set>Set 5</set>
+						<number>11</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>4</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>2</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Defective Torpedoes</name>
+							</ability>
+							<ability>
+								<name>Sub Hunter</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Fletcher (DD 445)</name>
+						<year>1942</year>
+						<cost>7</cost>
+						<set>Set 1</set>
+						<number>26</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Chase the Salvoes</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS Samuel B. Roberts</name>
+						<year>1944</year>
+						<cost>6</cost>
+						<set>Set 1</set>
+						<number>30</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>1</armor>
+						<vitalarmor>5</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>3</range_0>
+									<range_1>3</range_1>
+									<range_2>2</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>4</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Slow 1</name>
+							</ability>
+							<ability>
+								<name>Sub Hunter</name>
+							</ability>
+							<ability>
+								<name>Valiant Stand</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>USS John C. Butler (DE 339)</name>
+						<year>1943</year>
+						<cost>6</cost>
+						<set>Set 2</set>
+						<number>25</number>
+						<rarity>Common</rarity>
+						<speed>2</speed>
+						<armor>1</armor>
+						<vitalarmor>5</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>3</range_0>
+									<range_1>3</range_1>
+									<range_2>2</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Slow 1</name>
+							</ability>
+							<ability>
+								<name>Lay Smoke Screen</name>
+							</ability>
+							<ability>
+								<name>Antiair Specialist</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
 			</unittype>
 			<unittype>
 				<name>Torpedo Boat</name>
+				<units>
+					<unit>
+						<name>PT Boat</name>
+						<year>1943</year>
+						<cost>6</cost>
+						<set>Set 1</set>
+						<number>17</number>
+						<rarity>Common</rarity>
+						<speed>3</speed>
+						<armor>1</armor>
+						<vitalarmor>2</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>1</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>2</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Shallow Draft</name>
+							</ability>
+							<ability>
+								<name>High-Speed Evasion</name>
+							</ability>
+							<ability>
+								<name>No Sea Control</name>
+							</ability>
+						</abilities>						
+					</unit>	
+				</units>
 			</unittype>
 			<unittype>
 				<name>Auxilliary</name>
+				<units>
+					<unit>
+						<name>USS Gunston Hall (LSD 5)</name>
+						<year>1944</year>
+						<cost>7</cost>
+						<set>Set 3</set>
+						<number>13</number>
+						<rarity>Uncommon</rarity>
+						<speed>1</speed>
+						<armor>2</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>2</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Landing 10</name>
+							</ability>
+							<ability>
+								<name>No Sea Control</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>SS Jeremiah O'Brien</name>
+						<year>1943</year>
+						<cost>3</cost>
+						<set>Set 1</set>
+						<number>19</number>
+						<rarity>Uncommon</rarity>
+						<speed>1</speed>
+						<armor>1</armor>
+						<vitalarmor>4</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>4</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Vital Cargo 6</name>
+							</ability>
+							<ability>
+								<name>No Sea Control</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
 			</unittype>
 			<unittype>
 				<name>Submarine</name>
+				<units>
+					<unit>
+						<name>USS Archerfish (SS 311)</name>
+						<year>1943</year>
+						<cost>15</cost>
+						<set>Set 2</set>
+						<number>21</number>
+						<rarity>Common</rarity>
+						<speed>1</speed>
+						<armor>3</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>3</range_1>
+									<range_2>2</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Carrier Hunter</name>
+							</ability>
+							<ability>
+								<name>Infiltrator</name>
+							</ability>
+							<ability>
+								<name>Submerged Shot</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS Barb (SS 220)</name>
+						<year>1942</year>
+						<cost>12</cost>
+						<set>Set 1</set>
+						<number>23</number>
+						<rarity>Common</rarity>
+						<speed>1</speed>
+						<armor>3</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>2</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>3</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Submerged Shot</name>
+							</ability>
+							<ability>
+								<name>Audacious Attack</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>USS S-37 (SS 132)</name>
+						<year>1941</year>
+						<cost>8</cost>
+						<set>Set 4</set>
+						<number>20</number>
+						<rarity>Common</rarity>
+						<speed>1</speed>
+						<armor>3</armor>
+						<vitalarmor>5</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>2</range_1>
+									<range_2>1</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Submerged Shot</name>
+							</ability>
+							<ability>
+								<name>Worn-Out Boat</name>
+							</ability>
+						</abilities>						
+					</unit>	
+				</units>
 			</unittype>
 			<unittype>
 				<name>Torpedo Bomber</name>
