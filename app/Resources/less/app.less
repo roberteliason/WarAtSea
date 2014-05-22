@@ -168,19 +168,19 @@ i[set="Set 2"] {
 	background-size: 16px 16px;
 }
 i[set="Set 3"] {
-	background: url('img/set/Set3.gif') no-repeat center center;
+	background-image: url('img/set/Set3.svg');
 }
 i[set="Set 4"] {
-	background: url('img/set/Set4.gif') no-repeat center center;
+	background-image: url('img/set/Set4.svg');
 }
 i[set="Set 5"] {
-	background: url('img/set/Set5.gif') no-repeat center center;
+	background-image: url('img/set/Set5.svg');
 }
 i[set="Set 6"] {
-	background: url('img/set/Set6.gif') no-repeat center center;
+	background-image: url('img/set/Set6.svg');
 }
 i[set="Starter 2"] {
-	background: url('img/set/Starter2.gif') no-repeat center center;
+	background-image: url('img/set/Starter2.svg');
 }
 i[set="Custom"] {
 	background-image: url('img/set/Custom.svg');
@@ -192,15 +192,15 @@ i[rarity] {
 	position: relative;
 	top: 1px;
 	width: 15px;
-	height: 12px;
-	background-size: 15px 12px;
+	height: 16px;
+	background-size: 15px 15px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 i[rarity="Rare"] {
 	width: 15px;
-	height: 15px;
+	height: 16px;
 	background-size: 15px 15px;
 	background-image: url('img/rarity/Rare.svg');
 }
@@ -208,6 +208,9 @@ i[rarity="Uncommon"] {
 	background-image: url('img/rarity/Uncommon.svg');
 }
 i[rarity="Common"] {
+	width: 15px;
+	height: 14px;
+	background-size: 13px 15px;
 	background-image: url('img/rarity/Common.svg');
 }
 i[rarity="Custom"] {
@@ -351,7 +354,7 @@ i[stat="Aircraft"] {
 
 	.unitname {
 		position: relative;
-		width: 340px;
+		width: 355px;
 		height: 30px;
 		top: 66px;
 		left: 30px;
@@ -391,6 +394,7 @@ i[stat="Aircraft"] {
 		overflow: hidden;
 		font-family: @headings-font-family;
 		font-size: 20px;
+		font-variant: small-caps;
 
 		.unittype {
 			display: inline-block;
@@ -416,6 +420,7 @@ i[stat="Aircraft"] {
 		.speed {
 			display: inline-block;
 			width: 115px;
+			font-variant: small-caps;
 		}
 
 		.flags {
@@ -528,19 +533,20 @@ i[stat="Aircraft"] {
 
 			.valuegroup {
 				display: table;
-				width: 150px;
+				width: 165px;
 				float: left;
 
 				.text {
 					display: table-cell;
-					font-size: 23px;
-					line-height: 16px;
-					width: 110px;
+					width: 115px;
 					height: 40px;
 					padding: 0 10px;
 					vertical-align: middle;
+					font-size: 21px;
+					line-height: 15px;
 					text-shadow: 0px 0px 0px #b0b0b0;
 					text-align: right;
+					letter-spacing: -1px;
 				}
 				.value {
 					display: table-cell;
@@ -561,11 +567,18 @@ i[stat="Aircraft"] {
 					text-align: center;
 				}
 			}
+			.valuegroup:first-child {
+				width: 120px;
+				.text {
+					width: 60px;
+				}
+			}
 		}
 
 		.abilities {
 			margin-top: 10px;
-			width: 400px;
+			margin-left: -35px;
+			width: 450px;
 			height: 200px;
 			overflow: hidden;		
 			font-size: 12px;
