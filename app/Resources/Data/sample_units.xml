@@ -404,18 +404,59 @@ Dive Bomber
 						</abilities>						
 					</unit>
 Torpedo Bomber
-
+					<unit>
+						<name>B6N2 "Jill"</name>
+						<year>1944</year>
+						<cost>14</cost>
+						<set>Set 3</set>
+						<number>35</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Harass from a Distance</name>
+							</ability>
+							<ability>
+								<name>Kamikaze Attack</name>
+							</ability>
+						</abilities>						
+					</unit>
 Patrol Bomber
 					<unit>
-						<name>FW 200 KONDOR</name>
-						<year>1942</year>
-						<cost>6</cost>
-						<set>Set 1</set>
-						<number>36</number>
+						<name>H8K1 Type 2 "Emily"</name>
+						<year>1941</year>
+						<cost>10</cost>
+						<set>Set 2</set>
+						<number>52</number>
 						<rarity>Uncommon</rarity>
 						<speed>A</speed>
-						<armor>3</armor>
-						<vitalarmor>6</vitalarmor>
+						<armor>4</armor>
+						<vitalarmor>7</vitalarmor>
 						<hullpoints>1</hullpoints>
 						<flags>0</flags>
 						<aircraft>0</aircraft>
@@ -423,7 +464,7 @@ Patrol Bomber
 							<attack>
 								<attacktype>
 									<name>Bombs</name>
-									<range_0>9</range_0>
+									<range_0>6</range_0>
 									<range_1>0</range_1>
 									<range_2>0</range_2>
 									<range_3>0</range_3>
@@ -432,7 +473,16 @@ Patrol Bomber
 							<attack>
 								<attacktype>
 									<name>Depth Charges</name>
-									<range_0>2</range_0>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
 									<range_1>0</range_1>
 									<range_2>0</range_2>
 									<range_3>0</range_3>
@@ -441,10 +491,13 @@ Patrol Bomber
 						</attacks>
 						<abilities>
 							<ability>
-								<name>Antiship Missile</name>
+								<name>Loiter</name>
 							</ability>
 							<ability>
-								<name>Pinpointer</name>
+								<name>Defensive Armament</name>
+							</ability>
+							<ability>
+								<name>Shadowing</name>
 							</ability>
 						</abilities>						
 					</unit>	

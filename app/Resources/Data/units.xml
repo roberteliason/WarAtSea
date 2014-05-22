@@ -2693,6 +2693,329 @@
 			</unittype>
 			<unittype>
 				<name>Carrier</name>
+				<units>
+					<unit>
+						<name>Akagi</name>
+						<year>1941</year>
+						<cost>27</cost>
+						<set>Set 1</set>
+						<number>50</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>11</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>2</flags>
+						<aircraft>3</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>7</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Dogfighter</name>
+							</ability>
+							<ability>
+								<name>Expert Bomber</name>
+							</ability>
+							<ability>
+								<name>Expert Torpedoes</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>Kaga</name>
+						<year>1941</year>
+						<cost>27</cost>
+						<set>Set 5</set>
+						<number>33</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>5</armor>
+						<vitalarmor>11</vitalarmor>
+						<hullpoints>5</hullpoints>
+						<flags>0</flags>
+						<aircraft>3</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>7</range_0>
+									<range_1>7</range_1>
+									<range_2>6</range_2>
+									<range_3>5</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Secondary Guns</name>
+									<range_0>6</range_0>
+									<range_1>6</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Bomber</name>
+							</ability>
+							<ability>
+								<name>Expert Torpedoes</name>
+							</ability>
+							<ability>
+								<name>Sneak Attack</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Zuikaku</name>
+						<year>1941</year>
+						<cost>22</cost>
+						<set>Set 2</set>
+						<number>60</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>0</flags>
+						<aircraft>3</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>6</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Dogfighter</name>
+							</ability>
+							<ability>
+								<name>Expert Bomber</name>
+							</ability>
+							<ability>
+								<name>Airfield Strike</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Shokaku</name>
+						<year>1941</year>
+						<cost>20</cost>
+						<set>Set 1</set>
+						<number>60</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>4</armor>
+						<vitalarmor>10</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>1</flags>
+						<aircraft>3</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>6</range_1>
+									<range_2>4</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Dogfighter</name>
+							</ability>
+							<ability>
+								<name>Expert Bomber 2</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Soryu</name>
+						<year>1941</year>
+						<cost>20</cost>
+						<set>Set 3</set>
+						<number>39</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>3</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>0</flags>
+						<aircraft>3</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Torpedoes</name>
+							</ability>
+							<ability>
+								<name>Expert Dogfighter 2</name>
+							</ability>
+							<ability>
+								<name>Surprise Raid</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Junyo</name>
+						<year>1942</year>
+						<cost>15</cost>
+						<set>Set 4</set>
+						<number>36</number>
+						<rarity>Rare</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>4</hullpoints>
+						<flags>0</flags>
+						<aircraft>2</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>6</range_0>
+									<range_1>5</range_1>
+									<range_2>5</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Bomber 2</name>
+							</ability>
+							<ability>
+								<name>Determination</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>Shoho</name>
+						<year>1942</year>
+						<cost>59</cost>
+						<set>Set 1</set>
+						<number>59</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>1</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>1</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Expert Dogfighter</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
 			</unittype>
 			<unittype>
 				<name>Cruiser</name>
@@ -4084,6 +4407,45 @@
 							</ability>
 						</abilities>						
 					</unit>	
+					<unit>
+						<name>Chitose</name>
+						<year>1941</year>
+						<cost>15</cost>
+						<set>Set 5</set>
+						<number>31</number>
+						<rarity>Uncommon</rarity>
+						<speed>2</speed>
+						<armor>2</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>3</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Main Guns</name>
+									<range_0>4</range_0>
+									<range_1>4</range_1>
+									<range_2>3</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>5</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Seaplane Detachments</name>
+							</ability>
+						</abilities>						
+					</unit>	
 				</units>
 			</unittype>
 			<unittype>
@@ -4228,15 +4590,560 @@
 			</unittype>
 			<unittype>
 				<name>Torpedo Bomber</name>
+				<units>
+					<unit>
+						<name>B6N2 "Jill"</name>
+						<year>1944</year>
+						<cost>14</cost>
+						<set>Set 3</set>
+						<number>35</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>1</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Harass from a Distance</name>
+							</ability>
+							<ability>
+								<name>Kamikaze Attack</name>
+							</ability>
+						</abilities>						
+					</unit>					
+					<unit>
+						<name>B5N2 "Kate"</name>
+						<year>1941</year>
+						<cost>13</cost>
+						<set>Set 1</set>
+						<number>51</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Harass from a Distance</name>
+							</ability>
+							<ability>
+								<name>Kamikaze Attack</name>
+							</ability>
+						</abilities>						
+					</unit>
+					<unit>
+						<name>B5N2 Type 97 Attack Bomber</name>
+						<year>1941</year>
+						<cost>11</cost>
+						<set>Set 6</set>
+						<number>27</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Carrier Hunter</name>
+							</ability>
+							<ability>
+								<name>Skilled Search</name>
+							</ability>
+						</abilities>						
+					</unit>
+				</units>
 			</unittype>
 			<unittype>
 				<name>Dive Bomber</name>
+				<units>
+					<unit>
+						<name>D4Y1 "Judy"</name>
+						<year>1942</year>
+						<cost>12</cost>
+						<set>Set 2</set>
+						<number>51</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Bombs</name>
+									<range_0>9</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Press the Attack</name>
+							</ability>
+						</abilities>						
+					</unit>					
+					<unit>
+						<name>D3A "Val"</name>
+						<year>1941</year>
+						<cost>10</cost>
+						<set>Set 1</set>
+						<number>52</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Bombs</name>
+									<range_0>8</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Press the Attack</name>
+							</ability>
+						</abilities>						
+					</unit>	
+				</units>
 			</unittype>
 			<unittype>
 				<name>Fighter</name>
+				<units>
+					<unit>
+						<name>N1K1-J "George"</name>
+						<year>1944</year>
+						<cost>11</cost>
+						<set>Set 4</set>
+						<number>39</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>7</armor>
+						<vitalarmor>9</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Machine Guns</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>9</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Advanced Fighter</name>
+							</ability>
+							<ability>
+								<name>Land Fighter</name>
+							</ability>
+							<ability>
+								<name>Escort</name>
+							</ability>
+						</abilities>						
+					</unit>						
+					<unit>
+						<name>A6M2-N "Rufe"</name>
+						<year>1942</year>
+						<cost>8</cost>
+						<set>Set 5</set>
+						<number>29</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Machine Guns</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Sea Basing</name>
+							</ability>
+							<ability>
+								<name>Night Specialist</name>
+							</ability>
+							<ability>
+								<name>Interceptor</name>
+							</ability>
+						</abilities>						
+					</unit>						
+					<unit>
+						<name>A6M5 "Zeke"</name>
+						<year>1943</year>
+						<cost>7</cost>
+						<set>Set 3</set>
+						<number>33</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>6</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Machine Guns</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Advanced Fighter 1</name>
+							</ability>
+							<ability>
+								<name>Surprise</name>
+							</ability>
+							<ability>
+								<name>Great Agility</name>
+							</ability>
+						</abilities>						
+					</unit>						
+					<unit>
+						<name>A6M2 "Zeke"</name>
+						<year>1941</year>
+						<cost>6</cost>
+						<set>Set 1</set>
+						<number>49</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>6</armor>
+						<vitalarmor>8</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Machine Guns</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>AA Guns</name>
+									<range_0>7</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Combat Air Patrol</name>
+							</ability>
+							<ability>
+								<name>Escort</name>
+							</ability>
+							<ability>
+								<name>Surprise</name>
+							</ability>
+						</abilities>						
+					</unit>						
+					<unit>
+						<name>A6M2 Zero Kamikaze</name>
+						<year>1944</year>
+						<cost>3</cost>
+						<set>Set 2</set>
+						<number>49</number>
+						<rarity>Common</rarity>
+						<speed>A</speed>
+						<armor>5</armor>
+						<vitalarmor>5</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>							
+							<attack>
+								<attacktype>
+									<name>Bombs</name>
+									<range_0>9</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Uncertain Arrival</name>
+							</ability>
+							<ability>
+								<name>Land Based</name>
+							</ability>
+							<ability>
+								<name>Overstack</name>
+							</ability>
+							<ability>
+								<name>Suicide Attack</name>
+							</ability>
+						</abilities>						
+					</unit>						
+				</units>
 			</unittype>
 			<unittype>
 				<name>Patrol Bomber</name>
+				<units>
+					<unit>
+						<name>H8K1 Type 2 "Emily"</name>
+						<year>1941</year>
+						<cost>10</cost>
+						<set>Set 2</set>
+						<number>52</number>
+						<rarity>Uncommon</rarity>
+						<speed>A</speed>
+						<armor>4</armor>
+						<vitalarmor>7</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Bombs</name>
+									<range_0>6</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>3</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>1</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Loiter</name>
+							</ability>
+							<ability>
+								<name>Defensive Armament</name>
+							</ability>
+							<ability>
+								<name>Shadowing</name>
+							</ability>
+						</abilities>						
+					</unit>						
+					<unit>
+						<name>G4M1 "Betty"</name>
+						<year>1941</year>
+						<cost>6</cost>
+						<set>Starter 2</set>
+						<number>5</number>
+						<rarity>None</rarity>
+						<speed>A</speed>
+						<armor>4</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Excellent Endurance</name>
+							</ability>
+						</abilities>						
+					</unit>	
+					<unit>
+						<name>G4M "Betty"</name>
+						<year>1941</year>
+						<cost>6</cost>
+						<set>Set 1</set>
+						<number>53</number>
+						<rarity>Uncommon</rarity>
+						<speed>A</speed>
+						<armor>4</armor>
+						<vitalarmor>6</vitalarmor>
+						<hullpoints>1</hullpoints>
+						<flags>0</flags>
+						<aircraft>0</aircraft>
+						<attacks>
+							<attack>
+								<attacktype>
+									<name>Depth Charges</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+							<attack>
+								<attacktype>
+									<name>Torpedoes</name>
+									<range_0>2</range_0>
+									<range_1>0</range_1>
+									<range_2>0</range_2>
+									<range_3>0</range_3>
+								</attacktype>
+							</attack>
+						</attacks>
+						<abilities>
+							<ability>
+								<name>Alternate Payload 6</name>
+							</ability>
+						</abilities>						
+					</unit>	
+				</units>
 			</unittype>
 		</unittypes>
 	</nation>
