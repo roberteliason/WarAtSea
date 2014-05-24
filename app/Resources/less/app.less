@@ -40,17 +40,24 @@
     font-style: normal;
 }
 
+body {
+	margin-top: 60px;
+}
 
 ul {
 	margin-left: -40px;
 	list-style: none;
-}
-ul ul {
-	margin-bottom: 20px !important;
+ 	ul {
+		margin-bottom: 20px !important;
+	}
 }
 
 h1, h2, h3, h4 {
 	font-variant: small-caps;
+}
+
+nav.navbar-fixed-top {
+	background-color: #e0e0e0;
 }
 
 /**
@@ -247,29 +254,29 @@ i[stat="Aircraft"] {
 
 .list[alliance="Allies"] .nation {
 	header {
-		background: url('img/headers/nation_head_allies.jpg') no-repeat top left;		
+		background: url('img/headers/nation_head_allies.jpg') no-repeat top left;
 	}
 	.listbody {
 		background-color: #2e322e;
 		background-image: url('img/backgrounds/Allies_list.jpg');
-		background-repeat: no-repeat;		
+		background-repeat: no-repeat;
 	}
 	footer {
-		background: url('img/footers/list_footer_allies.jpg') no-repeat top left;		
+		background: url('img/footers/list_footer_allies.jpg') no-repeat top left;
 	}
 }
 
 .list[alliance="Axis"] .nation {
 	header {
-		background: url('img/headers/nation_head_axis.jpg') no-repeat top left;		
+		background: url('img/headers/nation_head_axis.jpg') no-repeat top left;
 	}
 	.listbody {
 		background-color: #32312e;
 		background-image: url('img/backgrounds/Axis_list.jpg');
-		background-repeat: no-repeat;		
+		background-repeat: no-repeat;
 	}
 	footer {
-		background: url('img/footers/list_footer_axis.jpg') no-repeat top left;		
+		background: url('img/footers/list_footer_axis.jpg') no-repeat top left;
 	}
 }
 
@@ -374,7 +381,7 @@ i[stat="Aircraft"] {
 		top: 72px;
 		left: 20px;
 	}
-	
+
 	.cost {
 		position: relative;
 		left: 400px;
@@ -382,7 +389,7 @@ i[stat="Aircraft"] {
 		width: 70px;
 		font-family: @headings-font-family;
 		font-size: 70px;
-		text-align: center;		
+		text-align: center;
 	}
 
 	.typeandyear {
@@ -413,7 +420,7 @@ i[stat="Aircraft"] {
 		height: 30px;
 		left: 80px;
 		top: -60px;
-		overflow: hidden;		
+		overflow: hidden;
 		font-family: @headings-font-family;
 		font-size: 20px;
 
@@ -580,7 +587,7 @@ i[stat="Aircraft"] {
 			margin-left: -35px;
 			width: 450px;
 			height: 200px;
-			overflow: hidden;		
+			overflow: hidden;
 			font-size: 12px;
 
 			li {
@@ -596,7 +603,7 @@ i[stat="Aircraft"] {
 		height: 20px;
 		left: 10px;
 		top: -29px;
-		overflow: hidden;		
+		overflow: hidden;
 		font-family: @headings-font-family;
 
 		.set {

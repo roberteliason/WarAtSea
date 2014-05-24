@@ -24,6 +24,9 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  margin-top: 60px;
+}
 ul {
   margin-left: -40px;
   list-style: none;
@@ -36,6 +39,9 @@ h2,
 h3,
 h4 {
   font-variant: small-caps;
+}
+nav.navbar-fixed-top {
+  background-color: #e0e0e0;
 }
 /**
  * Icons
