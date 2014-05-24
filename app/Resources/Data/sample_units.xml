@@ -61,7 +61,7 @@ Battleship
 							<ability>
 								<name>Torpedo Defense 1</name>
 							</ability>
-						</abilities>						
+						</abilities>
 					</unit>
 Carrier
 					<unit>
@@ -119,8 +119,8 @@ Carrier
 							<ability>
 								<name>Wildcat Operations</name>
 							</ability>
-						</abilities>						
-					</unit>	
+						</abilities>
+					</unit>
 Cruiser
 					<unit>
 						<name>HMS Ajax</name>
@@ -168,8 +168,8 @@ Cruiser
 							<ability>
 								<name>Pursuit Ship</name>
 							</ability>
-						</abilities>						
-					</unit>	
+						</abilities>
+					</unit>
 Destroyer
 					<unit>
 						<name>HMS Javelin</name>
@@ -211,7 +211,7 @@ Destroyer
 									<range_2>0</range_2>
 									<range_3>0</range_3>
 								</attacktype>
-							</attack>							
+							</attack>
 							<attack>
 								<attacktype>
 									<name>Torpedoes</name>
@@ -229,7 +229,7 @@ Destroyer
 							<ability>
 								<name>Sub Hunter</name>
 							</ability>
-						</abilities>						
+						</abilities>
 					</unit>
 Auxiliary
 					<unit>
@@ -272,7 +272,7 @@ Auxiliary
 							<ability>
 								<name>Slow 2</name>
 							</ability>
-						</abilities>						
+						</abilities>
 					</unit>
 Torpedo Boat
 					<unit>
@@ -315,7 +315,7 @@ Torpedo Boat
 									<range_2>0</range_2>
 									<range_3>0</range_3>
 								</attacktype>
-							</attack>							
+							</attack>
 							<attack>
 								<attacktype>
 									<name>Torpedoes</name>
@@ -336,7 +336,7 @@ Torpedo Boat
 							<ability>
 								<name>No Sea Control</name>
 							</ability>
-						</abilities>						
+						</abilities>
 					</unit>
 Submarine
 					<unit>
@@ -352,7 +352,7 @@ Submarine
 						<hullpoints>2</hullpoints>
 						<flags>0</flags>
 						<aircraft>0</aircraft>
-						<attacks>							
+						<attacks>
 							<attack>
 								<attacktype>
 									<name>Torpedoes</name>
@@ -370,8 +370,8 @@ Submarine
 							<ability>
 								<name>Submerged Shot</name>
 							</ability>
-						</abilities>						
-					</unit>	
+						</abilities>
+					</unit>
 Dive Bomber
 					<unit>
 						<name>Ju 87B Stuka</name>
@@ -401,7 +401,7 @@ Dive Bomber
 							<ability>
 								<name>Land Based</name>
 							</ability>
-						</abilities>						
+						</abilities>
 					</unit>
 Torpedo Bomber
 					<unit>
@@ -444,7 +444,7 @@ Torpedo Bomber
 							<ability>
 								<name>Kamikaze Attack</name>
 							</ability>
-						</abilities>						
+						</abilities>
 					</unit>
 Patrol Bomber
 					<unit>
@@ -499,8 +499,8 @@ Patrol Bomber
 							<ability>
 								<name>Shadowing</name>
 							</ability>
-						</abilities>						
-					</unit>	
+						</abilities>
+					</unit>
 Fighter
 					<unit>
 						<name>Sea Hurricane Mk. 1B</name>
@@ -515,7 +515,7 @@ Fighter
 						<hullpoints>1</hullpoints>
 						<flags>0</flags>
 						<aircraft>0</aircraft>
-						<attacks>							
+						<attacks>
 							<attack>
 								<attacktype>
 									<name>Machine Guns</name>
@@ -542,5 +542,5 @@ Fighter
 							<ability>
 								<name>Escort</name>
 							</ability>
-						</abilities>						
-					</unit>					
+						</abilities>
+					</unit>
