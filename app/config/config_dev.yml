@@ -34,8 +34,10 @@ assetic:
 
     filters:
         less:
-            node: /usr/local/bin/node
-            node_paths: [/usr/local/lib/node_modules]
+            #node: /usr/local/bin/node
+            node: /usr/bin/node
+            #node_paths: [/usr/local/lib/node_modules]
+            node_paths: [/usr/lib/node_modules]
             apply_to: "\.less$"
         cssrewrite: ~
 #swiftmailer:
@@ -43,5 +45,5 @@ assetic:
 
 braincrafted_bootstrap:
     less_filter: less
-    customize: 
+    customize:
         variables_file: %kernel.root_dir%/Resources/less/variables.less
