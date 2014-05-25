@@ -207,6 +207,7 @@ i[stat="Flag"] {
   background-image: url('../../img/stats/Flag.svg');
 }
 i[stat="Aircraft"] {
+  width: 14px;
   background-image: url('../../img/stats/Aircraft.svg');
 }
 /**
@@ -584,4 +585,39 @@ i[stat="Aircraft"] {
   display: inline-block;
   width: 20px;
   text-align: center;
+}
+.page.setlist i[set] {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+}
+.page.setlist h2 {
+  margin-top: 0;
+}
+.page.setlist ul {
+  margin-left: 0;
+}
+.page.setlist li {
+  background-color: #333333;
+  border-color: #222222;
+}
+.page.setlist li a {
+  display: inline-block;
+  color: #ffffff;
+}
+.page.units i[nation] {
+  width: 12px;
+  height: 12px;
+  background-size: 12px 12px;
+}
+.page.units ul {
+  margin-left: 0;
+}
+.page.units li {
+  background-color: #333333;
+  border-color: #222222;
+}
+.page.units li a {
+  display: inline-block;
+  color: #ffffff;
 }

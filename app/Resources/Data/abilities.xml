@@ -459,6 +459,10 @@
 				<description>Once per game, at the beginning of your Sea Movement step, you can give this unit +1 speed for the turn. You can't claim an objective the turn you use this ability.</description>
 			</ability>
 			<ability>
+				<name>High-Speed Evasion</name>
+				<description>XXXXX</description>
+			</ability>
+			<ability>
 				<name>Improved Radar</name>
 				<description>This unit can attack enemy units that have concealment without a penalty. Fog, smoke screens, and squalls don't block this unit's ability to trace line of sight to an enemy unit.</description>
 			</ability>
@@ -547,7 +551,7 @@
 				<description>Once per game, if it's turn 4 or later, this unit may reroll one Gunnery attack.</description>
 			</ability>
 			<ability>
-				<name>No Sea Control</name>
+				<name>No Sea-Control</name>
 				<description>This unit can't claim objectives.</description>
 			</ability>
 			<ability>
@@ -622,6 +626,10 @@
 			<ability>
 				<name>Shadow Battleship</name>
 				<description>Once per game, at the beginning of the Surface Attack phase, choose an enemy Battleship at range 3 or greater. That Battleship can't attack this unit during this phase.</description>
+			</ability>
+			<ability>
+				<name>Shallow Draft</name>
+				<description>XXXXX</description>
 			</ability>
 			<ability>
 				<name>Sharpshooter</name>
@@ -815,7 +823,7 @@
 	</unittype>
 	<unittype>
 		<name>Submarine</name>
-		
+
 		<abilities>
 			<ability>
 				<name>Audacious Attack</name>

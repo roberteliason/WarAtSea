@@ -17,7 +17,7 @@ class UnitController extends Controller
 	{
 		$units = $this->getDoctrine()
 			->getRepository('PardalisWaSUnitBundle:Unit')
-			->findAll();
+			->findBy(array(), array('name'=>'asc'));
 
 		return $this->render('PardalisWaSUnitBundle:Unit:index.html.twig', array( 'units' => $units ) );
 	}
@@ -30,7 +30,7 @@ class UnitController extends Controller
 
 		// print( '<pre>' );
 		// var_dump( $unit );
-		// print( '</pre>' );		
+		// print( '</pre>' );
 
 		return $this->render('PardalisWaSUnitBundle:Unit:unit.html.twig', array( 'unit' => $unit ) );
 	}
@@ -39,7 +39,7 @@ class UnitController extends Controller
 	// {
 	// 	$abilities = $this->getDoctrine()
 	// 		->getRepository('PardalisWaSUnitBundle:Ability')
-	// 		->findAll();		
+	// 		->findAll();
 
 	// 	return $this->render('PardalisWaSUnitBundle:Ability:index.html.twig', array( 'abilities' => $abilities ) );
 	// }
@@ -48,7 +48,7 @@ class UnitController extends Controller
 	{
 		$unittypes = $this->getDoctrine()
 			->getRepository('PardalisWaSUnitBundle:UnitType')
-			->findAll();		
+			->findAll();
 
 		// $em = $this->getDoctrine()->getManager();
 		// $unittypes = $em->getRepository('PardalisWaSUnitBundle:UnitType')

@@ -1,10 +1,15 @@
 {% extends 'PardalisWaSUnitBundle::base.html.twig' %}
 {% block body %}
-	<h1>Unit list</h1>
-
-	<ul id="units">
-		{% for unit in units %}
-			<li><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> [{{ unit.cost }}] {{ unit.nation.name }}</li>
-		{% endfor %}
-	</ul>
+	<div class="page units">
+		<h1>Unit list</h1>
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<ul id="units" class="list-group">
+					{% for unit in units %}
+						<li class="list-group-item"><i nation="{{ unit.nation.name }}"></i> <i rarity="{{ unit.rarity.name }}"></i> <a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> <span class="badge">{{ unit.cost }}</span></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
 {% endblock %}

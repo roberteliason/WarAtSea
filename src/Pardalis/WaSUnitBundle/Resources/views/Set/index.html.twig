@@ -6,12 +6,21 @@
 	<div class="row">
 	{% for releaseset in releasesets %}
 		<div class="col-lg-4 col-md-4">
-		<h2>{{ releaseset.name }}</h2>
-		<i set="{{ releaseset.name }}"></i> {{ releaseset.totalunits }} units total
+			<div class="row">
+				<div class="col-lg-2 col-md-2">
+					<i set="{{ releaseset.name }}"></i>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<h2>{{ releaseset.name }}</h2>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					{{ releaseset.totalunits }} units total
+				</div>
+			</div>
 		{% if releaseset.units %}
-			<ul>
+			<ul class="list-group">
 				{% for unit in releaseset.units %}
-				<li><span class="numberinset">{{ unit.numberinset }}</span><span class="unitname"><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a></span><span class="rarity"><i rarity="{{ unit.rarity.name }}"></i></span></li>
+				<li class="list-group-item"><span class="numberinset">{{ unit.numberinset }}</span><span class="unitname"><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a></span><span class="rarity"><i rarity="{{ unit.rarity.name }}"></i></span></li>
 				{% endfor %}
 			</ul>
 		{% endif %}
