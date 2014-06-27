@@ -1,11 +1,12 @@
 {% extends 'PardalisWaSUnitBundle::base.html.twig' %}
 
 {% block body %}
-<h1>Attack Types</h1>
-<ul class="attacktypes">
-{% for attacktype in attacktypes %}
-    <li><i attack="{{ attacktype.name }}"></i><strong>{{ attacktype.name }}</strong></li>
-{% endfor %}
-</ul>
-
+<div class="page attacktypes">
+	<h1>Attack Types</h1>
+	<ul class="attacktypes">
+	{% for attacktype in attacktypes %}
+		<li><i attack="{{ attacktype.name }}"></i><strong>{{ attacktype.name }}</strong></li>
+	{% endfor %}
+	</ul>
+</div>
 {% endblock %}

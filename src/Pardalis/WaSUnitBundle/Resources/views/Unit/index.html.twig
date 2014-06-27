@@ -6,7 +6,12 @@
 			<div class="col-lg-6 col-md-6">
 				<ul id="units" class="list-group">
 					{% for unit in units %}
-						<li class="list-group-item"><i nation="{{ unit.nation.name }}"></i> <i rarity="{{ unit.rarity.name }}"></i> <a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> <span class="badge">{{ unit.cost }}</span></li>
+						<li class="list-group-item">
+							<i nation="{{ unit.nation.name }}"></i> 
+							<i rarity="{{ unit.rarity.name }}"></i> 
+							<a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a> 
+							<span class="badge">{{ unit.cost }}</span>
+						</li>
 					{% endfor %}
 				</ul>
 			</div>

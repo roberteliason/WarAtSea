@@ -13,7 +13,7 @@
 				<li>
 					<strong class="name">{{ ability.name }}</strong> - {{ ability.description }}
 					<div class="units">
-					{% set first_unit = true %}{% for unit in ability.units %}{% if first_unit == false %}, {% endif %}{{ unit.name }}{% set first_unit = false %}{% endfor %}
+					{% set first_unit = true %}{% for unit in ability.units %}{% if first_unit == false %}, {% endif %}<a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a>{% set first_unit = false %}{% endfor %}
 					</div>
 				</li>
 			{% endfor %}
