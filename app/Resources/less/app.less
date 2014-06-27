@@ -44,13 +44,13 @@ body {
 	margin-top: 60px;
 }
 
-ul {
-	margin-left: -40px;
-	list-style: none;
- 	ul {
-		margin-bottom: 20px !important;
-	}
-}
+// ul {
+// 	margin-left: -40px;
+// 	list-style: none;
+//  	ul {
+// 		margin-bottom: 20px !important;
+// 	}
+// }
 
 h1, h2, h3, h4 {
 	font-variant: small-caps;
@@ -293,7 +293,12 @@ i[stat="Aircraft"] {
 
 .list {
 	max-width: 360px;
+	ul {
+		padding: 0;
+	}
+
 	.nation {
+		padding: 0;
 		margin-bottom: 20px;
 
 		header {
@@ -317,12 +322,17 @@ i[stat="Aircraft"] {
 			}
 		}
 		.unittype {
+			margin-bottom: 10px;
+
 			.unittypename {
 				border-bottom: 1px solid grey;
 				padding: 5px 20px;
 				margin: 0;
 			}
-
+			.units {
+				padding: 0;
+				list-style-type: none;
+			}
 			.unit {
 				.unitname {
 					display: inline-block;
@@ -585,13 +595,14 @@ i[stat="Aircraft"] {
 
 		.abilities {
 			margin-top: 10px;
-			margin-left: -35px;
+			padding: 0;
 			width: 450px;
 			height: 200px;
 			overflow: hidden;
 			font-size: 12px;
 
 			li {
+				list-style-type: none;
 				padding: 0 10px 10px 10px;
 				font-family: @font-family-serif;
 			}
@@ -632,7 +643,10 @@ i[stat="Aircraft"] {
  */
 .page.abilities {
 	.abilities {
+		padding: 0;
+		
 		li {
+			list-style-type: none;
 			margin-bottom: 10px;
 			font-family: @font-family-serif;
 			color: rgba(255,255,255,0.8);
@@ -640,7 +654,7 @@ i[stat="Aircraft"] {
 		.name {
 			color: white;
 		}
-		.units {
+		.units, .units a {
 			font-size: 0.8em;
 			font-family: @font-family-sans-serif;
 			color: rgba(255,255,255,0.5);
@@ -650,17 +664,11 @@ i[stat="Aircraft"] {
 
 .page.setlist {
 	.numberinset {
-		display: inline-block;
-		width: 30px;
 		text-align: center;
 	}
 	.unitname {
-		display: inline-block;
-		width: 200px;
 	}
 	.rarity {
-		display: inline-block;
-		width: 20px;
 		text-align: center;
 	}
 	i[set] {
@@ -702,5 +710,18 @@ i[stat="Aircraft"] {
 			display: inline-block;
 			color: white
 		}
+	}
+}
+
+.page.attacktypes {
+	ul {
+		padding: 0;
+		li {
+			list-style-type: none;
+		}
+	}
+	i[attack] {
+		vertical-align: middle;
+		margin-right: 10px;
 	}
 }
