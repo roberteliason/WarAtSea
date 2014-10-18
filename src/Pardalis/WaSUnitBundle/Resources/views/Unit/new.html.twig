@@ -1,0 +1,118 @@
+{% extends 'PardalisWaSUnitBundle::base.html.twig' %}
+{% block body %}
+    <h1>New unit</h1>
+
+    {{ form_start(form) }}
+    {{ form_errors(form) }}
+
+    <div class="row">
+        <div class="col-sm-4">
+            {{ form_row(form.name) }}
+            <div class="row">
+                <div class="col-sm-6">
+                    {{ form_row(form.nation) }}
+                </div>
+                <div class="col-sm-6">
+                    {{ form_row(form.unittype) }}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            {{ form_row(form.number_in_set) }}
+            {{ form_row(form.releaseset) }}
+        </div>
+        <div class="col-sm-2">
+            {{ form_row(form.cost) }}
+            {{ form_row(form.rarity) }}
+        </div>
+        <div class="col-sm-2">
+            {{ form_row(form.year) }}
+            {{ form_row(form.speed) }}
+        </div>
+        <div class="col-sm-2">
+            {{ form_row(form.flags) }}
+            {{ form_row(form.aircraft) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            {{ form_row(form.armor) }}
+        </div>
+        <div class="col-sm-2">
+            {{ form_row(form.vital_armor) }}
+        </div>
+        <div class="col-sm-2">
+            {{ form_row(form.hull_points) }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            {{ form_row(form.abilities) }}
+
+            <a href="#" id="add-another-ability">Add another ability</a>
+        </div>
+        <div class="col-sm-6">
+            {{ form_row(form.attacks) }}
+
+            <a href="#" id="add-another-attack">Add another attack type</a>
+        </div>
+    </div>
+
+    {{ form_end(form) }}
+
+{% endblock %}
+
+{% block javascript %}
+    <script type="text/javascript">
+        // keep track of how many abilities fields have been rendered
+        var abilitiesCount = '{{ form.abilities|length }}';
+
+        jQuery(document).ready(function() {
+            jQuery('#add-another-ability').click(function() {
+                var abilitiesList = jQuery('#form_abilities');
+
+                // grab the prototype template
+                var newWidget = abilitiesList.attr('data-prototype');
+                // replace the "__name__" used in the id and name of the prototype
+                // with a number that's unique to your abilities
+                // end name attribute looks like name="unit[abilities][2]"
+                newWidget = newWidget.replace(/__name__/g, abilitiesCount);
+                console.log(newWidget);
+                abilitiesCount++;
+
+                // create a new list element and add it to the list
+                var newLi = jQuery('<li></li>').html(newWidget);
+                newLi.appendTo(jQuery('#form_abilities'));
+
+                return false;
+            });
+        })
+    </script>
+
+    <script type="text/javascript">
+        // keep track of how many attacks fields have been rendered
+        var attacksCount = '{{ form.attacks|length }}';
+
+        jQuery(document).ready(function() {
+            jQuery('#add-another-attack').click(function() {
+                var attacksList = jQuery('#form_attacks');
+
+                // grab the prototype template
+                var newWidget = attacksList.attr('data-prototype');
+                // replace the "__name__" used in the id and name of the prototype
+                // with a number that's unique to your attacks
+                // end name attack looks like name="unit[attacks][2]"
+                newWidget = newWidget.replace(/__name__/g, attacksCount);
+                console.log(newWidget);
+                attacksCount++;
+
+                // create a new list element and add it to the list
+                var newLi = jQuery('<li></li>').html(newWidget);
+                newLi.appendTo(jQuery('#form_attacks'));
+
+                return false;
+            });
+        })
+    </script>
+{% endblock %}
