@@ -1,0 +1,2351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"attack",
+				"attacktypes"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"unitt",
+				"unittypeDb"
+			],
+			[
+				"parent",
+				"parentUnitType"
+			],
+			[
+				"uni",
+				"unittypeDb"
+			],
+			[
+				"unitty",
+				"unittypeDb"
+			],
+			[
+				"A",
+				"Ability"
+			],
+			[
+				"Pardali",
+				"PardalisWaSUnitBundle"
+			],
+			[
+				"cre",
+				"createQuery"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"Unit",
+				"UnitType"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"tabe",
+				"table-cell"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"backgru",
+				"Backgrounds"
+			],
+			[
+				"impo",
+				"importAbilitiesAction"
+			],
+			[
+				"imp",
+				"importAttackTypesAction"
+			],
+			[
+				"import",
+				"importUnitTypesAction"
+			],
+			[
+				"importR",
+				"importReleaseSetsAction"
+			],
+			[
+				"abil",
+				"abilityDb"
+			],
+			[
+				"atta",
+				"attacktypeDb"
+			],
+			[
+				"xml",
+				"xml_data"
+			],
+			[
+				"en",
+				"entityManager"
+			],
+			[
+				"xml_",
+				"xml_folder"
+			],
+			[
+				"all",
+				"alliance"
+			],
+			[
+				"nation",
+				"nationDb"
+			],
+			[
+				"allia",
+				"allianceDb"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"end",
+				"end_date"
+			],
+			[
+				"base_",
+				"base_theme_dir"
+			],
+			[
+				"base",
+				"base_root"
+			],
+			[
+				"theme",
+				"theme_dir"
+			],
+			[
+				"fiel",
+				"field"
+			],
+			[
+				"voc",
+				"vocabulary"
+			],
+			[
+				"ing",
+				"ingredient"
+			],
+			[
+				"voca",
+				"vocaublaries"
+			],
+			[
+				"shipy",
+				"shipyard_blog_extras_get_latest"
+			],
+			[
+				"sys",
+				"system"
+			],
+			[
+				"ship",
+				"shipyard_blog_extras_get_users_latest"
+			],
+			[
+				"the",
+				"theme_hook_suggestions"
+			],
+			[
+				"flex",
+				"flex-direction-nav"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"jque",
+				"jquery"
+			],
+			[
+				"path",
+				"path_bits"
+			],
+			[
+				"page_",
+				"page_path"
+			],
+			[
+				"uri",
+				"uri_bits"
+			],
+			[
+				"drupal_",
+				"drupal_get_destination"
+			],
+			[
+				"glob",
+				"global"
+			],
+			[
+				"GET",
+				"_GET"
+			],
+			[
+				"v",
+				"variables"
+			],
+			[
+				"medi",
+				"medium-only"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"block",
+				"block_html_id"
+			],
+			[
+				"classe",
+				"classes_array"
+			],
+			[
+				"shi",
+				"shipyard_extras_get_social_links"
+			],
+			[
+				"opensauce_",
+				"opensauce_user_profile"
+			],
+			[
+				"menu_",
+				"menu_set_active_item"
+			],
+			[
+				"drupl",
+				"drupal_set_breadcrumb"
+			],
+			[
+				"author",
+				"author_id"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"blog",
+				"blog_link"
+			],
+			[
+				"autho",
+				"author_images"
+			],
+			[
+				"prop",
+				"propertyCondition"
+			],
+			[
+				"auto",
+				"author_id"
+			],
+			[
+				"aut",
+				"author_id"
+			],
+			[
+				"user",
+				"user_profile"
+			],
+			[
+				"id",
+				"id_node"
+			],
+			[
+				"pading",
+				"padding"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"inter",
+				"interval"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"forma",
+				"format"
+			],
+			[
+				"fom",
+				"formats"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"leng",
+				"lengths"
+			],
+			[
+				"get_image",
+				"get_image_styles"
+			],
+			[
+				"image",
+				"image_styles"
+			],
+			[
+				"get_ima",
+				"get_image_height"
+			],
+			[
+				"image_",
+				"image_styles"
+			],
+			[
+				"sream",
+				"stream"
+			],
+			[
+				"imag",
+				"image_height"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"set_image_",
+				"set_image_width"
+			],
+			[
+				"stream",
+				"stream"
+			],
+			[
+				"return",
+				"return_format"
+			],
+			[
+				"post",
+				"post_type"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"_open",
+				"_opensauce_recipe_random_descriptions"
+			],
+			[
+				"para",
+				"paragraphs"
+			],
+			[
+				"_ope",
+				"_opensauce_recipe_random_text"
+			],
+			[
+				"ingre",
+				"ingredient_rows"
+			],
+			[
+				"dru",
+				"drush_print_r"
+			],
+			[
+				"dr",
+				"drush_print_r"
+			],
+			[
+				"_op",
+				"_opensauce_recipe_random_ingredientrows"
+			],
+			[
+				"ingredient",
+				"ingredients"
+			],
+			[
+				"_opens",
+				"_opensauce_recipe_get_units"
+			],
+			[
+				"dis",
+				"dishtypes"
+			],
+			[
+				"desc",
+				"descriptions"
+			],
+			[
+				"descr",
+				"descriptions"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"ingred",
+				"ingredients"
+			],
+			[
+				"descrip",
+				"description"
+			],
+			[
+				"des",
+				"descriptions"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"img_",
+				"img_markup"
+			],
+			[
+				"user_",
+				"user_load"
+			],
+			[
+				"opensa",
+				"opensauce_user_profile"
+			],
+			[
+				"opesauce_",
+				"opensauce_user_profile"
+			],
+			[
+				"opensau",
+				"opensauce_user_profile"
+			],
+			[
+				"opensauce",
+				"opensauce_user_profile_tiny"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Resources/Data/sample_units.xml",
+			"settings":
+			{
+				"buffer_size": 13041,
+				"line_ending": "Unix",
+				"name": "Battleship"
+			}
+		},
+		{
+			"file": "app/Resources/Data/units.xml",
+			"settings":
+			{
+				"buffer_size": 286287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/config/routing.yml",
+			"settings":
+			{
+				"buffer_size": 2064,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/less/app.less",
+			"settings":
+			{
+				"buffer_size": 14206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Nation/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 1866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Controller/importController.php",
+			"settings":
+			{
+				"buffer_size": 9055,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Entity/ReleaseSetRepository.php",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Entity/UnitTypeRepository.php",
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Set/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Unit/types.html.twig",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Controller/UnitController.php",
+			"settings":
+			{
+				"buffer_size": 1684,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Controller/SetController.php",
+			"settings":
+			{
+				"buffer_size": 569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Attack/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Rarity/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Controller/AttackController.php",
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Controller/RarityController.php",
+			"settings":
+			{
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Ability/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Ability/byunittype.html.twig",
+			"settings":
+			{
+				"buffer_size": 819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/Data/rarities.xml",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Unit/unit.html.twig",
+			"settings":
+			{
+				"buffer_size": 3034,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/Data/alliances.xml",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Controller/AbilityController.php",
+			"settings":
+			{
+				"buffer_size": 834,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Entity/AbilityRepository.php",
+			"settings":
+			{
+				"buffer_size": 988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Pardalis/WaSUnitBundle/Resources/views/Unit/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/config_dev.yml",
+			"settings":
+			{
+				"buffer_size": 1253,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"p i",
+				"Package Control: Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"p",
+				"Set Syntax: PHP"
+			],
+			[
+				"lips",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lip",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"go",
+				"Goto Drupal API"
+			],
+			[
+				" ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robert/Desktop/symfony/src/TheShipyard/TestBundle/Resources/views/layout.html.twig",
+		"/Users/robert/Desktop/symfony/src/TheShipyard/TestBundle/Resources/config/routing.yml",
+		"/Users/robert/Desktop/symfony/src/TheShipyard/TestBundle/Controller/WelcomeController.php",
+		"/Users/robert/Desktop/symfony/src/TheShipyard/TheShipyardTestBundle.php",
+		"/Users/robert/Desktop/symfony/app/config/routing_dev.yml",
+		"/Users/robert/Desktop/symfony/app/config/routing.yml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Alliance.php",
+		"/Users/robert/Desktop/symfony/app/config/parameters.yml",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/rarities.xml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/AttackTypeRepository.php",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/alliances.xml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/UnitType.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Ability.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Rarity.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/AttackType.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Attack.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Nation.php",
+		"/Users/robert/Desktop/symfony/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/layout.html.twig",
+		"/Users/robert/Desktop/symfony/composer.json",
+		"/Users/robert/Desktop/symfony/app/Resources/views/base.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/less/variables.less",
+		"/Users/robert/Desktop/symfony/.gitignore",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Controller/AbilityController.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Controller/nationController.php",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/unittypes.xml",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/attacktypes.xml",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/abilities.xml",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/releasesets.xml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Controller/UnitController.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Controller/importController.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/Ability/index.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Controller/SetController.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/ReleaseSet.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Unit.php~",
+		"/Users/robert/Desktop/symfony/app/Resources/Data/units.xml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/ReleaseSetRepository.php",
+		"/Users/robert/Desktop/symfony/app/config/config_dev.yml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/Set/index.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/config/routing.yml",
+		"/Users/robert/Desktop/symfony/app/Resources/less/app.less",
+		"/Users/robert/Desktop/symfony/src/TheShipyard/TestBundle/Resources/views/Welcome/index.html.twig",
+		"/Users/robert/Desktop/symfony/web/css/app.css",
+		"/Users/robert/Desktop/symfony/web/css/fonts.css",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/base.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Unit.php",
+		"/Users/robert/Desktop/symfony/app/Resources/less/variables.less",
+		"/Users/robert/Desktop/symfony/app/config/config.yml",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/Unit/index.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/Unit/unit.html.twig",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Resources/views/Nation/index.html.twig",
+		"/Users/robert/Desktop/symfony/app/AppKernel.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/Nationality.php",
+		"/Users/robert/Desktop/symfony/src/Pardalis/WaSUnitBundle/Entity/NationalityRepository.php",
+		"/private/etc/php.in",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/child_theme/config.rb",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/child_theme/child_theme.info",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/zurbpal/config.rb",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/zurbpal/css/custom.css",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/zurbpal/README.md",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/zurbpal/child_theme.info",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/zurbpal/css/custom.cs",
+		"/Users/robert/Vagrant/sigma-group/sigma-group/index.php",
+		"/Users/robert/Vagrant/sigma-group/sigma-group/wp-config.php",
+		"/Users/robert/Sites/sigmagroup.dev/wp-config",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/shipyard57.sublime-project",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_extras/templates/block--shipyard-extras--shipyard_social_links.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_extras/templates/shipyard_extras_social_links.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_page/templates/node--page--image-in-header.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_page/templates/node--page--inline-image.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_page/templates/node--page--image-in-sidebar.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/scss/app.scss",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/scss/_typography.scss",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/block--opensauce-recipe--opensauce-recipe-latest.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/opensauce_recipe_ingredients.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/opensauce_recipe_list.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/opensauce_recipe_dishtypes.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/opensauce_recipe_descriptions.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/node--opensauce_recipe--teaser.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/node--opensauce_recipe--full.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_extras/shipyard_extras.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_flexslider/shipyard_flexslider.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_page/shipyard_page.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/page--recipes.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/shipyard_5_7.info",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/template.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/taxonomy-term.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/search-result.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/node.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/html.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/footer.inc",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/block--main-menu--off-canvas.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/opensauce_recipe.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/templates/page--tags.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/templates/page--blog.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/templates/node--blog--teaser.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/shipyard_blog_extras.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/opensauce_user.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/templates/page--author.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/templates/node--blog.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_extras/shipyard_extras.admin.inc",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_flexslider/shipyard_flexslider.admin.inc",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_news/templates/search-result--node--news-item.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/comment.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/templates/page--front.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_news/templates/block--shipyard-news--frontpage-news.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_news/shipyard_news.module",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/templates/block--shipyard-blog-extras--shipyard_blog_latest_posts.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/scss/_comments.scss",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/templates/block--opensauce-recipe--opensauce-recipe-page.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/scss/_blog.scss",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_news/templates/node--news-item--teaser.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/scss/_front.scss",
+		"/Users/robert/Sites/zurbpal/sites/all/themes/shipyard_foundation_5_7/scss/_profile.scss",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/templates/opensauce_user_profile_default.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/templates/opensauce_user_profile_small.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/templates/opensauce_user_profile_list.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/templates/page--authors.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/templates/page--profile.tpl.php",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_user/README.md",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_page/shipyard_page.drush.inc",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_page/shipyard_page.install",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_news/shipyard_news.drush.inc",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_news/shipyard_news.install",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_flexslider/shipyard_flexslider.install",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/shipyard/shipyard_blog_extras/shipyard_blog_extras.install",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/opensauce_recipe.drush.inc",
+		"/Users/robert/Sites/zurbpal/sites/all/modules/opensauce/opensauce_recipe/opensauce_recipe.install"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/robert/Sites/zurbpal/sites/all/modules",
+			"/Users/robert/Sites/opensauce.se",
+			"/Users/robert/Sites/opensauce/sites/all/modules",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"variant",
+			"abilities",
+			" no-repeat center center",
+			"background",
+			" no-repeat center center",
+			"background",
+			" no-repeat center center",
+			"gif",
+			"background",
+			"background:",
+			"no-repeat center center",
+			"attacktypes",
+			"attacktype",
+			"ability",
+			"abilities",
+			"Based",
+			"span",
+			"gif",
+			"Backgrounds",
+			"twitter",
+			"units",
+			"url('",
+			"speed",
+			"abilitytype",
+			"abilityType",
+			"abilitytype",
+			"Attack",
+			"attack",
+			"Attack",
+			"attack",
+			"Attack",
+			"attack",
+			"attacks",
+			"\n				</description>",
+			"<description>\n					",
+			"attacktype",
+			"attacktypeDb",
+			"Seaplane Detachments",
+			"slow 2",
+			"sub_unittype",
+			"nationDb",
+			"alliance",
+			"allianceDb",
+			"alliance",
+			"Alliance",
+			"alliance",
+			"rarity",
+			"Rarity",
+			"rarity",
+			"attacktype",
+			"set",
+			"Set",
+			"set",
+			"releasesets",
+			"allianceDb",
+			"alliances",
+			"this->entity",
+			"cost",
+			"document",
+			"parent",
+			"   ",
+			" 					",
+			" 				",
+			" 					",
+			"<?",
+			"766",
+			"more",
+			"t($",
+			"shipyard_flexslider",
+			"flexslider",
+			"bread",
+			"footer_one",
+			"flexslider",
+			"twitter",
+			"twitter'",
+			"facebook",
+			"shipyard_extra_",
+			"Facebook",
+			"shipyard_flexslider",
+			"drupal_get_path_alias",
+			"dummy",
+			"bread",
+			"_shipyard_news_load_frontpage",
+			"radius",
+			"image",
+			"$user",
+			"user",
+			"opensauce_recipe",
+			"Recipe",
+			"recipe",
+			"opensauce_recipe",
+			"link",
+			"Skala och beskär",
+			"vars",
+			"extends",
+			"Extends",
+			"*  ",
+			"Extends",
+			"blog",
+			"style",
+			"mothergumby",
+			"foundation_",
+			"foundation",
+			".min",
+			"bower-",
+			"js/",
+			"js",
+			"include_path",
+			"value",
+			"end",
+			"paragraphs",
+			"width",
+			"+",
+			"lower_limit",
+			"upper_limit",
+			"Number",
+			"lutfisk",
+			"<img src=\"",
+			"24",
+			"margin",
+			"Read more »",
+			"span",
+			"footer",
+			"$node",
+			"olab_news",
+			"noConflict",
+			"modernizr",
+			"blocks"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"$current_x, $current_y"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Resources/Data/sample_units.xml",
+					"settings":
+					{
+						"buffer_size": 13041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12099,
+								12099
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"auto_name": "Battleship",
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Resources/Data/units.xml",
+					"settings":
+					{
+						"buffer_size": 286287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/config/routing.yml",
+					"settings":
+					{
+						"buffer_size": 2064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Resources/less/app.less",
+					"settings":
+					{
+						"buffer_size": 14206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6287,
+								6287
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4601.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Nation/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 1866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Pardalis/WaSUnitBundle/Controller/importController.php",
+					"settings":
+					{
+						"buffer_size": 9055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8803,
+								8803
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4525.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/Pardalis/WaSUnitBundle/Entity/ReleaseSetRepository.php",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								272
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/Pardalis/WaSUnitBundle/Entity/UnitTypeRepository.php",
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								498,
+								539
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Set/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Unit/types.html.twig",
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								197
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/Pardalis/WaSUnitBundle/Controller/UnitController.php",
+					"settings":
+					{
+						"buffer_size": 1684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/Pardalis/WaSUnitBundle/Controller/SetController.php",
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								426
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Attack/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Rarity/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/Pardalis/WaSUnitBundle/Controller/AttackController.php",
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/Pardalis/WaSUnitBundle/Controller/RarityController.php",
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Ability/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Ability/byunittype.html.twig",
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app/Resources/Data/rarities.xml",
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Unit/unit.html.twig",
+					"settings":
+					{
+						"buffer_size": 3034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1527,
+								1527
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 781.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/Resources/Data/alliances.xml",
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "src/Pardalis/WaSUnitBundle/Controller/AbilityController.php",
+					"settings":
+					{
+						"buffer_size": 834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								708,
+								708
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "src/Pardalis/WaSUnitBundle/Entity/AbilityRepository.php",
+					"settings":
+					{
+						"buffer_size": 988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								988,
+								988
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "src/Pardalis/WaSUnitBundle/Resources/views/Unit/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "app/config/config_dev.yml",
+					"settings":
+					{
+						"buffer_size": 1253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								978,
+								978
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"templ",
+				"themes/mothership/mothergumby/template.php"
+			],
+			[
+				"temp",
+				"themes/mothership/mothergumby/template.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"p i",
+				"/Users/robert/Documents/Sublime-projects/MAMP.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true
+}
