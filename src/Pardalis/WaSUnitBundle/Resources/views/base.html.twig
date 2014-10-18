@@ -33,26 +33,21 @@
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lists <b class="caret"></b></a>
 			  <ul class="dropdown-menu">
-				<li><a href="/sets">Sets</a></li>
-				<li><a href="/rarities">Rarities</a></li>
-				<li><a href="/units">Units</a></li>
-				<li><a href="/abilities">Abilities</a></li>
-				<li><a href="/attacktypes">Attack Types</a></li>
+				<li><a href="{{ path( 'pardalis_was_set_sets' ) }}">Sets</a></li>
+				<li><a href="{{ path( 'pardalis_was_rarity_rarities' ) }}">Rarities</a></li>
+				<li><a href="{{ path( 'pardalis_was_unit_units' ) }}">Units</a></li>
+                <li><a href="{{ path( 'pardalis_was_unit_unittypes' ) }}">Unit types</a></li>
+				<li><a href="{{ path( 'pardalis_was_ability_abilities' ) }}">Abilities</a></li>
+				<li><a href="{{ path( 'pardalis_was_attack_attacktypes' ) }}">Attack Types</a></li>
 			  </ul>
 			</li>
 		  </ul>
 
 		  <ul class="nav navbar-nav navbar-right">
 			<li class="dropdown">
-			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imports <b class="caret"></b></a>
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> User menu?</a>
 			  <ul class="dropdown-menu">
-				<li><a href="/importSets">Import Sets</a></li>
-				<li><a href="/importRarities">Import Rarities</a></li>
-				<li><a href="/importAlliances">Import Alliances and Nations</a></li>
-				<li><a href="/importUnitTypes">Import Unit Types</a></li>
-				<li><a href="/importAttackTypes">Import Attack Types</a></li>
-				<li><a href="/importAbilities">Import Abilities</a></li>
-				<li><a href="/importUnits">Import Units</a></li>
+				<li><a href="/">Dummy link</a></li>
 			  </ul>
 			</li>
 		  </ul>
@@ -69,5 +64,8 @@
 	<script src="{{ asset('js/jquery.js') }}"></script>
 	<!-- Include all JavaScripts, compiled by Assetic -->
 	<script src="{{ asset('js/bootstrap.js') }}"></script>
+    {% block javascript %}
+
+    {% endblock %}
 </body>
 </html>

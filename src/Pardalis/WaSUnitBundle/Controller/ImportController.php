@@ -18,6 +18,16 @@ use Pardalis\WaSUnitBundle\Entity\Rarity;
 class ImportController extends Controller
 {
 
+    /**
+     * Display a landing page for imports
+     *
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function landingPageAction() {
+        return $this->render('PardalisWaSUnitBundle:Import:index.html.twig');
+    }
+
+
 	/**
 	 * Return XML Data from a passed file
 	 * 
@@ -37,7 +47,7 @@ class ImportController extends Controller
 
 	/**
 	 * Bootstrap database from XML-files
-	 * Run the import in a pretermined order with the units last
+	 * Run the import in a predetermined order with the units last
 	 */
 	public function bootstrapAction() {
 
@@ -215,7 +225,6 @@ class ImportController extends Controller
 		echo( '</pre>' );
 
 		return $this->redirect($this->generateUrl('pardalis_was_ability_abilities'));
-		//return $this->render('PardalisWaSUnitBundle:Ability:index.html.twig');
 	}
 
 	public function importUnitsAction() {
