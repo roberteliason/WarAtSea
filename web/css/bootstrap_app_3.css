@@ -245,6 +245,7 @@ i[stat="Aircraft"] {
 }
 .list {
   max-width: 360px;
+  margin: 0 auto;
 }
 .list ul {
   padding: 0;
@@ -581,6 +582,9 @@ i[stat="Aircraft"] {
   font-size: 0.8em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
+}
+.page.setlist .set {
+  margin-bottom: 40px;
 }
 .page.setlist .numberinset {
   text-align: center;
