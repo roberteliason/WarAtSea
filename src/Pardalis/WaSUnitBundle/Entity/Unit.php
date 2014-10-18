@@ -202,6 +202,7 @@ class Unit
 		return $this;
 	}
 
+
 	/**
 	 * Get nation
 	 *
@@ -313,6 +314,20 @@ class Unit
 	{
 		return $this->speed;
 	}
+
+    /**
+     * Get speed options
+     *
+     * @return array
+     */
+    public function getSpeedOptions() {
+        return array(
+            'A' => 'Aircraft',
+            '1' => '1',
+            '2' => '2',
+            '3' => '3',
+        );
+    }
 
 	/**
 	 * Set rarity
@@ -463,6 +478,20 @@ class Unit
     }
 
     /**
+     * Get flag bonus options
+     *
+     * @return array
+     */
+    public function getFlagsOptions() {
+        return array(
+            '0' => 'None',
+            '1' => '1',
+            '2' => '2',
+            '3' => '3',
+        );
+    }
+
+    /**
      * Set aircraft
      *
      * @param integer $aircraft
@@ -486,6 +515,22 @@ class Unit
     }
 
     /**
+     * Get aircraft basing options
+     *
+     * @return array
+     */
+    public function getAircraftOptions() {
+        return array(
+            '0' => 'None',
+            '1' => '1',
+            '2' => '2',
+            '3' => '3',
+            '4' => '4',
+            '5' => '5',
+        );
+    }
+
+    /**
      * Set year
      *
      * @param integer $year
@@ -506,6 +551,23 @@ class Unit
     public function getYear()
     {
         return $this->year;
+    }
+
+    /**
+     * Get valid year options
+     *
+     * @return array
+     */
+    public function getYearOptions() {
+        return array(
+            '1939' => '1939',
+            '1940' => '1940',
+            '1941' => '1941',
+            '1942' => '1942',
+            '1943' => '1943',
+            '1944' => '1944',
+            '1945' => '1945',
+        );
     }
 
     /**
