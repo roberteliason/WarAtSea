@@ -11,12 +11,14 @@
 	</div>
 
 	<div class="typeandyear">
+        {% if unit.unittype.name is defined %}
 		<span class="unittype">
 			{% if unit.unittype.parent.name is defined %} 
 				{{ unit.unittype.parent.name }} - 
 			{% endif %}
 			{{ unit.unittype.name }}
 		</span>
+        {% endif %}
 		<span class="year">{{ unit.year }}</span>
 	</div>
 

@@ -6,9 +6,18 @@ pardalis_was_unit_units:
     pattern:  /units
     defaults: { _controller: PardalisWaSUnitBundle:Unit:index }
 
-pardalis_was_unit_viewunit:
+pardalis_was_unit_new:
+    pattern:  /unit/new/
+    defaults: { _controller: PardalisWaSUnitBundle:Unit:new }
+
+pardalis_was_unit_view:
     pattern:  /unit/{id}
     defaults: { _controller: PardalisWaSUnitBundle:Unit:unit }
+
+pardalis_was_unit_json:
+    pattern:  /unit/json/{id}
+    defaults: { _controller: PardalisWaSUnitBundle:Unit:unitJSON }
+
 
 pardalis_was_unit_unittypes:
     pattern:  /unittypes
@@ -29,6 +38,10 @@ pardalis_was_set_sets:
 pardalis_was_rarity_rarities:
     pattern:  /rarities
     defaults: { _controller: PardalisWaSUnitBundle:Rarity:index }
+
+pardalis_was_unit_import:
+    pattern:  /import
+    defaults: { _controller: PardalisWaSUnitBundle:Import:landingPage }
 
 pardalis_was_unit_bootstrap:
     pattern:  /bootstrap

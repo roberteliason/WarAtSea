@@ -9,7 +9,7 @@
 
 <div class="row" id="alliances">
 	    {% for alliance in alliances %}
-		    <div class="col-lg-4 col-md-6">
+		    <div class="col-lg-4 col-sm-6">
 				<div class="list" alliance="{{ alliance.name }}">
 		    	<h2>{{ alliance.name }}</h2>
 			    {% if alliance.nations is defined %}
@@ -26,7 +26,7 @@
 						{% set prev_unittype = '' %}
 
 						{% for unit in nation.units %}
-							{% if unit.unittype.name != prev_unittype %}
+							{% if unit.unittype.name is defined and unit.unittype.name != prev_unittype %}
 								{% if prev_unittype != '' %}
 									</ul>
 								</div>
@@ -37,12 +37,12 @@
 								{% set prev_unittype = unit.unittype.name %}
 								{% endif %}
 									<li class="unit">
-										<span class="unitname"><a href="{{ path('pardalis_was_unit_viewunit', {'id': unit.id}) }}">{{ unit.name }}</a></span>
+										<span class="unitname"><a href="{{ path('pardalis_was_unit_view', {'id': unit.id}) }}">{{ unit.name }}</a></span>
 										<span class="unitcost">{{ unit.cost }}</span>
 										<span class="unitset"><i set="{{ unit.releaseset.name }}"></i></span>
 										<span class="unitrarity"><i rarity="{{ unit.rarity.name }}"></i></span>
 									</li>
-								{% if unit.unittype.name != prev_unittype %}
+								{% if unit.unittype.name is defined and unit.unittype.name != prev_unittype %}
 									</ul>
 								</div>
 							{% endif %}
