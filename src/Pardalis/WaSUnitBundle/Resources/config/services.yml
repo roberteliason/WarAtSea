@@ -1,7 +1,8 @@
 parameters:
-#    pardalis_wa_s_unit.example.class: Pardalis\WaSUnitBundle\Example
+#    pardalis.wasunit.attackform.class: Pardalis\WaSUnitBundle\Entity\AttackForm
 
 services:
 #    pardalis_wa_s_unit.example:
 #        class: %pardalis_wa_s_unit.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+
