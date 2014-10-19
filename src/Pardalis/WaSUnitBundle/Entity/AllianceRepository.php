@@ -12,4 +12,9 @@ use Doctrine\ORM\EntityRepository;
  */
 class AllianceRepository extends EntityRepository
 {
+    public function getAlliancesWithNationsAndUnits() {
+        return $this->getEntityManager()
+            ->createQuery('SELECT a, n, u FROM PardalisWaSUnitBundle:Alliance a LEFT JOIN a.nations AS n LEFT JOIN n.units AS u ORDER BY a.name, n.name, u.unittype, u.name')
+            ->getResult();
+    }
 }
