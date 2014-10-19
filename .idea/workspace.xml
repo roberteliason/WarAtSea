@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9fc17dd-fb1a-45d7-80a2-0458abc76371" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Resources/views/Nation/home.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Entity/AllianceRepository.php" afterPath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Entity/AllianceRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Controller/NationController.php" afterPath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Controller/NationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Resources/views/Nation/home.html.twig" afterPath="$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Resources/views/Nation/home.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="symfony.iws" />
@@ -59,8 +57,8 @@
       <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Resources/views/Nation/home.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94271684" vertical-offset="189" max-vertical-offset="1050">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.3535188" vertical-offset="189" max-vertical-offset="1050">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1003,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pardalis/WaSUnitBundle/Resources/views/Nation/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94271684" vertical-offset="189" max-vertical-offset="1050">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.3535188" vertical-offset="189" max-vertical-offset="1050">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
