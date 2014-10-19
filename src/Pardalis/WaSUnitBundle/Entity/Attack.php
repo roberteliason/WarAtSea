@@ -3,6 +3,9 @@
 namespace Pardalis\WaSUnitBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 /**
  * Attack
@@ -209,5 +212,41 @@ class Attack
     public function getAttacktype()
     {
         return $this->attacktype;
+    }
+}
+
+
+class AttackForm extends AbstractType
+{
+    protected $AttackTypes;
+
+    /**
+     * @param array $AttackTypes
+     */
+    public function __construct(array $AttackTypes)
+    {
+        $this->AttackTypes = $AttackTypes;
+    }
+
+
+    public function buildForm(FormBuilderInterface $builder, array $options)
+    {
+        $builder->add('attacktype', 'choice', array('label' => 'Attack type', 'choices' => $this->AttackTypes));
+        $builder->add('range0', 'integer', array('label' => '0', 'required' => false));
+        $builder->add('range1', 'integer', array('label' => '1', 'required' => false));
+        $builder->add('range2', 'integer', array('label' => '2', 'required' => false));
+        $builder->add('range3', 'integer', array('label' => '3', 'required' => false));
+    }
+
+    public function setDefaultOptions(OptionsResolverInterface $resolver)
+    {
+        $resolver->setDefaults(array(
+            'data_class' => '\Pardalis\WaSUnitBundle\Entity\Attack',
+        ));
+    }
+
+    public function getName()
+    {
+        return 'Attack';
     }
 }
