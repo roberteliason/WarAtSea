@@ -729,3 +729,58 @@ i[stat="Aircraft"] {
 		margin-right: 10px;
 	}
 }
+
+form {
+
+    .control-label {
+        display: none;
+    }
+    .control-label:after .control-label:before {
+        display: none;
+        content: '';
+    }
+    .control-label[for] {
+        display: block;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    #form_attacks .form-group {
+        margin-bottom: 5px;
+
+        .control-label[for] {
+            display: none;
+        }
+
+        .form-group {
+            display: inline-block;
+            width: 15%;
+        }
+
+        .form-group:first-child {
+            width: 40%;
+        }
+
+        select {
+            width: 90%;
+        }
+
+        input[type=number] {
+            width: 90%;
+        }
+    }
+
+    #form_attacks li:first-child {
+        .control-label[for] {
+            display: block;
+        }
+    }
+
+    #form_abilities {
+        .control-label[for] {
+            display: none;
+        }
+    }
+}

@@ -5989,8 +5989,14 @@ td.visible-print {
   display: inline-block;
   width: auto;
 }
+.form-group .bc-collection {
+  margin-bottom: 0;
+}
 .form-group .bc-collection li + li {
   margin-top: 10px;
+}
+.form-group .bc-collection li:nth-last-child(1) {
+  margin-bottom: 10px;
 }
 .form-inline .form-group {
   margin-left: 0;
@@ -6933,4 +6939,42 @@ i[stat="Aircraft"] {
 .page.attacktypes i[attack] {
   vertical-align: middle;
   margin-right: 10px;
+}
+form .control-label {
+  display: none;
+}
+form .control-label:after .control-label:before {
+  display: none;
+  content: '';
+}
+form .control-label[for] {
+  display: block;
+}
+form li {
+  list-style: none;
+}
+form #form_attacks .form-group {
+  margin-bottom: 5px;
+}
+form #form_attacks .form-group .control-label[for] {
+  display: none;
+}
+form #form_attacks .form-group .form-group {
+  display: inline-block;
+  width: 15%;
+}
+form #form_attacks .form-group .form-group:first-child {
+  width: 40%;
+}
+form #form_attacks .form-group select {
+  width: 90%;
+}
+form #form_attacks .form-group input[type=number] {
+  width: 90%;
+}
+form #form_attacks li:first-child .control-label[for] {
+  display: block;
+}
+form #form_abilities .control-label[for] {
+  display: none;
 }
