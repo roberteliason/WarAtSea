@@ -7,16 +7,6 @@ use Pardalis\WaSUnitBundle\Entity;
 
 class NationController extends Controller
 {
-/*	public function indexAction() {
-		$alliances = $this->getDoctrine()
-			->getRepository('PardalisWaSUnitBundle:Alliance')
-			->findAll();
-
-		return $this->render('PardalisWaSUnitBundle:Nation:index.html.twig', array( 'alliances' => $alliances ) );
-
-	}*/
-
-
     public function indexAction() {
         $alliances = $this->GetDoctrine()
             ->getRepository('PardalisWaSUnitBundle:Alliance')

@@ -23,21 +23,33 @@ pardalis_was_unit_unittypes:
     pattern:  /unittypes
     defaults: { _controller: PardalisWaSUnitBundle:Unit:unittypes }
 
+
 pardalis_was_ability_abilities:
     pattern:  /abilities
+
     defaults: { _controller: PardalisWaSUnitBundle:Ability:byUnitType }
 
 pardalis_was_attack_attacktypes:
     pattern:  /attacktypes
     defaults: { _controller: PardalisWaSUnitBundle:Attack:index }
 
+
 pardalis_was_set_sets:
     pattern:  /sets
     defaults: { _controller: PardalisWaSUnitBundle:Set:index }
 
+pardalis_was_set_new:
+    pattern:  /set/new/
+    defaults: { _controller: PardalisWaSUnitBundle:Set:new }
+
+pardalis_was_set_view:
+    pattern:  /set/{id}
+    defaults: { _controller: PardalisWaSUnitBundle:Set:set }
+
 pardalis_was_rarity_rarities:
     pattern:  /rarities
     defaults: { _controller: PardalisWaSUnitBundle:Rarity:index }
+
 
 pardalis_was_unit_import:
     pattern:  /import
