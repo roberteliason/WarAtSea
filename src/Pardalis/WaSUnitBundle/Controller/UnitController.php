@@ -3,16 +3,13 @@
 namespace Pardalis\WaSUnitBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\DependencyInjection\SimpleXMLElement;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
 use Pardalis\WaSUnitBundle\Entity;
 use Pardalis\WaSUnitBundle\Entity\Unit;
-use Pardalis\WaSUnitBundle\Entity\UnitType;
-use Pardalis\WaSUnitBundle\Entity\Alliance;
-use Pardalis\WaSUnitBundle\Entity\Nation;
+use Pardalis\WaSUnitBundle\Entity\AttackForm;
 
 
 class UnitController extends Controller
@@ -221,8 +218,8 @@ class UnitController extends Controller
             ->add('armor', 'number', array('label' => 'Armor value'))
             ->add('vital_armor', 'number', array('label' => 'Vital armor'))
             ->add('hull_points', 'number', array('label' => 'Hull points'))
-            ->add('abilities', 'collection', array('type' => 'choice', 'allow_add' => true, 'options' => array('choices' => $this->getAllAttributes())))
-            ->add('attacks', 'collection', array('type' => 'choice', 'allow_add' => true, 'options' => array('choices' => $this->getAllAttackTypes())))
+            ->add('abilities', 'collection', array('type' => 'choice', 'allow_add' => true, 'allow_delete' => true, 'options' => array('choices' => $this->getAllAttributes())))
+            ->add('attacks', 'collection', array('type' => new AttackForm( $this->getAllAttackTypes() ), 'allow_add' => true, 'allow_delete' => true))
 
             ->add('save', 'submit', array('label' => 'Create Unit'))
             ->getForm();
@@ -230,6 +227,7 @@ class UnitController extends Controller
         $result = $request->request->all();
 
         if ( ! empty( $result ) ) {
+            $em = $this->getDoctrine()->getManager();
 
             foreach( $result['form'] as $field_name => $value ) {
 
@@ -322,18 +320,33 @@ class UnitController extends Controller
                 }
             }
 
+            $em->persist($unit);
+            $em->flush();
+
             // Attach attacks to unit
             if ( !empty( $result['form']['attacks'] ) ) {
-                $attacks = $this->getDoctrine()
-                    ->getRepository('PardalisWaSUnitBundle:Attack')
-                    ->findById($result['form']['attacks']);
+                $attacks = $result['form']['attacks'];
 
                 foreach ($attacks as $attack) {
-                    $unit->addAttack($attack);
+
+                    $attack_obj = new Entity\Attack;
+                    $attack_type = $this->getDoctrine()
+                        ->getRepository('PardalisWaSUnitBundle:AttackType')
+                        ->findOneById($attack['attacktype']);
+                    $attack_obj->setAttacktype($attack_type);
+                    $attack_obj->setRange0( (int) $attack['range0']);
+                    $attack_obj->setRange1( (int) $attack['range1']);
+                    $attack_obj->setRange2( (int) $attack['range2']);
+                    $attack_obj->setRange3( (int) $attack['range3']);
+                    $attack_obj->setUnit( $unit );
+
+                    $em->persist($attack_obj);
+                    $em->flush();
+
+                    $unit->addAttack($attack_obj);
                 }
             }
 
-            $em = $this->getDoctrine()->getManager();
             $em->persist($unit);
             $em->flush();
 
