@@ -1,0 +1,21 @@
+#stage
+deployment:
+  user: ship
+  from: ./
+  to: /stage/www/waratsea/
+  excludes:
+releases:
+  enabled: true
+  max: 10
+  symlink: current
+  directory: releases
+hosts:
+  - stage.o-lab.se
+tasks:
+  pre-deploy:
+    - scm/update
+  on-deploy:
+    - fix-permissions
+    - symfony2/cache-warmup: {env: prod}
+  post-release:
+  post-deploy:
