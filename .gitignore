@@ -10,4 +10,6 @@
 /bin/
 /composer.phar
 .DS_Store
-Drupal.sublime-projectcompletions
+/node_modules
+/.sass-cache
+/.idea
