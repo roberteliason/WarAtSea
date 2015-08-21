@@ -1,0 +1,28 @@
+{
+  "name": "waratsea",
+  "title": "War at Sea by Pardalis",
+  "description": "A War at Sea application in Symfony",
+  "version": "0.0.1",
+  "homepage": "http://pardalis.se/",
+  "author": {
+    "name": "Robert Eliason",
+    "email": "robert@pardalis.se",
+    "url": "http://pardalis.se/"
+  },
+  "repository": {
+    "private": true
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-imagemin": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.13.0",
+    "grunt-contrib-jshint": "~0.4.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "matchdep": "~0.1.2"
+  },
+  "keywords": []
+}
