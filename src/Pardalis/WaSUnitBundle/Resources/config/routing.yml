@@ -24,10 +24,14 @@ pardalis_was_unit_unittypes:
     defaults: { _controller: PardalisWaSUnitBundle:Unit:unittypes }
 
 
+pardalis_was_ability_new:
+    pattern:  /ability/new/
+    defaults: { _controller: PardalisWaSUnitBundle:Ability:new }
+
 pardalis_was_ability_abilities:
     pattern:  /abilities
-
     defaults: { _controller: PardalisWaSUnitBundle:Ability:byUnitType }
+
 
 pardalis_was_attack_attacktypes:
     pattern:  /attacktypes

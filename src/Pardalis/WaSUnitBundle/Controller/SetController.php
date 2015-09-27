@@ -24,7 +24,6 @@ class SetController extends Controller
 
         $form = $this->createFormBuilder($release_set)
             ->add('name', 'text', array('label' => 'Name'))
-            ->add('name', 'text', array('label' => 'Name'))
             ->add('popularName', 'text', array('label' => 'Popular name'))
             ->add('totalUnits', 'integer', array('label' => 'Total number of units in set'))
 

@@ -143,14 +143,14 @@ class Ability
     }
 
     /**
-     * Add unittypes
+     * Add unittype
      *
-     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittypes
+     * @param \Pardalis\WaSUnitBundle\Entity\UnitType $unittype
      * @return Ability
      */
-    public function addUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittypes)
+    public function addUnittype(\Pardalis\WaSUnitBundle\Entity\UnitType $unittype)
     {
-        $this->unittypes[] = $unittypes;
+        $this->unittypes[] = $unittype;
 
         return $this;
     }
